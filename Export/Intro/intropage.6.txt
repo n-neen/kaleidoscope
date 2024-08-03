@@ -1,0 +1,14 @@
+[Run B228]
+[Wait 0001]
+[Speed 0005]
+[Goto 01,04]
+NICE TO MEET YOU.
+[Goto 01,06]
+I'M NATASHA,
+[Goto 01,08]
+AN UNDERWORLD DOCTOR.
+[Goto 01,10]
+FEELING SICK!!!
+[Run ADD4]
+[Wait 0080]
+[Run B240]
