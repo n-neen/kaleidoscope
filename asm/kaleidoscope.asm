@@ -12,7 +12,7 @@ org $84e30f                                         ;in x-ray plm instruction li
 
 ;=============================================defines
 
-!noblend  = $9e              ;flag for moving layers. so we don't write to layer blending adresses twice
+;!noblend  = $9e              ;flag for moving layers. so we don't write to layer blending adresses twice
 !bg1x     = $b1
 !bg1y     = $b3
 !bg2x     = $b5

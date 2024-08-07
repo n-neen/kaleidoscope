@@ -22,7 +22,7 @@ lorom
 !crateria8      = $ffd9
 !crateria10     = $ffdd
 !crateria20     = $ffe1
-!cratera40      = $ffed
+!crateria40     = $ffed
 
 !brinstar1      = $f775
 !brinstar2      = $f77d

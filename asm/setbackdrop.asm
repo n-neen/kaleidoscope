@@ -13,3 +13,10 @@ rts
     lda $7ec192
     sta $7ec034
     rts
+    
+    
+;warn pc         ;f1c0
+
+    lda $7f6402
+    sta $7ec000
+    rts
