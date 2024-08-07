@@ -14,9 +14,9 @@
       <toroom area="00" index="08" />
       <bitflag>00</bitflag>
       <direction>00</direction>
-      <tilex>0</tilex>
-      <tiley>0</tiley>
-      <screenx>00</screenx>
+      <tilex>2</tilex>
+      <tiley>4</tiley>
+      <screenx>01</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>

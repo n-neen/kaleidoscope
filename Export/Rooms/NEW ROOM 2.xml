@@ -277,8 +277,8 @@
         9C40 DC0C 04FF 00FF 00FF 00FF 00BB D0FF 00FF 00FF 00BB 00FF 04FF 04FF 890D 890F
         810F 810F 850D 00FF 00FF 00FF 00BB D0FF 00FF 00FF 00BB 00FF 00FF 04FF 010D D10F
         81F2 81F2 8545 00FF 00FF 00FF 00BB D0FF 00FF 00FF 00BB 00FF 00FF 04FF 0110 D111
-        8611 81F2 8545 00FF 00FF 00FF 00BB 00FF 00FF 00FF 00BB 00FF 00FF 00FF 090D 090F
-        85F1 81F2 8DD2 810F 810F 810F 810F 810F 810F 810F 810F 810F 810F 810F 810F 810F
+        8611 81F2 8545 00FF 00FF 00FF 00BB 12BA 12BB 12BC 00BB 00FF 00FF 00FF 090D 090F
+        85F1 81F2 8DD2 810F 810F 810F 810F 82DA 82DB 82DC 810F 810F 810F 810F 810F 810F
         8E11 81F2 81F2 81F2 81F2 81F2 8211 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1
         85F1 8211 85F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1
       </Screen>
@@ -603,7 +603,7 @@
         02 FD 00 00 00 00 00 03 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 02
         00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 01
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 14 07 54 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1043,8 +1043,44 @@
           <paletteblend>21</paletteblend>
         </FX1>
       </FX1s>
-      <Enemies killcount="00" />
-      <EnemyTypes />
+      <Enemies killcount="00">
+        <Enemy>
+          <ID>F193</ID>
+          <X>0087</X>
+          <Y>04C9</Y>
+          <tilemap>0000</tilemap>
+          <special>6000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>F193</ID>
+          <X>0087</X>
+          <Y>04CC</Y>
+          <tilemap>0000</tilemap>
+          <special>6000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>F193</ID>
+          <X>0087</X>
+          <Y>04CF</Y>
+          <tilemap>0000</tilemap>
+          <special>6000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+      </Enemies>
+      <EnemyTypes>
+        <Enemy>
+          <GFX>F193</GFX>
+          <palette>0007</palette>
+        </Enemy>
+      </EnemyTypes>
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
