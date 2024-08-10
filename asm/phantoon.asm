@@ -37,7 +37,7 @@ org $8ff800                     ;see "phantoon_roomdrawing_plm.asm"
     lda !counter                ;number of frames to wait before spawning plms
     inc                         ;this is to wait until the pb is at maximum fuzz
     sta !counter
-    cmp #$0058
+    cmp #$0067
     bmi +
     
     jsl $8483d7
@@ -107,6 +107,11 @@ org $a7d6f1
 org $a7dafe
     ;lda #$0280
     
+org $a7d937
+    cmp #$0160          ;adding $100 to vanilla cmps
+    bmi $0b
+    cmp #$01a0
+    
 ;position fix (projectiles)
 
 org $a7cdad+2       ;flame table. only touching x positions
@@ -159,11 +164,6 @@ org $869922
     
 org $869a63             ;enraged flame x position
     lda $0f7a
-    
-org $86d937
-    cmp #$0160          ;adding $100 to vanilla cmps
-    bmi $0b
-    cmp #$01a0
     
 org $869a6e
     cmp #$0200          ;vanilla = #$0100. check x position of

@@ -1,6 +1,6 @@
 lorom
 
-!94free = $94b200
+!94free = $94b22b
 
 org $9498ac+8               ;air fool xray bts 04
     dw #tile

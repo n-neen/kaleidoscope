@@ -20,3 +20,7 @@ org $91da50
     
 org $848332
 db $2B              ;xray $8000 argument plm crash fix (by amoeba)
+
+
+org $90AB00         ;maptile exploring nonsense removal (tundain)
+BRA $06
