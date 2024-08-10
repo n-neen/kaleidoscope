@@ -1556,7 +1556,7 @@
         </Layer2>
       </LevelData>
       <GFXset>06</GFXset>
-      <music>0000</music>
+      <music>0512</music>
       <FX1s>
         <FX1 default="true">
           <surfacestart>0180</surfacestart>

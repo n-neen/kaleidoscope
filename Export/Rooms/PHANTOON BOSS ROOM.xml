@@ -2,7 +2,7 @@
   <Saves />
   <index>0A</index>
   <area>04</area>
-  <x>12</x>
+  <x>0F</x>
   <y>13</y>
   <width>03</width>
   <height>01</height>
@@ -16,7 +16,7 @@
       <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
-      <screenx>01</screenx>
+      <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
@@ -363,7 +363,7 @@
           <liquidflags_C>00</liquidflags_C>
           <paletteflags>0F</paletteflags>
           <animationflags>00</animationflags>
-          <paletteblend>56</paletteblend>
+          <paletteblend>E5</paletteblend>
         </FX1>
       </FX1s>
       <Enemies killcount="00">

@@ -1089,6 +1089,12 @@
       <FX2>0000</FX2>
       <PLMs>
         <PLM>
+          <type>EFBB</type>
+          <x>1F</x>
+          <y>4A</y>
+          <arg>0030</arg>
+        </PLM>
+        <PLM>
           <type>B703</type>
           <x>15</x>
           <y>4C</y>

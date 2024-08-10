@@ -51,9 +51,9 @@
           <Screen X="0" Y="0">
         84FF 84FF 8116 8116 8116 8116 8116 8116 8116 8115 80FF 80FF 8115 8116 8116 8116
         8116 8116 8116 8116 8116 8116 8116 8116 8116 8115 80FF 80FF 8115 8116 8116 8116
-        81EC 87FF 81EB 87FF 87FF 8116 8116 8116 8116 8115 80FF 80FF 8115 8116 8116 8116
-        81EB 87FF 81EC 87FF 8116 8117 00FF 00FF 00FF 8115 80FF 80FF 8115 00FF 00FF 00FF
-        87FF 81EB 87FF 8116 8117 00FF 00FF 00FF 00FF 8115 80FF 80FF 8115 00FF 00FF 00FF
+        80FF 80FF 80FF 80FF 80FF 8116 8116 8116 8116 8115 80FF 80FF 8115 8116 8116 8116
+        80FF 80FF 80FF 80FF 8116 8117 00FF 00FF 00FF 8115 80FF 80FF 8115 00FF 00FF 00FF
+        80FF 80FF 80FF 8116 8117 00FF 00FF 00FF 00FF 8115 80FF 80FF 8115 00FF 00FF 00FF
         8114 8114 8114 8117 00FF 00FF 00FF 00FF 00FF 8115 80FF 80FF 8115 00FF 00FF 00FF
         9440 C40C 00FF 00FF 00FF 00FF 00FF 00FF 00FF 8116 8116 8116 8116 00FF 00FF 00FF
         9460 D42C 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
@@ -238,7 +238,7 @@
         0DD8 09D8 0DD8 09D8 0DD8 09D8 0DD8 09D8 0DD8 09D8 0DD8 09D8 0DD8 09D8 0DD8 09D8
         01D8 05D8 01D8 01D9 05D9 05D8 01D8 05D8 01D8 05D8 01D8 01D9 05D9 05D8 01D8 05D8
         09D8 0DD8 09D8 09D9 0DD9 0DD8 09D8 0DD8 09D8 0DD8 09D8 09D9 0DD9 0DD8 09D8 0DD8
-        01D8 01D9 01DD 0117 01D8 05D8 01D8 01D9 05D9 05D8 01D8 05D8 01DD 05DD 05D9 05D8
+        01D8 01D9 01DD 05DD 01D8 05D8 01D8 01D9 05D9 05D8 01D8 05D8 01DD 05DD 05D9 05D8
         09D8 09D9 09DD 0DDD 09D8 0DD8 09D8 09D9 0DD9 0DD8 09D8 0DD8 09DD 0DDD 0DD9 0DD8
         01D8 01D9 01D8 01D9 01DA 01DB 01DC 01DD 05DD 05DC 05DB 05DA 05D9 05D8 05D9 05D8
         09D8 09D9 09D8 09D9 09DA 09DB 09DC 09DD 0DDD 0DDC 0DDB 0DDA 0DD9 0DD8 0DD9 0DD8
@@ -334,15 +334,55 @@
           <surfacedelay>00</surfacedelay>
           <type>06</type>
           <transparency1_A>2E</transparency1_A>
-          <transparency2_B>16</transparency2_B>
-          <liquidflags_C>00</liquidflags_C>
+          <transparency2_B>24</transparency2_B>
+          <liquidflags_C>02</liquidflags_C>
           <paletteflags>00</paletteflags>
           <animationflags>00</animationflags>
           <paletteblend>E1</paletteblend>
         </FX1>
       </FX1s>
-      <Enemies killcount="00" />
-      <EnemyTypes />
+      <Enemies killcount="00">
+        <Enemy>
+          <ID>D27F</ID>
+          <X>03BC</X>
+          <Y>00AC</Y>
+          <tilemap>0000</tilemap>
+          <special>2800</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D27F</ID>
+          <X>00C4</X>
+          <Y>00A3</Y>
+          <tilemap>0000</tilemap>
+          <special>2800</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D27F</ID>
+          <X>021D</X>
+          <Y>0082</Y>
+          <tilemap>0000</tilemap>
+          <special>2800</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+      </Enemies>
+      <EnemyTypes>
+        <Enemy>
+          <GFX>D27F</GFX>
+          <palette>0007</palette>
+        </Enemy>
+        <Enemy>
+          <GFX>F193</GFX>
+          <palette>0007</palette>
+        </Enemy>
+      </EnemyTypes>
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
@@ -374,9 +414,15 @@
         </PLM>
         <PLM>
           <type>FA20</type>
-          <x>00</x>
+          <x>02</x>
           <y>00</y>
           <arg>F79D</arg>
+        </PLM>
+        <PLM>
+          <type>EF83</type>
+          <x>19</x>
+          <y>02</y>
+          <arg>0033</arg>
         </PLM>
       </PLMs>
       <BGData />
