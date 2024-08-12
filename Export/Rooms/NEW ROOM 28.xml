@@ -29,7 +29,7 @@
       <tiley>C</tiley>
       <screenx>04</screenx>
       <screeny>04</screeny>
-      <distance>0200</distance>
+      <distance>0240</distance>
       <doorcode>0000</doorcode>
     </Door>
   </Doors>
@@ -173,7 +173,7 @@
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
-      <ScrollData const="0001" />
+      <ScrollData>01 01 </ScrollData>
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
       <PLMs>

@@ -8,7 +8,4 @@ pjboy_bt_fix.asm by PJBoy
 saveload.asm by Scyzer and Amoebaofdoom
 Scrolling_Sky_v1.5.asm by Amoebaofdoom
 
-general help: Tundain, Amoeba, Smiley, Oi27, RT-55J
-
-klaiedoscope, screw attack damage/tanks, other coding: neen
-screw tank concept: RT-55J
+general help: Tundain, Amoeba, Smiley, Oi27

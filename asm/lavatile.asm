@@ -12,5 +12,9 @@ org !94free
         clc
         adc $0a4e
         sta $0a4e
+        
+        ;lda #$0002
+        ;sta $0ad2
+        
         rts
         

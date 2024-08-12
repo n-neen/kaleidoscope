@@ -17,10 +17,19 @@ org $91d9b2
 org $91da50
     dw $9b80, $9c20, $9c60, $9b20, $9b40, $9b60     ;screw palette pointers (power suit)
     
-    
 org $848332
 db $2B              ;xray $8000 argument plm crash fix (by amoeba)
 
-
 org $90AB00         ;maptile exploring nonsense removal (tundain)
 BRA $06
+
+
+org $a099bd         ;projectile-to-projectile collision granularity
+    and #$ffe0      ;higher number=more precision and more lag
+    skip 5          ;vanilla=#$ffe0
+    and #$ffe0
+    skip 7
+    and #$ffe0
+    skip 5
+    and #$ffe0
+    

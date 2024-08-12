@@ -398,16 +398,16 @@
         </PLM>
         <PLM>
           <type>B703</type>
-          <x>16</x>
-          <y>08</y>
+          <x>04</x>
+          <y>00</y>
           <ScrollData>
             <Change screen="01" scroll="01" />
           </ScrollData>
         </PLM>
         <PLM>
           <type>B703</type>
-          <x>18</x>
-          <y>0B</y>
+          <x>03</x>
+          <y>00</y>
           <ScrollData>
             <Change screen="01" scroll="02" />
           </ScrollData>

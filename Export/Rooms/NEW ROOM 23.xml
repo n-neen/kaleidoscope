@@ -65,6 +65,17 @@
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
+    <Door>
+      <toroom area="00" index="0F" />
+      <bitflag>00</bitflag>
+      <direction>00</direction>
+      <tilex>0</tilex>
+      <tiley>0</tiley>
+      <screenx>00</screenx>
+      <screeny>00</screeny>
+      <distance>8000</distance>
+      <doorcode>0000</doorcode>
+    </Door>
   </Doors>
   <States>
     <State condition="default">
@@ -693,8 +704,8 @@
         </PLM>
         <PLM>
           <type>C88A</type>
-          <x>1C</x>
-          <y>36</y>
+          <x>1E</x>
+          <y>06</y>
           <arg>0005</arg>
         </PLM>
       </PLMs>
