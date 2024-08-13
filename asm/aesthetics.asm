@@ -33,3 +33,7 @@ org $a099bd         ;projectile-to-projectile collision granularity
     skip 5
     and #$ffe0
     
+    
+    
+org $88e046
+    lda #$001c      ;suit pickup layer blending mode (varia)
