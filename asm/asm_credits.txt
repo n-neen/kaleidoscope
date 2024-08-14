@@ -7,5 +7,9 @@ nodever_torizo_area_fix.asm by Nodever2
 pjboy_bt_fix.asm by PJBoy
 saveload.asm by Scyzer and Amoebaofdoom
 Scrolling_Sky_v1.5.asm by Amoebaofdoom
+EnemySolidBlock by Amoebaofdoom
+water tilemap fix by Black Falcon and PJBoy
 
-general help: Tundain, Amoeba, Smiley, Oi27
+
+
+general help: Tundain, Amoeba, Smiley, Oi27, RT-55J, Omegadragnet7/9

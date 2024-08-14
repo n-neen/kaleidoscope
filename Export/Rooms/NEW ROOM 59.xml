@@ -32,6 +32,17 @@
       <distance>0200</distance>
       <doorcode>0000</doorcode>
     </Door>
+    <Door>
+      <toroom area="01" index="1E" />
+      <bitflag>00</bitflag>
+      <direction>05</direction>
+      <tilex>E</tilex>
+      <tiley>8</tiley>
+      <screenx>01</screenx>
+      <screeny>00</screeny>
+      <distance>8000</distance>
+      <doorcode>0000</doorcode>
+    </Door>
   </Doors>
   <States>
     <State condition="default">
@@ -46,12 +57,12 @@
         83AB 83AB 83AB 83AB 83AB 83AB 8959 83CB 87CB 8D59 83AB 83AB 83AB 83AB 83AB 83AB
         83AA 83AA 83AA 83AA 83AA 83AA 8959 83CB 87CB 8D59 83AA 83AA 83AA 83AA 83AA 83AA
         8BB4 8BB4 8BB4 8BB4 8BB4 8BB4 8918 8FCD 8BCD 8D18 8FB4 8FB4 8FB4 8FB4 8FB4 8FB4
-        8BC8 8BCD 00FF 04FF 04FF 04FF 04FF 0225 0625 00FF 00FF 00FF 00FF 04FF C00C 9040
-        8BCD 8BCD 00FF 04FF 04FF 04FF 04FF 0A25 0E25 00FF 00FF 00FF 00FF 04FF D02C 9060
-        8BCD 8BAE 00FF 04FF 04FF 04FF 04FF 0225 0625 00FF 00FF 00FF 00FF 04FF D82C 9860
-        8BC8 8BA9 00FF 04FF 04FF 04FF 04FF 0A25 0E25 00FF 00FF 00FF 00FF 04FF D80C 9840
+        9440 C40C 00FF 04FF 04FF 04FF 04FF 0225 0625 00FF 00FF 00FF 00FF 04FF C00C 9040
+        9460 D42C 00FF 04FF 04FF 04FF 04FF 0A25 0E25 00FF 00FF 00FF 00FF 04FF D02C 9060
+        9C60 DC2C 00FF 04FF 04FF 04FF 04FF 0225 0625 00FF 00FF 00FF 00FF 04FF D82C 9860
+        9C40 DC0C 00FF 04FF 04FF 04FF 04FF 5A25 5E25 00FF 00FF 00FF 00FF 04FF D80C 9840
         8157 8157 8157 8157 8157 8157 8156 014A 054A 8556 8557 8557 8557 8557 8557 8557
-        8BC8 8BCD 80FF 10FF 19BD 15BD 04FF 014A 054A 00FF 11BD 1DBD 14FF 84FF 8FCD 8FC8
+        8BC8 8BCD 80FF 10FF 19BD 15BD 04FF 514A 554A 00FF 11BD 1DBD 14FF 84FF 8FCD 8FC8
         8BCD 8BCD 10FF 19BD 15BD 00FF 04FF 014A 054A 00FF 04FF 11BD 1DBD 14FF 8FCD 8FCD
         8BCD 8BAE 19BD 15BD 00FF 00FF 04FF 014A 054A 00FF 00FF 04FF 11BD 1DBD 8FAE 8FCD
       </Screen>
@@ -102,12 +113,12 @@
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 40 00
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 00
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 FE 00
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 FD 00
+        02 41 00 00 00 00 00 00 00 00 00 00 00 00 40 00
+        02 FF 00 00 00 00 00 00 00 00 00 00 00 00 FF 00
+        02 FE 00 00 00 00 00 00 00 00 00 00 00 00 FE 00
+        02 FD 00 00 00 00 00 FF FE 00 00 00 00 00 FD 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 93 93 D2 00 00 00 00 92 D3 D3 00 00 00
+        00 00 00 93 93 D2 00 FF FE 00 92 D3 D3 00 00 00
         00 00 93 93 D2 00 00 00 00 00 00 92 D3 D3 00 00
         00 00 93 D2 00 00 00 00 00 00 00 00 92 D3 00 00
       </Screen>
@@ -253,15 +264,21 @@
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
-      <ScrollData>02 01 02 </ScrollData>
+      <ScrollData>01 01 02 </ScrollData>
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
       <PLMs>
         <PLM>
+          <type>C848</type>
+          <x>01</x>
+          <y>08</y>
+          <arg>0C17</arg>
+        </PLM>
+        <PLM>
           <type>C842</type>
           <x>0E</x>
           <y>08</y>
-          <arg>8C00</arg>
+          <arg>0C17</arg>
         </PLM>
         <PLM>
           <type>FA20</type>
@@ -275,6 +292,22 @@
           <y>27</y>
           <ScrollData>
             <Change screen="02" scroll="01" />
+          </ScrollData>
+        </PLM>
+        <PLM>
+          <type>B703</type>
+          <x>06</x>
+          <y>0D</y>
+          <ScrollData>
+            <Change screen="01" scroll="01" />
+          </ScrollData>
+        </PLM>
+        <PLM>
+          <type>B703</type>
+          <x>06</x>
+          <y>0B</y>
+          <ScrollData>
+            <Change screen="01" scroll="00" />
           </ScrollData>
         </PLM>
       </PLMs>

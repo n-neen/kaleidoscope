@@ -19,7 +19,11 @@
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
-      <doorcode>0000</doorcode>
+      <doorcode>
+        <ScrollData>
+          <Change screen="01" scroll="00" />
+        </ScrollData>
+      </doorcode>
     </Door>
   </Doors>
   <States>
@@ -37,8 +41,8 @@
         8BB4 8BB4 8BB4 8918 CA31 CE31 00FF 00FF 04FF CA31 CE31 8D18 8BB4 8BB4 8938 87AA
         9440 C40C 00FF 00FF 00FF CE32 00FF 00FF 04FF CA32 00FF 00FF 00FF 00FF 8559 87A8
         9460 D42C 00FF 00FF 00FF C233 C236 00FF C636 C633 00FF 00FF 00FF 00FF 8559 87B3
-        9C60 DC2C 00FF 00FF 00FF CA33 C233 00FF C633 CE33 00FF 00FF 00FF 00FF 8559 87A8
-        9C40 DC0C 00FF 00FF 00FF CA36 CE36 80BD CA36 CE36 00FF 00FF 00FF 00FF 8559 87B3
+        9C60 DC2C 00FF 00FF 00FF CA33 C233 F05D C633 CE33 00FF 00FF 00FF 00FF 8559 87A8
+        9C40 DC0C 00FF 00FF 00FF CA36 CE36 F0BD CA36 CE36 00FF 00FF 00FF 00FF 8559 87B3
         83B4 83B4 83B4 83B4 83B4 83B4 807D 807E 807F 83B4 83B4 83B4 83B4 83B4 8138 87AA
         87AA 87AB 87A8 8BA8 8BAA 8BA8 8BAB 83A8 83A8 83AB 87A8 8BA8 8BAA 8BAB 83A8 83A8
         87AB 87AA 87B3 8BA8 8BAB 8BB3 8BAA 83AB 83B3 83AA 87AB 8BA8 8BAB 8BAA 83AB 83B3
@@ -57,8 +61,8 @@
         00 00 00 00 04 04 00 00 00 04 04 00 00 00 00 00
         00 41 00 00 00 04 00 00 00 04 00 00 00 00 00 00
         00 FF 00 00 00 04 04 00 04 04 00 00 00 00 00 00
-        00 FE 00 00 00 04 04 00 04 04 00 00 00 00 00 00
-        00 FD 00 00 00 04 04 00 04 04 00 00 00 00 00 00
+        00 FE 00 00 00 04 04 04 04 04 00 00 00 00 00 00
+        00 FD 00 00 00 04 04 04 04 04 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -116,12 +120,12 @@
           <type>EF5B</type>
           <x>07</x>
           <y>09</y>
-          <arg>8000</arg>
+          <arg>0038</arg>
         </PLM>
         <PLM>
           <type>F000</type>
-          <x>07</x>
-          <y>0A</y>
+          <x>0E</x>
+          <y>00</y>
           <arg>0000</arg>
         </PLM>
         <PLM>
