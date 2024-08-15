@@ -642,11 +642,55 @@
           <speed>0000</speed>
           <speed2>0000</speed2>
         </Enemy>
+        <Enemy>
+          <ID>D27F</ID>
+          <X>0411</X>
+          <Y>0178</Y>
+          <tilemap>0000</tilemap>
+          <special>2800</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D27F</ID>
+          <X>0109</X>
+          <Y>0169</Y>
+          <tilemap>0000</tilemap>
+          <special>2800</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D27F</ID>
+          <X>0198</X>
+          <Y>0141</Y>
+          <tilemap>0000</tilemap>
+          <special>2800</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D27F</ID>
+          <X>032E</X>
+          <Y>0169</Y>
+          <tilemap>0000</tilemap>
+          <special>2800</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
       </Enemies>
       <EnemyTypes>
         <Enemy>
           <GFX>E87F</GFX>
           <palette>0001</palette>
+        </Enemy>
+        <Enemy>
+          <GFX>D27F</GFX>
+          <palette>0007</palette>
         </Enemy>
         <Enemy>
           <GFX>D5FF</GFX>
