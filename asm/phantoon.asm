@@ -37,7 +37,7 @@ org $8ff800                     ;see "phantoon_roomdrawing_plm.asm"
     lda !counter                ;number of frames to wait before spawning plms
     inc                         ;this is to wait until the pb is at maximum fuzz
     sta !counter
-    cmp #$0067
+    cmp #$0067                  ;$67 frames seems good. worried that lag might move this around
     bmi +
     
     jsl $8483d7
