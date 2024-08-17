@@ -9,7 +9,7 @@ org $84e0dd
 org $84e102
     dw $0001            ;super    001
 org $84e127
-    dw $0019            ;pb       050
+    dw $0019            ;pb       025
 
 org $84e474
     dw $0064            ;etank      (orb)

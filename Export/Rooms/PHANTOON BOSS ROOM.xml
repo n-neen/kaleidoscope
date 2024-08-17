@@ -22,13 +22,13 @@
       <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="04" index="02" />
+      <toroom area="04" index="10" />
       <bitflag>00</bitflag>
       <direction>05</direction>
       <tilex>E</tilex>
-      <tiley>5</tiley>
-      <screenx>0B</screenx>
-      <screeny>03</screeny>
+      <tiley>6</tiley>
+      <screenx>07</screenx>
+      <screeny>01</screeny>
       <distance>8000</distance>
       <doorcode>
         <ScrollData>

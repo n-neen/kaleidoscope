@@ -28,12 +28,12 @@
   <Unused_7>0x0000</Unused_7>
   <SpriteLayer>0x05</SpriteLayer>
   <Drops>
-    <SmallHealth>0x3C</SmallHealth>
-    <LargeHealth>0x3C</LargeHealth>
-    <Missile>0x3C</Missile>
-    <Nothing>0x05</Nothing>
-    <SuperMissile>0x3C</SuperMissile>
-    <PowerBomb>0x0A</PowerBomb>
+    <SmallHealth>0x00</SmallHealth>
+    <LargeHealth>0x4A</LargeHealth>
+    <Missile>0x4A</Missile>
+    <Nothing>0x00</Nothing>
+    <SuperMissile>0x4A</SuperMissile>
+    <PowerBomb>0x1F</PowerBomb>
   </Drops>
   <Vulnerabilities>
     <Power>0x02</Power>
