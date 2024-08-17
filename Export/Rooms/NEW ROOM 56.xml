@@ -1,16 +1,5 @@
 <Room>
-  <Saves>
-    <SaveRoom>
-      <saveindex>01</saveindex>
-      <indoor roomarea="01" roomindex="1C" doorindex="03" />
-      <unused>0000</unused>
-      <unused>0000</unused>
-      <screenx>0300</screenx>
-      <screeny>0000</screeny>
-      <samusx>0000</samusx>
-      <samusy>00A7</samusy>
-    </SaveRoom>
-  </Saves>
+  <Saves />
   <index>0E</index>
   <area>04</area>
   <x>09</x>
@@ -41,6 +30,28 @@
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>0400</distance>
+      <doorcode>0000</doorcode>
+    </Door>
+    <Door>
+      <toroom area="04" index="08" />
+      <bitflag>00</bitflag>
+      <direction>07</direction>
+      <tilex>6</tilex>
+      <tiley>C</tiley>
+      <screenx>02</screenx>
+      <screeny>05</screeny>
+      <distance>0240</distance>
+      <doorcode>0000</doorcode>
+    </Door>
+    <Door>
+      <toroom area="04" index="10" />
+      <bitflag>00</bitflag>
+      <direction>05</direction>
+      <tilex>E</tilex>
+      <tiley>6</tiley>
+      <screenx>01</screenx>
+      <screeny>00</screeny>
+      <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
   </Doors>
@@ -278,7 +289,7 @@
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 81E6 81E7
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 81E6 81E7
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 81E6 81E7
-        81E6 81E7 81E6 81E7 81E6 81E7 81E6 B157 B158 81E7 81E6 81E7 81E6 81E7 81E6 81E7
+        81E6 81E7 81E6 81E7 81E6 81E7 81E6 C157 C158 81E7 81E6 81E7 81E6 81E7 81E6 81E7
         81E6 81E7 81E6 81E7 81E6 81E7 81E6 00FF 00FF 81E7 81E6 81E7 81E6 81E7 81E6 81E7
         81E6 81E7 81E6 81E7 81E6 81E7 81E6 90FF 90FF 81E7 81E6 81E7 81E6 81E7 81E6 81E7
       </Screen>
@@ -514,7 +525,7 @@
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 0F 0F 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 09 09 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 01 01 00 00 00 00 00 00 00
       </Screen>
@@ -783,10 +794,16 @@
       <FX2>0000</FX2>
       <PLMs>
         <PLM>
-          <type>B76F</type>
-          <x>37</x>
-          <y>0C</y>
-          <arg>0001</arg>
+          <type>C878</type>
+          <x>01</x>
+          <y>06</y>
+          <arg>0018</arg>
+        </PLM>
+        <PLM>
+          <type>C86C</type>
+          <x>06</x>
+          <y>02</y>
+          <arg>001A</arg>
         </PLM>
       </PLMs>
       <BGData />

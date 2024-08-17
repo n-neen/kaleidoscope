@@ -1,6 +1,6 @@
 <EnemyHeader>
   <ManualGraphicsAllocation>false</ManualGraphicsAllocation>
-  <Health>0x0708</Health>
+  <Health>0x0BB8</Health>
   <ContactDamage>0x00C8</ContactDamage>
   <XRadius>0x0008</XRadius>
   <YRadius>0x0012</YRadius>
@@ -38,26 +38,26 @@
   <Vulnerabilities>
     <Power>0x00</Power>
     <Wave>0x00</Wave>
-    <Ice>0x81</Ice>
-    <Ice_Wave>0x81</Ice_Wave>
-    <Spazer>0x81</Spazer>
-    <Spazer_Wave>0x82</Spazer_Wave>
-    <Spazer_Ice>0x82</Spazer_Ice>
-    <Spazer_Ice_Wave>0x82</Spazer_Ice_Wave>
-    <Plasma>0x82</Plasma>
-    <Plasma_Wave>0x82</Plasma_Wave>
-    <Plasma_Ice>0x82</Plasma_Ice>
-    <Plasma_Ice_Wave>0x82</Plasma_Ice_Wave>
-    <Missile>0x00</Missile>
-    <SuperMissile>0x02</SuperMissile>
+    <Ice>0x00</Ice>
+    <Ice_Wave>0x00</Ice_Wave>
+    <Spazer>0x00</Spazer>
+    <Spazer_Wave>0x00</Spazer_Wave>
+    <Spazer_Ice>0x00</Spazer_Ice>
+    <Spazer_Ice_Wave>0x00</Spazer_Ice_Wave>
+    <Plasma>0x00</Plasma>
+    <Plasma_Wave>0x01</Plasma_Wave>
+    <Plasma_Ice>0x00</Plasma_Ice>
+    <Plasma_Ice_Wave>0x00</Plasma_Ice_Wave>
+    <Missile>0x01</Missile>
+    <SuperMissile>0x01</SuperMissile>
     <Bomb>0x00</Bomb>
     <PowerBomb>0x00</PowerBomb>
     <SpeedBooster>0x02</SpeedBooster>
-    <ShineSpark>0x02</ShineSpark>
-    <ScrewAttack>0x04</ScrewAttack>
-    <ChargedBeam>0x82</ChargedBeam>
+    <ShineSpark>0x01</ShineSpark>
+    <ScrewAttack>0x00</ScrewAttack>
+    <ChargedBeam>0x00</ChargedBeam>
     <PseudoScrew>0x00</PseudoScrew>
-    <Unused>0x02</Unused>
+    <Unused>0x00</Unused>
   </Vulnerabilities>
   <Name>HACHI3    </Name>
 </EnemyHeader>
