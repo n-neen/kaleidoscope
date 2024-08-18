@@ -23,13 +23,15 @@ org $840000+!84free
         .instlist:
             dw $86bc        ;delete
             
+            ;warn pc
+            
 ;hdma object-----------------------------------------------------------
 
 org $880000+!88free
 
     spawn:
         jsl $888435
-        db $00, $31 : dw hdma_instlist
+        db $00, $00 : dw hdma_instlist
         rtl
         
 
@@ -41,10 +43,31 @@ org $880000+!88free
             dw $85ec, .loop         ;goto loop
                       
         .direct:
-            db $1f, $00        ;under hud
-            db $40, $bf
-            db $40, $00
-            db $40, $ff
-            db $00             ;terminator
+            db $1f, $0f         ;under hud
+            db $40, $07         ;outside tube
+            
+            db $02, $07
+            db $02, $08         ;gradient
+            db $02, $09
+            db $02, $0a
+            db $02, $0b
+            db $02, $0c
+            db $02, $0d
+            db $02, $0e
+            
+            db $20, $0f         ;tube
+            
+            db $01, $0e         ;gradient
+            db $01, $0d
+            db $02, $0c
+            db $02, $0b
+            db $02, $0a
+            db $02, $09
+            db $02, $08
+            db $02, $07
+            db $02, $06
+            db $02, $05         ;remainder of screen
+            
+            db $00              ;terminator
             
             ;warn pc
