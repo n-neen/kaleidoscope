@@ -72,30 +72,13 @@ ScrollingSkySectionTable_000: ;optimized vanilla
   DW $0500 : DD $00000000 : DW $0000
 
 ScrollingSkySectionTable_002: ;copy of vanilla
-  DW $0000 : DD $00008000 : DW $9F80
-  DW $0010 : DD $0000C000 : DW $9F84
-  DW $0038 : DD $00008000 : DW $9F88
-  DW $00D0 : DD $0000C000 : DW $9F8C
-  DW $00E0 : DD $00008000 : DW $9F90
-  DW $0120 : DD $0000C000 : DW $9F94
-  DW $01A0 : DD $00008000 : DW $9F98
-  DW $01D8 : DD $0000C000 : DW $9F9C
-  DW $0238 : DD $00008000 : DW $9FA0
-  DW $0268 : DD $0000C000 : DW $9FA4
-  DW $02A0 : DD $00008000 : DW $9FA8
-  DW $02E0 : DD $0000C000 : DW $9FA0
-  DW $0300 : DD $00008000 : DW $9FB0
-  DW $0320 : DD $0000C000 : DW $9FB4
-  DW $0350 : DD $00008000 : DW $9FB8
-  DW $0378 : DD $0000C000 : DW $9FBC
-  DW $03C8 : DD $00008000 : DW $9FC0
-  DW $0440 : DD $00007000 : DW $9FC4
-  DW $0460 : DD $0000C000 : DW $9FC8
-  DW $0480 : DD $00008000 : DW $9FCC
-  DW $0490 : DD $00000000 : DW $9FD0
-  DW $04A8 : DD $00000000 : DW $9FD4
-  DW $04B8 : DD $00000000 : DW $9FD8
-  DW $0500 : DD $00000000 : DW $0000
+    DW $0000 : DD $00008000 : DW $9F80
+    dw $0060 : dd $0000c000 : dw $9f84
+    dw $0070 : dd $0000d000 : dw $9f88
+    dw $0080 : dd $00008000 : dw $9f8c
+    dw $00a0 : dd $00000000 : dw $9f8f
+    dw $0110 : dd $00000000 : dw $0000
+    
 warnpc $88FFFF
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
