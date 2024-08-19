@@ -51,7 +51,7 @@
       <tiley>C</tiley>
       <screenx>0C</screenx>
       <screeny>00</screeny>
-      <distance>8000</distance>
+      <distance>0200</distance>
       <doorcode>0000</doorcode>
     </Door>
   </Doors>

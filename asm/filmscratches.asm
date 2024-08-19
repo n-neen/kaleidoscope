@@ -1,7 +1,7 @@
 lorom
 
 !ramtable       =   f4b0
-!value          =   #%0000000000111111  ;what to write to the register for the single active scanline
+!value          =   #$00ff              ;what to write to the register for the single active scanline
 !88free         =   $88ee71
 !84free         =   $84f40f
 !clamp          =   #$007f              ;maximum scanline value (oh whoops, table entry max is 7f)
@@ -39,9 +39,9 @@ org !88free
             
         .preinst:
         
-            ;lda $05b8
-            ;bit #$0001                  ;only on every other frame (includes lag)
-            ;bne +
+            lda $05b8
+            bit #$0002                  ;interval to update
+            bne +
         
             sep #$20
             
