@@ -19,7 +19,7 @@
   <height>02</height>
   <upscroll>70</upscroll>
   <dnscroll>70</dnscroll>
-  <specialGFX>00</specialGFX>
+  <specialGFX>02</specialGFX>
   <Doors>
     <Door>
       <toroom area="04" index="0E" />
@@ -957,6 +957,10 @@
           <GFX>DABF</GFX>
           <palette>0005</palette>
         </Enemy>
+        <Enemy>
+          <GFX>CEBF</GFX>
+          <palette>0001</palette>
+        </Enemy>
       </EnemyTypes>
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
@@ -1001,7 +1005,7 @@
         </PLM>
       </PLMs>
       <BGData />
-      <layer1_2>F1AD</layer1_2>
+      <layer1_2>0000</layer1_2>
     </State>
     <State condition="default">
       <LevelData Width="8" Height="2">
@@ -1935,7 +1939,7 @@
           <palette>0005</palette>
         </Enemy>
         <Enemy>
-          <GFX>DD7F</GFX>
+          <GFX>E9FF</GFX>
           <palette>0005</palette>
         </Enemy>
       </EnemyTypes>
@@ -2000,7 +2004,7 @@
         </PLM>
       </PLMs>
       <BGData />
-      <layer1_2>F1AD</layer1_2>
+      <layer1_2>0000</layer1_2>
     </State>
   </States>
 </Room>

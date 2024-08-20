@@ -14,7 +14,7 @@ org $84b026
 
 ;skip gunship message boxes
 org $a2ab1f
-	nop #12
+	;nop #12            this is now handled in ship.asm
 
 ;skip map station message box
 org $848c9f
