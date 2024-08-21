@@ -56,7 +56,7 @@
     <ShineSpark>0x00</ShineSpark>
     <ScrewAttack>0x00</ScrewAttack>
     <ChargedBeam>0x00</ChargedBeam>
-    <PseudoScrew>0x02</PseudoScrew>
+    <PseudoScrew>0x00</PseudoScrew>
     <Unused>0x02</Unused>
   </Vulnerabilities>
   <Name>BOYON     </Name>

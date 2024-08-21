@@ -11,8 +11,8 @@
   <MaxReserveEneregy>0</MaxReserveEneregy>
   <CollectedItems>B10E</CollectedItems>
   <EquippedItems>900C</EquippedItems>
-  <CollectedBeams>1006</CollectedBeams>
-  <EquippedBeams>1000</EquippedBeams>
+  <CollectedBeams>1007</CollectedBeams>
+  <EquippedBeams>1001</EquippedBeams>
   <Jump>B</Jump>
   <Run>Y</Run>
   <ItemCancel>A</ItemCancel>
