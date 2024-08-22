@@ -1961,6 +1961,7 @@
           <x>19</x>
           <y>14</y>
           <ScrollData>
+            <Change screen="02" scroll="01" />
             <Change screen="0A" scroll="01" />
           </ScrollData>
         </PLM>

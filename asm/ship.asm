@@ -1,6 +1,6 @@
 lorom
 
-;ship saves to save slot 2 in maridia now
+;ship saves to save 2 in maridia now
 
 org $a2ab1f
     lda $7ed900     ;inside save array

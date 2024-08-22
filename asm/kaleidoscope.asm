@@ -37,20 +37,18 @@ org $888896                 ;hdma table routine gone, plenty of space here
         jsl longshort       ;code for spawning speed echoes
         
     kaleidoscope:
-        
-        dec !bg1x
-        dec !bg1x
-        dec !bg1x
-        
-        dec !bg1y
-        dec !bg1y
-        dec !bg1y
-        
-        inc !bg2x
-        inc !bg2x
-        
-        inc !bg2y
-        inc !bg2y
+
+        macro multisbc(addr, amount)
+            lda <addr>
+            sec
+            sbc <amount>
+            sta <addr>
+        endmacro
+
+        %multisbc(!bg1x, #$0005)
+        %multisbc(!bg1y, #$0005)
+        %multisbc(!bg2x, #$0005)
+        %multisbc(!bg2y, #$0005)
 
    
         lda $8b             ;controller input

@@ -2593,6 +2593,12 @@
             <Change screen="13" scroll="01" />
           </ScrollData>
         </PLM>
+        <PLM>
+          <type>C842</type>
+          <x>3E</x>
+          <y>06</y>
+          <arg>1001</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>91D3</layer1_2>

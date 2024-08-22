@@ -326,8 +326,8 @@
           </ScrollData>
         </PLM>
         <PLM>
-          <type>C842</type>
-          <x>2E</x>
+          <type>C848</type>
+          <x>01</x>
           <y>06</y>
           <arg>0C01</arg>
         </PLM>
@@ -335,13 +335,19 @@
           <type>FE00</type>
           <x>08</x>
           <y>07</y>
-          <arg>00FD</arg>
+          <arg>0006</arg>
         </PLM>
         <PLM>
           <type>EF0F</type>
           <x>12</x>
           <y>07</y>
           <arg>0006</arg>
+        </PLM>
+        <PLM>
+          <type>C842</type>
+          <x>2E</x>
+          <y>06</y>
+          <arg>0C01</arg>
         </PLM>
       </PLMs>
       <BGData />

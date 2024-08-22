@@ -2163,8 +2163,8 @@
         </PLM>
         <PLM>
           <type>FE00</type>
-          <x>48</x>
-          <y>1E</y>
+          <x>47</x>
+          <y>19</y>
           <arg>00EA</arg>
         </PLM>
         <PLM>
@@ -2197,7 +2197,7 @@
         <PLM>
           <type>FE00</type>
           <x>47</x>
-          <y>0D</y>
+          <y>0E</y>
           <arg>00EA</arg>
         </PLM>
         <PLM>
@@ -2223,6 +2223,12 @@
           <x>39</x>
           <y>0B</y>
           <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>48</x>
+          <y>1A</y>
+          <arg>00EA</arg>
         </PLM>
       </PLMs>
       <BGData />
