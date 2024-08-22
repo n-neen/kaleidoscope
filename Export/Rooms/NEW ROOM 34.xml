@@ -30,7 +30,11 @@
       <screenx>00</screenx>
       <screeny>01</screeny>
       <distance>8000</distance>
-      <doorcode>0000</doorcode>
+      <doorcode>
+        <ScrollData>
+          <Change screen="04" scroll="00" />
+        </ScrollData>
+      </doorcode>
     </Door>
   </Doors>
   <States>

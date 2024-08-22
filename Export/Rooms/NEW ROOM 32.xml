@@ -551,6 +551,14 @@
           <y>26</y>
           <arg>0C11</arg>
         </PLM>
+        <PLM>
+          <type>B703</type>
+          <x>05</x>
+          <y>0F</y>
+          <ScrollData>
+            <Change screen="04" scroll="02" />
+          </ScrollData>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>0000</layer1_2>

@@ -55,13 +55,13 @@
       <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="00" index="07" />
+      <toroom area="00" index="0F" />
       <bitflag>40</bitflag>
       <direction>05</direction>
       <tilex>E</tilex>
       <tiley>6</tiley>
-      <screenx>01</screenx>
-      <screeny>00</screeny>
+      <screenx>03</screenx>
+      <screeny>07</screeny>
       <distance>8000</distance>
       <doorcode>
         <ScrollData>

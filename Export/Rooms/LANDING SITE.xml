@@ -45,7 +45,7 @@
     </Door>
     <Door>
       <toroom area="00" index="07" />
-      <bitflag>00</bitflag>
+      <bitflag>40</bitflag>
       <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
@@ -56,7 +56,7 @@
     </Door>
     <Door>
       <toroom area="00" index="02" />
-      <bitflag>00</bitflag>
+      <bitflag>40</bitflag>
       <direction>02</direction>
       <tilex>6</tilex>
       <tiley>2</tiley>
@@ -67,7 +67,7 @@
     </Door>
     <Door>
       <toroom area="00" index="03" />
-      <bitflag>00</bitflag>
+      <bitflag>40</bitflag>
       <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
@@ -78,7 +78,7 @@
     </Door>
     <Door>
       <toroom area="00" index="00" />
-      <bitflag>00</bitflag>
+      <bitflag>40</bitflag>
       <direction>03</direction>
       <tilex>0</tilex>
       <tiley>0</tiley>
