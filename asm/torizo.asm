@@ -1,5 +1,8 @@
 lorom
 
+!samusx         =   $0af6
+!samusy         =   $0afa
+
 org $aac90f
     nop #4          ;skip haze
 
@@ -9,10 +12,14 @@ org $aac95f         ;starting location
 org $aac963
     dw $01a2        ;y position
 
+org $a0bab1
+    and #$007f
 org $a0bab5         ;drop spawn positions
-    adc #$0140
+    adc !samusx     ;x
+    skip 5
+    and #$0f00
 org $a0bac2
-    adc #$0160
+    adc !samusy     ;y
 
 ;=============================STATUE CRASH
 
