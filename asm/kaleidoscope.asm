@@ -38,19 +38,25 @@ org $888896                 ;hdma table routine gone, plenty of space here
         
     kaleidoscope:
 
-        macro multisbc(addr, amount)
+        macro subtract(addr, amount)
             lda <addr>
             sec
             sbc <amount>
             sta <addr>
         endmacro
+        
+        macro add(addr, amount)
+            lda <addr>
+            clc
+            adc <amount>
+            sta <addr>
+        endmacro
 
-        %multisbc(!bg1x, #$0005)
-        %multisbc(!bg1y, #$0005)
-        %multisbc(!bg2x, #$0005)
-        %multisbc(!bg2y, #$0005)
-
-   
+        %subtract(!bg1x, #$0005)
+        %subtract(!bg1y, #$0005)
+        %add(!bg2x, #$0005)
+        %add(!bg2y, #$0005)
+        
         lda $8b             ;controller input
         eor $09b6           ;remove run binding
         

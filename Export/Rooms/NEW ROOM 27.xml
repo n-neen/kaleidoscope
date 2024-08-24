@@ -28,16 +28,27 @@
     <Door>
       <toroom area="00" index="0B" />
       <bitflag>00</bitflag>
-      <direction>00</direction>
-      <tilex>0</tilex>
-      <tiley>0</tiley>
+      <direction>07</direction>
+      <tilex>6</tilex>
+      <tiley>C</tiley>
+      <screenx>00</screenx>
+      <screeny>01</screeny>
+      <distance>0280</distance>
+      <doorcode>0000</doorcode>
+    </Door>
+    <Door>
+      <toroom area="00" index="0D" />
+      <bitflag>00</bitflag>
+      <direction>04</direction>
+      <tilex>1</tilex>
+      <tiley>6</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="00" index="0D" />
+      <toroom area="00" index="0B" />
       <bitflag>00</bitflag>
       <direction>00</direction>
       <tilex>0</tilex>
@@ -78,17 +89,6 @@
       <screenx>01</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
-      <doorcode>0000</doorcode>
-    </Door>
-    <Door>
-      <toroom area="00" index="0B" />
-      <bitflag>00</bitflag>
-      <direction>07</direction>
-      <tilex>6</tilex>
-      <tiley>C</tiley>
-      <screenx>00</screenx>
-      <screeny>01</screeny>
-      <distance>0280</distance>
       <doorcode>0000</doorcode>
     </Door>
     <Door>
@@ -384,10 +384,10 @@
         80FF 8507 83FF 83FF 8BFF 83FF 83FF 890C 8900 811E 80FF 8331 8332 8331 8332 8331
         8D2B 852F 83FF 83FF 83FF 83FF 810C 8108 832F 8330 832F 8330 832F 8330 832F 8330
         8131 8D1D 8D1D 8D1C 8D1C 891D 8108 8333 8334 8333 8334 8333 8334 8333 8334 8333
-        193E 00FF 00FF 00FF 03AF 03B0 03AF 03B0 03B1 03B2 03B1 03B2 03AF 03B0 8330 93B2
-        03B0 D0FF 00FF 03B1 D3B2 03B1 03B2 00FF 00FF 03B1 03B2 03B1 03B2 03AF 8330 93CF
-        03AF D3B0 03B1 03B2 D3B1 03B2 03B1 03B2 03AF 03B0 00FF 00FF 03B1 03B2 8330 93B0
-        03B0 D3B1 03B2 03AF D3B0 03AF 03B0 03B1 03B2 03B1 03B2 03B1 03B2 03D1 8330 93B2
+        193E 00FF 00FF 00FF 03AF 03B0 03AF 03B0 03B1 03B2 03B1 03B2 03AF 03B0 03B1 93B2
+        03B0 D0FF 00FF 03B1 D3B2 03B1 03B2 00FF 00FF 03B1 03B2 03B1 03B2 03AF 03B0 93CF
+        03AF D3B0 03B1 03B2 D3B1 03B2 03B1 03B2 03AF 03B0 00FF 00FF 03B1 03B2 03AF 93B0
+        03B0 D3B1 03B2 03AF D3B0 03AF 03B0 03B1 03B2 03B1 03B2 03B1 03B2 03D1 03B1 93B2
         8333 8334 8333 8334 8333 8334 8333 8334 8333 8334 8333 8334 8333 8334 8333 8334
         8330 832F 8330 832F 8330 832F 8330 832F 8330 832F 8330 832F 8330 832F 8330 832F
         8331 8332 8331 8332 8331 8332 8331 8332 8331 8332 8331 8332 8331 8332 8331 8332
@@ -921,7 +921,7 @@
       </Screen>
           <Screen X="1" Y="0">
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 06 06 06 06 00 00 00 00 00 00
+        00 00 00 00 00 00 01 01 01 01 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 43 FF FE FD 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1178,10 +1178,10 @@
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        DC 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03
-        00 FF 00 00 FF 00 00 00 00 00 00 00 00 00 00 03
-        00 FE 00 00 FE 00 00 00 00 00 00 00 00 00 00 03
-        00 FD 00 00 FD 00 00 00 00 00 00 00 00 00 00 03
+        DC 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02
+        00 FF 00 00 FF 00 00 00 00 00 00 00 00 00 00 02
+        00 FE 00 00 FE 00 00 00 00 00 00 00 00 00 00 02
+        00 FD 00 00 FD 00 00 00 00 00 00 00 00 00 00 02
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
