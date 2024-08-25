@@ -43,21 +43,16 @@ org !84free
         dw !checktimer, #.next
         dw !delete
         
-        .frameone:
-            dw $0001, $0052, $0000
+        macro drawinst(label, tile)
+            .<label>:
+            dw $0001, $00<tile>, $0000
+        endmacro
         
-        .frametwo:
-            dw $0001, $0053, $0000 
-        
-        .framethree:
-            dw $0001, $0054, $0000 
-            
-        .framefour:
-            dw $0001, $0055, $0000 
-
-        .blanktile:
-            dw $0001, $00ff, $0000
-            
+        %drawinst(frameone, 52)
+        %drawinst(frametwo, 53)
+        %drawinst(framethree, 54)
+        %drawinst(framefour, 55)
+        %drawinst(blanktile, ff)
             
 org $aab263
     jsr btcounter : nop

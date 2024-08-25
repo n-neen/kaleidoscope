@@ -51,7 +51,7 @@
     <Missile>0x02</Missile>
     <SuperMissile>0x02</SuperMissile>
     <Bomb>0x02</Bomb>
-    <PowerBomb>0x02</PowerBomb>
+    <PowerBomb>0x08</PowerBomb>
     <SpeedBooster>0x02</SpeedBooster>
     <ShineSpark>0x02</ShineSpark>
     <ScrewAttack>0x02</ScrewAttack>
