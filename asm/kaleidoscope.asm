@@ -1,7 +1,11 @@
 lorom
 
 
-;==========================kaleidoscope==========================
+;====================================================kaleidoscope====================================================
+
+;=============================================includes
+
+incsrc ./macros.asm
 
 ;=============================================graphics
 org $898900                                         ;overwrites x-ray graphics
@@ -38,20 +42,6 @@ org $888896                 ;hdma table routine gone, plenty of space here
         
     kaleidoscope:
 
-        macro subtract(addr, amount)
-            lda <addr>
-            sec
-            sbc <amount>
-            sta <addr>
-        endmacro
-        
-        macro add(addr, amount)
-            lda <addr>
-            clc
-            adc <amount>
-            sta <addr>
-        endmacro
-
         %subtract(!bg1x, #$0005)
         %subtract(!bg1y, #$0005)
         %add(!bg2x, #$0005)
@@ -87,20 +77,20 @@ org $888896                 ;hdma table routine gone, plenty of space here
             dec !bg1x
             bra +
         .L:
-            lda !bg1x
-            clc
-            adc $05e5
-            sta !bg1x
+            %add(!bg1x, $05e5)
+            ;lda !bg1x
+            ;clc
+            ;adc $05e5
+            ;sta !bg1x
             sta !bg1y
             bra +
         .R:
-            lda !bg2x
-            clc
-            adc $05e5
-            sta !bg2x
+            %add(!bg2x, $05e5)
+            ;lda !bg2x
+            ;clc
+            ;adc $05e5
+            ;sta !bg2x
             sta !bg2y
-            bra +
-            
             
 +       rts
         

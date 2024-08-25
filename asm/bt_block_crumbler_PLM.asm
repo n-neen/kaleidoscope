@@ -1,5 +1,9 @@
 lorom
 
+;includes
+
+incsrc ./macros.asm
+
 ;org defines
 
 !84free = $84f950
@@ -43,16 +47,11 @@ org !84free
         dw !checktimer, #.next
         dw !delete
         
-        macro drawinst(label, tile)
-            .<label>:
-            dw $0001, $00<tile>, $0000
-        endmacro
-        
-        %drawinst(frameone, 52)
-        %drawinst(frametwo, 53)
-        %drawinst(framethree, 54)
-        %drawinst(framefour, 55)
-        %drawinst(blanktile, ff)
+        %singledrawinst(frameone, 52)
+        %singledrawinst(frametwo, 53)
+        %singledrawinst(framethree, 54)
+        %singledrawinst(framefour, 55)
+        %singledrawinst(blanktile, ff)
             
 org $aab263
     jsr btcounter : nop
