@@ -6,7 +6,7 @@ lorom
 
 !84free         = $84fa20
 
-;palette fx objects refernce
+;palette fx objects reference
 
 !ship           = $e1c0
 !zebes          = $e1d4     ;cutscene afterglow
