@@ -19,3 +19,6 @@ org $aaf7d3
     jsl splode
     rtl
     
+org $aae74c
+    nop #3
+    

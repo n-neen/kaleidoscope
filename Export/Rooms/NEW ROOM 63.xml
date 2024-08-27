@@ -49,7 +49,7 @@
       <direction>05</direction>
       <tilex>E</tilex>
       <tiley>5</tiley>
-      <screenx>00</screenx>
+      <screenx>01</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
