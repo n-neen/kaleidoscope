@@ -1,9 +1,9 @@
 lorom
 
-org $909ea1
-    dw $1900
-    dw $0600
-    dw $0900
+org $909ea1         ;samus gravity constant
+    dw $1800        ;air
+    dw $0580        ;water
+    dw $0800        ;lava/acid
     
 ;remove shinespark health drain:
 org $90D0CE         ;vertical
