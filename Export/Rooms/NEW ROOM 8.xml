@@ -97,7 +97,7 @@
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
-        817A 817A 817A 817A 817A B34E B34E B34E B34E B34E B34E 817A 817A 817A 817A 817A
+        817A 817A 817A 817A 817A B0BF B0BF B0BF B0BF B0BF B0BF 817A 817A 817A 817A 817A
         8993 8D93 8993 8D93 8993 B34E B34E B34E B34E B34E B34E 8D93 8993 8D93 8993 8D93
         8193 8593 8193 8593 8193 8593 B34E B34E B34E B34E 8193 8593 8193 8593 8193 8593
         8993 8D93 8993 8D93 8993 8D93 B34E B34E B34E B34E 8993 8D93 8993 8D93 8993 8D93
@@ -162,7 +162,7 @@
         A195 A195 8596 856F 816F B34E B34E B34E B34E B34E B74E 856F 8596 1176 1576 A177
         00FF 00FF 00FF 8177 816F B34E B34E B34E B34E B34E B74E 856F 04FF 04FF 04FF 04FF
         00FF 00FF 00FF 00FF 816F B34E B34E B34E B34E B34E B74E 856F 00FF 04FF 04FF 04FF
-        00FF 00FF 00FF 00FF 1177 1177 B34E B34E B34E B34E 1577 1577 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 1177 1177 B0BF B0BF B0BF B0BF 1577 1577 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
@@ -620,7 +620,7 @@
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
-        817A 817A 817A 817A 817A B34E B34E B34E B34E B34E B34E 817A 817A 817A 817A 817A
+        817A 817A 817A 817A 817A B0BF B0BF B0BF B0BF B0BF B0BF 817A 817A 817A 817A 817A
         8993 8D93 8993 8D93 8993 B34E B34E B34E B34E B34E B34E 8D93 8993 8D93 8993 8D93
         8193 8593 8193 8593 8193 8593 B34E B34E B34E B34E 8193 8593 8193 8593 8193 8593
         8993 8D93 8993 8D93 8993 8D93 B34E B34E B34E B34E 8993 8D93 8993 8D93 8993 8D93
@@ -685,7 +685,7 @@
         A195 A195 8596 856F 816F B34E B34E B34E B34E B34E B74E 856F 8596 1176 1576 A177
         00FF 00FF 00FF 8177 816F B34E B34E B34E B34E B34E B74E 856F 04FF 04FF 04FF 04FF
         00FF 00FF 00FF 00FF 816F B34E B34E B34E B34E B34E B74E 856F 00FF 04FF 04FF 04FF
-        00FF 00FF 00FF 00FF 1177 1177 B34E B34E B34E B34E 1577 1577 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 1177 1177 B0BF B0BF B0BF B0BF 1577 1577 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
@@ -1095,65 +1095,10 @@
           <arg>8000</arg>
         </PLM>
         <PLM>
-          <type>B703</type>
-          <x>21</x>
-          <y>00</y>
-          <ScrollData>
-            <Change screen="00" scroll="01" />
-            <Change screen="04" scroll="01" />
-            <Change screen="01" scroll="01" />
-            <Change screen="05" scroll="01" />
-            <Change screen="02" scroll="01" />
-            <Change screen="06" scroll="01" />
-            <Change screen="03" scroll="01" />
-            <Change screen="07" scroll="01" />
-          </ScrollData>
-        </PLM>
-        <PLM>
           <type>B6DF</type>
           <x>3D</x>
           <y>15</y>
           <arg>8000</arg>
-        </PLM>
-        <PLM>
-          <type>B703</type>
-          <x>22</x>
-          <y>00</y>
-          <ScrollData>
-            <Change screen="00" scroll="00" />
-            <Change screen="01" scroll="00" />
-            <Change screen="02" scroll="00" />
-            <Change screen="03" scroll="00" />
-          </ScrollData>
-        </PLM>
-        <PLM>
-          <type>B703</type>
-          <x>20</x>
-          <y>00</y>
-          <ScrollData>
-            <Change screen="04" scroll="00" />
-            <Change screen="05" scroll="00" />
-            <Change screen="06" scroll="00" />
-            <Change screen="07" scroll="00" />
-          </ScrollData>
-        </PLM>
-        <PLM>
-          <type>EF27</type>
-          <x>1D</x>
-          <y>00</y>
-          <arg>0013</arg>
-        </PLM>
-        <PLM>
-          <type>EF27</type>
-          <x>1F</x>
-          <y>00</y>
-          <arg>0014</arg>
-        </PLM>
-        <PLM>
-          <type>EF27</type>
-          <x>1E</x>
-          <y>00</y>
-          <arg>0015</arg>
         </PLM>
         <PLM>
           <type>C842</type>
