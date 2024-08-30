@@ -21,6 +21,7 @@ macro leftshift(addr, repeats)
         asl
         a #= a+1
     endif
+    sta <addr>
 endmacro
 
 macro rightshift(addr, repeats)
@@ -30,6 +31,7 @@ macro rightshift(addr, repeats)
         lsr
         a #= a+1
     endif
+    sta <addr>
 endmacro
 
 macro singledrawinst(label, tile)
