@@ -45,8 +45,8 @@
         80FF 80FF 8110 8510 00FF 00FF 00FF 00FF 00FF 00FF 00FF 87FF 8119 8510 80FF 80FF
         80FF 80FF 8110 8510 00FF 00FF 00FF 00FF 00FF 00FF 00FF 87FF 8119 8510 80FF 80FF
         80FF 80FF 8110 8510 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 8110 8510 80FF 80FF
-        80FF 80FF 8110 8510 87FF 87FF 00FF 00FF 00FF 00FF 00FF 00FF 8110 8510 80FF 80FF
-        80FF 80FF 8110 8510 00FF 87FF 87FF 87FF 00FF 00FF 00FF 00FF 8110 8510 80FF 80FF
+        80FF 80FF 8110 8510 12BA 12BB 12BC 00FF 00FF 00FF 00FF 00FF 8110 8510 80FF 80FF
+        80FF 80FF 8110 8510 82DA 82DB 82DC 87FF 00FF 00FF 00FF 00FF 8110 8510 80FF 80FF
         80FF 80FF 8110 8510 00FF 00FF 87FF 87FF 87FF 00FF 00FF 00FF 8110 8510 80FF 80FF
         80FF 80FF 8110 8510 00FF 00FF 00FF 87FF 87FF 805F 00FF 00FF 8110 8510 80FF 80FF
         80FF 80FF 8110 8510 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 8110 8510 80FF 80FF
@@ -83,7 +83,7 @@
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 14 07 54 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -168,8 +168,34 @@
           <paletteblend>62</paletteblend>
         </FX1>
       </FX1s>
-      <Enemies killcount="00" />
-      <EnemyTypes />
+      <Enemies killcount="00">
+        <Enemy>
+          <ID>DA7F</ID>
+          <X>0058</X>
+          <Y>0078</Y>
+          <tilemap>0000</tilemap>
+          <special>6800</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>DA7F</ID>
+          <X>0058</X>
+          <Y>0080</Y>
+          <tilemap>0000</tilemap>
+          <special>6800</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+      </Enemies>
+      <EnemyTypes>
+        <Enemy>
+          <GFX>DA7F</GFX>
+          <palette>0001</palette>
+        </Enemy>
+      </EnemyTypes>
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>

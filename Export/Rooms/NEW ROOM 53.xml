@@ -21,6 +21,17 @@
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
+    <Door>
+      <toroom area="04" index="15" />
+      <bitflag>00</bitflag>
+      <direction>00</direction>
+      <tilex>1</tilex>
+      <tiley>6</tiley>
+      <screenx>00</screenx>
+      <screeny>00</screeny>
+      <distance>8000</distance>
+      <doorcode>0000</doorcode>
+    </Door>
   </Doors>
   <States>
     <State condition="default">
@@ -144,17 +155,17 @@
       <music>0000</music>
       <FX1s>
         <FX1 default="true">
-          <surfacestart>FFFF</surfacestart>
+          <surfacestart>00AF</surfacestart>
           <surfacenew>FFFF</surfacenew>
           <surfacespeed>0000</surfacespeed>
           <surfacedelay>00</surfacedelay>
-          <type>0C</type>
+          <type>06</type>
           <transparency1_A>02</transparency1_A>
           <transparency2_B>24</transparency2_B>
           <liquidflags_C>00</liquidflags_C>
           <paletteflags>00</paletteflags>
           <animationflags>00</animationflags>
-          <paletteblend>56</paletteblend>
+          <paletteblend>E1</paletteblend>
         </FX1>
       </FX1s>
       <Enemies killcount="00" />
