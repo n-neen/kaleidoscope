@@ -24,7 +24,7 @@ org $a7ff82
     
     jsl $888aa4     ;spawn pb explosion
     
-    lda #$f800      ;pointer to the below routine
+    lda.w #roomasm  ;pointer to the below routine
     sta $07df       ;set main room routine pointer
     
     stz !counter
@@ -33,7 +33,7 @@ org $a7ff82
     
         
 org $8ff800                     ;see "phantoon_roomdrawing_plm.asm"
-
+roomasm:
     lda !counter                ;number of frames to wait before spawning plms
     inc                         ;this is to wait until the pb is at maximum fuzz
     sta !counter

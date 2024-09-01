@@ -21,6 +21,7 @@ org $84e30f                                         ;in x-ray plm instruction li
 !bg1y     = $b3
 !bg2x     = $b5
 !bg2y     = $b7
+!90free   = $90fe00
 
 ;=============================================main item funcionality code
 org $91caf2
@@ -142,3 +143,19 @@ org $809a49
     ldx #$0028
 org $809d6e+8
     dw $0028
+    
+    ;hud shortcut to kaleidoscope:
+org $9094f2         ;overwriting some grapple beam scrolling thing
+    lda $09a4       ;if xray not collected, exit
+    bpl +
+
+    lda $09ba       ;item select binding
+    ora #$0030      ;L+R
+    cmp $8b         ;if not pressing L+R+[itemselect], exit
+    bne +
+    
+    lda #$0005
+    sta $0a04       ;activate xray hud index as one-time use item
+    sta $09d2
++   jmp $9557
+    ;warn pc
