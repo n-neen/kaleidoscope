@@ -149,9 +149,9 @@ org $9094f2         ;overwriting some grapple beam scrolling thing
     lda $09a4       ;if xray not collected, exit
     bpl +
 
-    lda $09ba       ;item select binding
-    ora #$0030      ;L+R
-    cmp $8b         ;if not pressing L+R+[itemselect], exit
+    lda $09b6       ;dash binding
+    ora #$0430      ;L+R+down
+    cmp $8b         ;if not pressing L+R+[dash], exit
     bne +
     
     lda #$0005

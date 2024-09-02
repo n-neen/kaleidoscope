@@ -15,6 +15,5 @@ org $a2ab1f
     org $a2ab40     ;skip over some unused bytes
     there:
 
-
-
-    ;7ed900     2 bit is save 1? so 4 bit is save 2
+org $82b6d4         ;skip ship icon on map
+    nop #7
