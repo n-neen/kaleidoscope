@@ -2128,6 +2128,18 @@
           <y>48</y>
           <arg>2E16</arg>
         </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>1F</x>
+          <y>36</y>
+          <arg>00EA</arg>
+        </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>1E</x>
+          <y>38</y>
+          <arg>00EA</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>F1AD</layer1_2>

@@ -477,6 +477,24 @@
           <y>1E</y>
           <arg>0011</arg>
         </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>08</x>
+          <y>29</y>
+          <arg>00E8</arg>
+        </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>08</x>
+          <y>05</y>
+          <arg>00E9</arg>
+        </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>09</x>
+          <y>04</y>
+          <arg>00E9</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>F1AD</layer1_2>

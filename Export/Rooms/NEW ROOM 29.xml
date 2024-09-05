@@ -2079,13 +2079,13 @@
           <type>FE00</type>
           <x>40</x>
           <y>08</y>
-          <arg>00D0</arg>
+          <arg>00FE</arg>
         </PLM>
         <PLM>
           <type>FE00</type>
           <x>28</x>
           <y>0A</y>
-          <arg>00D1</arg>
+          <arg>00FF</arg>
         </PLM>
         <PLM>
           <type>B703</type>

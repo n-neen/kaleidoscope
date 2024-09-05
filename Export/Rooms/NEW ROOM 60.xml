@@ -123,12 +123,6 @@
           <arg>0038</arg>
         </PLM>
         <PLM>
-          <type>F000</type>
-          <x>0E</x>
-          <y>00</y>
-          <arg>0000</arg>
-        </PLM>
-        <PLM>
           <type>FA20</type>
           <x>02</x>
           <y>00</y>

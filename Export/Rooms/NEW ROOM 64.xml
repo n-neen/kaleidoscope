@@ -2506,7 +2506,7 @@
           <type>FE00</type>
           <x>2E</x>
           <y>23</y>
-          <arg>00F1</arg>
+          <arg>00CC</arg>
         </PLM>
         <PLM>
           <type>EF83</type>
@@ -2518,7 +2518,7 @@
           <type>FE00</type>
           <x>2F</x>
           <y>2D</y>
-          <arg>00F1</arg>
+          <arg>00CC</arg>
         </PLM>
       </PLMs>
       <BGData />

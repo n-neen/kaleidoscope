@@ -784,7 +784,7 @@
         00FF 00FF 00FF 0767 0307 82EF 82EF 82EF 82EF 82EF 82EF 82EF 82EF 82EF 82EF 02ED
         00FF 00FF 0F06 0B0C 0306 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 0767 82E3 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
-        8304 0305 0306 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
+        0304 0305 0306 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
@@ -2727,8 +2727,38 @@
           <paletteblend>19</paletteblend>
         </FX1>
       </FX1s>
-      <Enemies killcount="00" />
-      <EnemyTypes />
+      <Enemies killcount="00">
+        <Enemy>
+          <ID>D6FF</ID>
+          <X>0535</X>
+          <Y>03A2</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>000D</speed>
+          <speed2>0205</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D6FF</ID>
+          <X>0257</X>
+          <Y>039F</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>010A</speed>
+          <speed2>0205</speed2>
+        </Enemy>
+      </Enemies>
+      <EnemyTypes>
+        <Enemy>
+          <GFX>D6FF</GFX>
+          <palette>0007</palette>
+        </Enemy>
+        <Enemy>
+          <GFX>E9FF</GFX>
+          <palette>0007</palette>
+        </Enemy>
+      </EnemyTypes>
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>

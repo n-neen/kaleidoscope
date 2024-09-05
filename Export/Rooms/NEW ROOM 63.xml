@@ -1006,7 +1006,7 @@
           <type>FE00</type>
           <x>1C</x>
           <y>13</y>
-          <arg>00EF</arg>
+          <arg>00C8</arg>
         </PLM>
         <PLM>
           <type>C842</type>
@@ -1987,7 +1987,7 @@
           <type>FE00</type>
           <x>1C</x>
           <y>13</y>
-          <arg>00EF</arg>
+          <arg>00C8</arg>
         </PLM>
         <PLM>
           <type>DB5A</type>

@@ -888,7 +888,13 @@
           <type>FE00</type>
           <x>54</x>
           <y>17</y>
-          <arg>00FA</arg>
+          <arg>00ED</arg>
+        </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>11</x>
+          <y>09</y>
+          <arg>00EC</arg>
         </PLM>
       </PLMs>
       <BGData />

@@ -1704,6 +1704,24 @@
           <y>37</y>
           <arg>0000</arg>
         </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>21</x>
+          <y>3A</y>
+          <arg>00CE</arg>
+        </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>49</x>
+          <y>24</y>
+          <arg>00CD</arg>
+        </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>49</x>
+          <y>2B</y>
+          <arg>00CF</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>91D3</layer1_2>

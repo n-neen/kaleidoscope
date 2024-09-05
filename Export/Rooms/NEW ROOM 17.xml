@@ -431,6 +431,12 @@
           <y>07</y>
           <arg>000D</arg>
         </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>0E</x>
+          <y>08</y>
+          <arg>00E6</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>F1AD</layer1_2>

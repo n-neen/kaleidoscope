@@ -699,37 +699,37 @@
           <type>FE00</type>
           <x>11</x>
           <y>08</y>
-          <arg>00FE</arg>
+          <arg>00EF</arg>
         </PLM>
         <PLM>
           <type>FE00</type>
           <x>08</x>
           <y>12</y>
-          <arg>00FE</arg>
+          <arg>00EF</arg>
         </PLM>
         <PLM>
           <type>FE00</type>
           <x>1B</x>
           <y>08</y>
-          <arg>00FE</arg>
+          <arg>00EF</arg>
         </PLM>
         <PLM>
           <type>FE00</type>
           <x>2A</x>
           <y>07</y>
-          <arg>00FE</arg>
+          <arg>00EF</arg>
         </PLM>
         <PLM>
           <type>FE00</type>
           <x>08</x>
           <y>05</y>
-          <arg>00FE</arg>
+          <arg>00EF</arg>
         </PLM>
         <PLM>
           <type>FE00</type>
           <x>35</x>
           <y>08</y>
-          <arg>00FE</arg>
+          <arg>00EF</arg>
         </PLM>
       </PLMs>
       <BGData />

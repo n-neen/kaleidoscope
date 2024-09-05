@@ -761,6 +761,12 @@
             <Change screen="04" scroll="01" />
           </ScrollData>
         </PLM>
+        <PLM>
+          <type>FE00</type>
+          <x>40</x>
+          <y>09</y>
+          <arg>00E7</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>F1AD</layer1_2>
