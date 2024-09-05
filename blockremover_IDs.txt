@@ -27,3 +27,4 @@ cb    speed blocks,                       landing site      x
 ca    pb blocks, left,                    landing site      x
 c9    pb blocks, right,                   landing site      x
 c8    pb blocks,                          room 63           x
+c7    pb blocks,                          room 64

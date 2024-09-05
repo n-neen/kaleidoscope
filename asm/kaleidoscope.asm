@@ -150,8 +150,8 @@ org $9094f2         ;overwriting some grapple beam scrolling thing
     bpl +
 
     lda $09b6       ;dash binding
-    ora #$0430      ;L+R+down
-    cmp $8b         ;if not pressing L+R+[dash], exit
+    ora #$0830      ;L+R+up
+    cmp $8b         ;if not pressing L+R+[dash]+up, exit
     bne +
     
     lda #$0005

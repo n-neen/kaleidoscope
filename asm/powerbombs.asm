@@ -17,6 +17,10 @@ org $888211                         ;pointers to the four types of pb layer blen
     ;$80ca = pointer to blending type $16 (the good one)
     ;for the hack this patch was intended for, for simplicity's sake,
     ;i just made all of these the same
+    ;UPDATE: this is made useless by the following rts:
+    
+org $8881fe                         ;don't change any layer blending for pbs
+    rts
     
 org $888aba                         ;power bomb hdma object types and targets
     db $40, $32                     ;$(21)2d = subscreen layers
