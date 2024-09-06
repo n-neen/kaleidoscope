@@ -48,13 +48,13 @@
       <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="00" index="37" />
+      <toroom area="00" index="10" />
       <bitflag>00</bitflag>
-      <direction>04</direction>
+      <direction>00</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
       <screenx>00</screenx>
-      <screeny>01</screeny>
+      <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
@@ -93,6 +93,17 @@
     </Door>
     <Door>
       <toroom area="00" index="0E" />
+      <bitflag>00</bitflag>
+      <direction>00</direction>
+      <tilex>0</tilex>
+      <tiley>0</tiley>
+      <screenx>00</screenx>
+      <screeny>00</screeny>
+      <distance>8000</distance>
+      <doorcode>0000</doorcode>
+    </Door>
+    <Door>
+      <toroom area="00" index="10" />
       <bitflag>00</bitflag>
       <direction>00</direction>
       <tilex>0</tilex>

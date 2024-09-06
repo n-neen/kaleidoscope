@@ -11,29 +11,24 @@
   <specialGFX>01</specialGFX>
   <Doors>
     <Door>
-      <toroom area="00" index="37" />
+      <toroom area="00" index="12" />
       <bitflag>00</bitflag>
-      <direction>04</direction>
+      <direction>00</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
       <screenx>00</screenx>
-      <screeny>02</screeny>
+      <screeny>00</screeny>
       <distance>8000</distance>
-      <doorcode>
-        <ScrollData>
-          <Change screen="00" scroll="02" />
-          <Change screen="02" scroll="02" />
-        </ScrollData>
-      </doorcode>
+      <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="00" index="08" />
+      <toroom area="00" index="10" />
       <bitflag>00</bitflag>
-      <direction>05</direction>
+      <direction>01</direction>
       <tilex>E</tilex>
       <tiley>6</tiley>
-      <screenx>03</screenx>
-      <screeny>07</screeny>
+      <screenx>02</screenx>
+      <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
