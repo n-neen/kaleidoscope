@@ -39,6 +39,14 @@ macro singledrawinst(label, tile)
     dw $0001, $00<tile>, $0000
 endmacro
 
+macro laypowerbomb(x, y)        ;16 bytes
+    lda #$<x>                   ;power bomb explosion x position
+    sta $0ce2
+    lda #$<y>                   ;power bomb y position
+    sta $0ce4
+    jsl $888aa4                 ;spawn pb explosion
+endmacro
+
 ;macro marco()
 ;    <>
 ;endmacro

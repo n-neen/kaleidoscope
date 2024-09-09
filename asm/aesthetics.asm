@@ -1,5 +1,7 @@
 lorom
 
+incsrc ./macros.asm
+
 ;org $8deed9         ;color index to glow in brinstar $02 bit. starts at $7ec000
 ;    dw $0036        ;third palette blend color
 
@@ -36,4 +38,16 @@ org $a099bd         ;projectile-to-projectile collision granularity
     
     
 org $88e046
-    lda #$001c      ;suit pickup layer blending mode (varia)
+    lda #$0016      ;suit pickup layer blending mode (varia)
+    
+org $88e07c
+    lda #$0024      ;suit pickup layer blending mode (gravity)
+
+org $88e09d
+    jsr pbsuit
+
+org $88f300
+    pbsuit:
+    %laypowerbomb(0080, 0080)
+    ldx #$0000
+    rts

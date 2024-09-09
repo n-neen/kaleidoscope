@@ -2,7 +2,7 @@
   <Saves>
     <SaveRoom>
       <saveindex>04</saveindex>
-      <indoor roomarea="00" roomindex="08" doorindex="08" />
+      <indoor roomarea="00" roomindex="08" doorindex="09" />
       <unused>0000</unused>
       <unused>0000</unused>
       <screenx>0100</screenx>
@@ -163,8 +163,8 @@
           <Screen X="0" Y="0">
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
-        00FF 00FF 00FF 00FF 00FF 00FF 0300 0301 0302 0303 0304 0305 0306 0307 0308 0309
-        00FF 00FF 00FF 00FF 00FF 00FF 0320 0321 0322 0323 0324 0325 0326 0327 0328 0329
+        00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         0300 0302 00FF 0322 0323 0324 0724 0723 0722 0322 0323 0324 0724 0723 0722 0322
@@ -181,8 +181,8 @@
           <Screen X="1" Y="0">
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
-        030A 030B 030C 030D 030E 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
-        032A 032B 032C 032D 032E 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         0323 0324 0724 0723 0722 0322 0323 0324 0724 0723 0722 0322 0323 0324 0724 0723
@@ -230,13 +230,13 @@
           <liquidflags_C>03</liquidflags_C>
           <paletteflags>00</paletteflags>
           <animationflags>00</animationflags>
-          <paletteblend>C8</paletteblend>
+          <paletteblend>C4</paletteblend>
         </FX1>
       </FX1s>
       <Enemies killcount="00" />
       <EnemyTypes />
       <layer2_type>Layer2</layer2_type>
-      <layer2_xscroll>00</layer2_xscroll>
+      <layer2_xscroll>80</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
       <ScrollData const="0000" />
       <roomvar>0000</roomvar>

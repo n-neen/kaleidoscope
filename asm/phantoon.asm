@@ -1,5 +1,7 @@
 lorom
 
+incsrc ./macros.asm
+
 !counter = $9e
 
 ;$09C4
@@ -14,15 +16,13 @@ org $a7db56     ;5 bytes
 org $a7ff82
     roomchange:
     
-    ;spawn power bomb
+    %laypowerbomb(0180, 0090)
     
-    lda #$0180      ;power bomb explosion x position
-    sta $0ce2
-    
-    lda #$0090      ;power bomb y position
-    sta $0ce4
-    
-    jsl $888aa4     ;spawn pb explosion
+    ;lda #$0180      ;power bomb explosion x position
+    ;sta $0ce2
+    ;lda #$0090      ;power bomb y position
+    ;sta $0ce4
+    ;jsl $888aa4     ;spawn pb explosion
     
     lda.w #roomasm  ;pointer to the below routine
     sta $07df       ;set main room routine pointer

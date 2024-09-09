@@ -1522,14 +1522,14 @@
         </PLM>
         <PLM>
           <type>C848</type>
-          <x>07</x>
-          <y>58</y>
+          <x>08</x>
+          <y>19</y>
           <arg>0C0B</arg>
         </PLM>
         <PLM>
           <type>C842</type>
-          <x>3E</x>
-          <y>04</y>
+          <x>06</x>
+          <y>19</y>
           <arg>0C0C</arg>
         </PLM>
       </PLMs>
