@@ -128,7 +128,7 @@ org $88ff00
         
 org $90fff0
     longshort:              ;speed echoes spawn
-        jsr $d40d
+        jsr $d40d           ;d40d
         rtl
         
 org $91d2c3                 ;skip backdrop color set to grey during xray

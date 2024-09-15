@@ -1,30 +1,40 @@
-crateria: (ff-f0 reserved)
 
-ID    block                               room              note (out of sequence reasoning)
-06    crumble blocks,                     room 25           same ID as kaleidoscope
-ff    pb blocks,                          room 29           x
-fe    speed blocks,                       room 29           x
-    
-brinstar: (ef-d0 reserved)
-ef    speed blocks,                       room 19           x
-ee    screw blocks,                       room 15           x
-ed    pre/post kraid super block right,   room 39           x
-ec    pre/post kraid super block left,    room 39           x
-eb    screw blocks,                       room 10           x
-ea    screw blocks on way to kraid,       room 43           x
-e9    screw blocks after torizo,          room 5            x
-e8    super block,                        room 5            x
-e7    super block,                        room 13           x
-e6    screw blocks,                       room 17           x
-e5    screw blocks,                       room 20           currently on hold (plm not present)
-    
-maridia: (cf-b0 reserved)
-cf    screw blocks (upper),               room 11           x
-ce    screw blocks (lower),               room 11           x
-cd    speed blocks,                       room 11           x
-cc    speed blocks,                       room 64           x
-cb    speed blocks,                       landing site      x
-ca    pb blocks, left,                    landing site      x
-c9    pb blocks, right,                   landing site      x
-c8    pb blocks,                          room 63           x
-c7    pb blocks,                          room 64
+
+
+Kejardon's block remover
+uses item IDs
+
+    crateria: (ff-f0 reserved)
+        ID    block                               room              note (out of sequence reasoning)
+        06    crumble blocks,                     room 25           same ID as kaleidoscope
+        ff    pb blocks,                          room 29           x
+        fe    speed blocks,                       room 29           x
+            
+    brinstar: (ef-d0 reserved)
+        ef    speed blocks,                       room 19           x
+        ee    screw blocks,                       room 15           x
+        ed    pre/post kraid super block right,   room 39           x
+        ec    pre/post kraid super block left,    room 39           x
+        eb    screw blocks,                       room 10           x
+        ea    screw blocks on way to kraid,       room 43           x
+        e9    screw blocks after torizo,          room 5            x
+        e8    super block,                        room 5            x
+        e7    super block,                        room 13           x
+        e6    screw blocks,                       room 17           x
+        xx    screw blocks,                       room 20           moved to Vener's plm, see below
+            
+    maridia: (cf-b0 reserved)
+        cf    screw blocks (upper),               room 11           x
+        ce    screw blocks (lower),               room 11           x
+        cd    speed blocks,                       room 11           x
+        cc    speed blocks,                       room 64           x
+        cb    speed blocks,                       landing site      x
+        ca    pb blocks, left,                    landing site      x
+        c9    pb blocks, right,                   landing site      x
+        c8    pb blocks,                          room 63           x
+        c7    pb blocks,                          room 64           x
+        
+Vener's block remover
+uses event IDs. Event FF reserved for quickmet flag
+
+        fe   screw blocks,                        room 20
