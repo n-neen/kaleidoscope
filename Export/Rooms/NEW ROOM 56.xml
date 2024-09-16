@@ -790,7 +790,38 @@
           <paletteblend>56</paletteblend>
         </FX1>
       </FX1s>
-      <Enemies killcount="00" />
+      <Enemies killcount="00">
+        <Enemy>
+          <ID>F193</ID>
+          <X>011F</X>
+          <Y>00A6</Y>
+          <tilemap>0000</tilemap>
+          <special>6000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>F193</ID>
+          <X>011F</X>
+          <Y>00A9</Y>
+          <tilemap>0000</tilemap>
+          <special>6000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>F193</ID>
+          <X>011F</X>
+          <Y>00AC</Y>
+          <tilemap>0000</tilemap>
+          <special>6000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+      </Enemies>
       <EnemyTypes>
         <Enemy>
           <GFX>F193</GFX>

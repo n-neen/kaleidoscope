@@ -29,11 +29,11 @@
   <SpriteLayer>0x05</SpriteLayer>
   <Drops>
     <SmallHealth>0x00</SmallHealth>
-    <LargeHealth>0x4A</LargeHealth>
-    <Missile>0x4A</Missile>
+    <LargeHealth>0x48</LargeHealth>
+    <Missile>0x29</Missile>
     <Nothing>0x00</Nothing>
-    <SuperMissile>0x4A</SuperMissile>
-    <PowerBomb>0x1F</PowerBomb>
+    <SuperMissile>0x6F</SuperMissile>
+    <PowerBomb>0x1D</PowerBomb>
   </Drops>
   <Vulnerabilities>
     <Power>0x02</Power>
