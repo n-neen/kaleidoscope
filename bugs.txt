@@ -2,3 +2,4 @@ room 5 super block PLM crash
         door-agnostic. shot block specific
         super block works if moved one block up
 kaleidoscope spark echoes stop spawning after too many uses in a room (projectile slots? not properly deleted?)
+palette 0 visible during door transitions (whoooooooops)
