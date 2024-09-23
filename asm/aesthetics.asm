@@ -25,7 +25,6 @@ db $2B              ;xray $8000 argument plm crash fix (by amoeba)
 org $90AB00         ;maptile exploring nonsense removal (tundain)
 BRA $06
 
-
 org $a099bd         ;projectile-to-projectile collision granularity
     and #$ffe0      ;higher number=more precision and more lag
     skip 5          ;vanilla=#$ffe0
@@ -35,19 +34,29 @@ org $a099bd         ;projectile-to-projectile collision granularity
     skip 5
     and #$ffe0
     
-    
-    
 org $88e046
     lda #$0016      ;suit pickup layer blending mode (varia)
     
 org $88e07c
     lda #$0024      ;suit pickup layer blending mode (gravity)
-
+    
 org $88e09d
     jsr pbsuit
-
+    
 org $88f300
     pbsuit:
     %laypowerbomb(0080, 0080)
     ldx #$0000
     rts
+    
+org $81b324         ;default buttons/moonwalk flag
+    lda #$8000      ;jump binding = B
+    skip 3
+    lda #$4000      ;dash binding = Y
+    skip 9
+    lda #$0080      ;item cancel binding = A
+org $81b35d
+    nop #3
+    skip 3
+    lda #$0001      ;turn on moonwalk
+    sta $09e4

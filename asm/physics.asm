@@ -38,3 +38,31 @@ org $90991c
     bit #$0020
 org $9099a9
     bit #$0020
+    
+    
+    
+    
+;scalable pseudoscrew
+;org $a0a4d2
+;    beq here
+;org $a0a4dd
+;    here:
+;        jmp pseudoscale
+;org $a0fa00         ;equipped beams $09a6
+;    !pseudo_dmg = $099a
+;    pseudoscale:
+;        sep #$20
+;        lda $09a6               ;a = equipped beams
+;        and #$0f                ;bottom nibble only
+;        asl #4                  ;shift it to the top
+;        ldx #$04                ;init loop counter
+;        .loop
+;            asl                 ;shift bit into carry if it exists
+;            bcc +               ;if it doesn't, loop
+;            inc !pseudo_dmg     ;if it does, inc
+;+           dex
+;            bne .loop           ;next loop if x =/= 0
+;        lda !pseudo_dmg         ;min =0, max =4
+;        asl #7                  ;if 1, after shift it's 128
+;        rep #$20                    ;if 4, after shift it's 512
+;        jmp $a4d4
