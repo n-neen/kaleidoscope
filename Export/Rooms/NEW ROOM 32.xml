@@ -559,6 +559,18 @@
             <Change screen="04" scroll="02" />
           </ScrollData>
         </PLM>
+        <PLM>
+          <type>D409</type>
+          <x>16</x>
+          <y>2A</y>
+          <arg>11FB</arg>
+        </PLM>
+        <PLM>
+          <type>D409</type>
+          <x>15</x>
+          <y>2A</y>
+          <arg>12FB</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>0000</layer1_2>

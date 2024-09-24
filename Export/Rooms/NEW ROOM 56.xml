@@ -60,6 +60,17 @@
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
+    <Door>
+      <toroom area="04" index="0E" />
+      <bitflag>00</bitflag>
+      <direction>00</direction>
+      <tilex>0</tilex>
+      <tiley>0</tiley>
+      <screenx>00</screenx>
+      <screeny>00</screeny>
+      <distance>8000</distance>
+      <doorcode>0000</doorcode>
+    </Door>
   </Doors>
   <States>
     <State condition="default">
@@ -843,8 +854,8 @@
         </Enemy>
         <Enemy>
           <ID>D93F</ID>
-          <X>0648</X>
-          <Y>00A6</Y>
+          <X>0637</X>
+          <Y>0092</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>
@@ -853,8 +864,8 @@
         </Enemy>
         <Enemy>
           <ID>D93F</ID>
-          <X>07F6</X>
-          <Y>00AD</Y>
+          <X>0807</X>
+          <Y>008D</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>
@@ -863,8 +874,8 @@
         </Enemy>
         <Enemy>
           <ID>D93F</ID>
-          <X>090E</X>
-          <Y>00B2</Y>
+          <X>08F5</X>
+          <Y>008D</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>
@@ -873,8 +884,8 @@
         </Enemy>
         <Enemy>
           <ID>D93F</ID>
-          <X>09DC</X>
-          <Y>00A1</Y>
+          <X>09DB</X>
+          <Y>008A</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>
@@ -893,8 +904,8 @@
         </Enemy>
         <Enemy>
           <ID>D93F</ID>
-          <X>0727</X>
-          <Y>00A6</Y>
+          <X>0724</X>
+          <Y>008C</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>
@@ -923,8 +934,8 @@
         </Enemy>
         <Enemy>
           <ID>D93F</ID>
-          <X>0B2D</X>
-          <Y>0057</Y>
+          <X>0B1B</X>
+          <Y>0055</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>
@@ -964,6 +975,12 @@
           <x>06</x>
           <y>02</y>
           <arg>001A</arg>
+        </PLM>
+        <PLM>
+          <type>C89C</type>
+          <x>86</x>
+          <y>02</y>
+          <arg>0011</arg>
         </PLM>
       </PLMs>
       <BGData />

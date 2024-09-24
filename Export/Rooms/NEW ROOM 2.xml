@@ -224,7 +224,7 @@
         81F2 8D45 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 00FF 00FF
         81F2 8D45 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 110E 110F
         81F2 8D45 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 81F2
-        81F2 8D45 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 81F2
+        81F2 8D45 00FF 50FF 50FF 50FF 50FF 50FF 50FF 50FF 50BB 50FF 50FF 50FF 8145 81F2
         81F2 8D45 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 81F2
         81F2 8DD2 150E 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 8211
       </Screen>
@@ -266,17 +266,17 @@
       </Screen>
           <Screen X="0" Y="4">
         81F2 81F2 8D45 00FF 00FF 00FF 00FF 00FF 00FF 00FF 8162 8163 8163 8163 8164 81F1
-        85F1 81F2 8D45 00FF 00FF 00FF 00FF D0FF 50FF 50FF 50BB 00FF 00FF 00FF 8145 81F1
-        8DF1 81F2 8D45 00FF 00FF 00FF 00FF D0FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 81F1
-        8DF1 81F2 8D45 00FF 00FF 00FF 00FF D0FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 85D2
-        81F2 81F2 8D45 00FF 00FF 00FF 00FF D0FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 8545
-        890F 890F 8D0D 00FF 00FF 00FF 00FF D0FF 00FF 00FF 00BB 00FF 00FF 04FF 8145 8545
+        85F1 81F2 8D45 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 81F1
+        8DF1 81F2 8D45 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 81F1
+        8DF1 81F2 8D45 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 85D2
+        81F2 81F2 8D45 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 8145 8545
+        890F 890F 8D0D 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00BB 00FF 00FF 04FF 8145 8545
         9440 C40C 04FF 00FF 00FF 00FF 8162 8163 8163 8163 8164 00FF 00FF 04FF 8145 8DD2
-        9460 D42C 04FF 00FF 00FF 00FF 00BB D0FF 00FF 00FF 00BB 00FF 00FF 04FF 8145 81F1
-        9C60 DC2C 04FF 00FF 00FF 00FF 00BB D0FF 00FF 00FF 00BB 00FF 04FF 04FF 8145 81F1
-        9C40 DC0C 04FF 00FF 00FF 00FF 00BB D0FF 00FF 00FF 00BB 00FF 04FF 04FF 890D 890F
-        810F 810F 850D 00FF 00FF 00FF 00BB D0FF 00FF 00FF 00BB 00FF 00FF 04FF 010D D10F
-        81F2 81F2 8545 00FF 00FF 00FF 00BB D0FF 00FF 00FF 00BB 00FF 00FF 04FF 0110 D111
+        9460 D42C 04FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 00BB 00FF 00FF 04FF 8145 81F1
+        9C60 DC2C 04FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 00BB 00FF 04FF 04FF 8145 81F1
+        9C40 DC0C 04FF 00FF 00FF 00FF 00BB 00FF 00FF 00FF 00BB 00FF 04FF 04FF 890D 890F
+        810F 810F 850D 00FF 00FF 00FF 00BB 00FF 00FF 00FF 00BB 00FF 00FF 04FF D10D 010F
+        81F2 81F2 8545 00FF 00FF 00FF 00BB 00FF 00FF 00FF 00BB 00FF 00FF 04FF D110 0111
         8611 81F2 8545 00FF 00FF 00FF 00BB 12BA 12BB 12BC 00BB 00FF 00FF 00FF 090D 090F
         85F1 81F2 8DD2 810F 810F 810F 810F 82DA 82DB 82DC 810F 810F 810F 810F 810F 810F
         8E11 81F2 81F2 81F2 81F2 81F2 8211 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1
@@ -293,8 +293,8 @@
         8DD2 810F 810F 850E 8145 8545 00FF 00FF 00FF 00FF 00FF 00FF 00FF C1A9 C1AA 00FF
         81F1 85D2 81D2 8DD2 89D2 8545 00FF 00FF 00FF 00FF 00FF C1A7 C1A8 C1C9 C1CA 88C2
         890F 8D0E 890E 890F 890F 8D0D 00FF 00FF 00FF 00FF 00FF 00FF 8160 8161 C9CA 80FF
-        010F D10F 050D 04FF 00FF D0FF 00FF 00FF 00FF 00FF 00FF 8160 8161 C5CA C1CA 80C2
-        0111 D111 0510 00FF 00FF D0FF 00FF 00FF 00FF 00FF 110E 810F 810F 810F 110F 850F
+        010F 010F D50D 04FF D0FF 00FF 00FF 00FF 00FF 00FF 00FF 8160 8161 C5CA C1CA 80C2
+        0111 0111 D510 00FF D0FF 00FF 00FF 00FF 00FF 00FF 110E 810F 810F 810F 110F 850F
         090F 090F 0D0D 00FF 00FF 00FF 00FF 00FF 00FF 00FF 8145 81F1 85B4 81B8 81B8 81B8
         810F 810F 810F 810F 810F 810F 810F 810F 810F 810F 89D2 81F1 81F1 81F1 85B4 81B8
         81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1 81F1
@@ -402,7 +402,7 @@
         00 00 93 93 D2 00 92 93 93 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 92 93 93 00 00 00 00 00 92
         00 00 00 00 00 00 00 00 00 00 00 00 93 D2 00 00
-        00 00 00 00 00 00 00 00 00 00 00 92 93 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 92 D2 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -550,7 +550,7 @@
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 12 13
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 FF FE FD FC FB FA F9 F8 F7 F6 F5 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 52 00 00 00 00 00 00 00 00 00 00 00 00 00
       </Screen>
@@ -592,17 +592,17 @@
       </Screen>
           <Screen X="0" Y="4">
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 0B FF FE FD 00 00 00 00 00
-        00 00 00 00 00 00 00 0A 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 09 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 08 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 07 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         02 41 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        02 FF 00 00 00 00 00 05 00 00 00 00 00 00 00 00
-        02 FE 00 00 00 00 00 04 00 00 00 00 00 00 00 00
-        02 FD 00 00 00 00 00 03 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 02
-        00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 01
+        02 FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        02 FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        02 FD 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00
         00 00 00 00 00 00 00 14 07 54 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -619,8 +619,8 @@
         00 00 00 00 00 00 00 00 00 00 00 00 00 09 09 00
         00 00 00 00 00 00 00 00 00 00 00 09 09 09 09 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 09 00
-        00 02 00 00 00 02 00 00 00 00 00 00 00 09 09 00
-        00 01 00 00 00 01 00 00 00 00 12 00 00 00 13 00
+        00 00 02 00 02 00 00 00 00 00 00 00 00 09 09 00
+        00 00 01 00 01 00 00 00 00 00 12 00 00 00 13 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1095,69 +1095,10 @@
           <arg>0030</arg>
         </PLM>
         <PLM>
-          <type>B703</type>
-          <x>15</x>
-          <y>4C</y>
-          <ScrollData>
-            <Change screen="00" scroll="00" />
-            <Change screen="03" scroll="00" />
-            <Change screen="06" scroll="00" />
-            <Change screen="09" scroll="00" />
-            <Change screen="0C" scroll="00" />
-            <Change screen="0A" scroll="00" />
-            <Change screen="0D" scroll="01" />
-            <Change screen="0E" scroll="01" />
-          </ScrollData>
-        </PLM>
-        <PLM>
-          <type>B703</type>
-          <x>0F</x>
-          <y>4C</y>
-          <ScrollData>
-            <Change screen="00" scroll="01" />
-            <Change screen="03" scroll="01" />
-            <Change screen="06" scroll="01" />
-            <Change screen="09" scroll="02" />
-            <Change screen="0C" scroll="01" />
-            <Change screen="0A" scroll="01" />
-            <Change screen="0B" scroll="01" />
-          </ScrollData>
-        </PLM>
-        <PLM>
-          <type>B703</type>
-          <x>07</x>
-          <y>4C</y>
-          <ScrollData>
-            <Change screen="0D" scroll="00" />
-            <Change screen="0E" scroll="00" />
-          </ScrollData>
-        </PLM>
-        <PLM>
-          <type>B703</type>
-          <x>2B</x>
-          <y>3C</y>
-          <ScrollData>
-            <Change screen="01" scroll="01" />
-            <Change screen="02" scroll="01" />
-          </ScrollData>
-        </PLM>
-        <PLM>
           <type>F200</type>
           <x>1F</x>
           <y>4C</y>
           <arg>0000</arg>
-        </PLM>
-        <PLM>
-          <type>B703</type>
-          <x>11</x>
-          <y>4C</y>
-          <ScrollData>
-            <Change screen="00" scroll="00" />
-            <Change screen="03" scroll="00" />
-            <Change screen="06" scroll="00" />
-            <Change screen="0D" scroll="01" />
-            <Change screen="0E" scroll="01" />
-          </ScrollData>
         </PLM>
         <PLM>
           <type>EF2F</type>
@@ -1182,6 +1123,44 @@
           <x>01</x>
           <y>06</y>
           <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>B703</type>
+          <x>12</x>
+          <y>4C</y>
+          <ScrollData>
+            <Change screen="09" scroll="01" />
+            <Change screen="0C" scroll="01" />
+          </ScrollData>
+        </PLM>
+        <PLM>
+          <type>B703</type>
+          <x>02</x>
+          <y>3D</y>
+          <ScrollData>
+            <Change screen="0A" scroll="01" />
+            <Change screen="0D" scroll="00" />
+            <Change screen="0B" scroll="01" />
+          </ScrollData>
+        </PLM>
+        <PLM>
+          <type>B703</type>
+          <x>14</x>
+          <y>4C</y>
+          <ScrollData>
+            <Change screen="09" scroll="00" />
+            <Change screen="0C" scroll="00" />
+            <Change screen="0A" scroll="00" />
+            <Change screen="0B" scroll="00" />
+          </ScrollData>
+        </PLM>
+        <PLM>
+          <type>B703</type>
+          <x>0E</x>
+          <y>4C</y>
+          <ScrollData>
+            <Change screen="0D" scroll="01" />
+          </ScrollData>
         </PLM>
       </PLMs>
       <BGData />

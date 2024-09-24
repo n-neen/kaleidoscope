@@ -38,3 +38,5 @@ uses event IDs. Event FF reserved for quickmet flag
         fe      screw blocks,                       room 20             x
         fd      super block,                        room 5              x
         fc      crumble blocks,                     room 5              x
+        fb      crumble blocks,                     room 32             x
+        
