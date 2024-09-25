@@ -119,6 +119,12 @@
           <arg>0044</arg>
         </PLM>
         <PLM>
+          <type>EF87</type>
+          <x>05</x>
+          <y>08</y>
+          <arg>0045</arg>
+        </PLM>
+        <PLM>
           <type>FA20</type>
           <x>03</x>
           <y>00</y>
@@ -131,12 +137,6 @@
           <arg>F77D</arg>
         </PLM>
         <PLM>
-          <type>EF87</type>
-          <x>05</x>
-          <y>08</y>
-          <arg>0045</arg>
-        </PLM>
-        <PLM>
           <type>FA20</type>
           <x>04</x>
           <y>00</y>
@@ -147,6 +147,12 @@
           <x>02</x>
           <y>00</y>
           <arg>F79D</arg>
+        </PLM>
+        <PLM>
+          <type>FA20</type>
+          <x>05</x>
+          <y>00</y>
+          <arg>C5C6</arg>
         </PLM>
       </PLMs>
       <BGData />
