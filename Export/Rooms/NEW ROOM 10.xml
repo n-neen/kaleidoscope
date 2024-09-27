@@ -397,22 +397,6 @@
           <arg>00EB</arg>
         </PLM>
         <PLM>
-          <type>B703</type>
-          <x>04</x>
-          <y>00</y>
-          <ScrollData>
-            <Change screen="01" scroll="01" />
-          </ScrollData>
-        </PLM>
-        <PLM>
-          <type>B703</type>
-          <x>03</x>
-          <y>00</y>
-          <ScrollData>
-            <Change screen="01" scroll="02" />
-          </ScrollData>
-        </PLM>
-        <PLM>
           <type>FA20</type>
           <x>02</x>
           <y>00</y>
