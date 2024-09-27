@@ -1,10 +1,10 @@
 <Quickmet>
   <Energy>499</Energy>
   <MaxEnergy>499</MaxEnergy>
-  <Missiles>9</Missiles>
-  <MaxMissiles>9</MaxMissiles>
-  <SuperMissiles>3</SuperMissiles>
-  <MaxSuperMissiles>3</MaxSuperMissiles>
+  <Missiles>27</Missiles>
+  <MaxMissiles>27</MaxMissiles>
+  <SuperMissiles>12</SuperMissiles>
+  <MaxSuperMissiles>12</MaxSuperMissiles>
   <PowerBombs>25</PowerBombs>
   <MaxPowerBombs>25</MaxPowerBombs>
   <ReserveEnergy>0</ReserveEnergy>
