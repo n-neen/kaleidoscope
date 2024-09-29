@@ -2822,11 +2822,7 @@
       <EnemyTypes>
         <Enemy>
           <GFX>F6D3</GFX>
-          <palette>0007</palette>
-        </Enemy>
-        <Enemy>
-          <GFX>F3D3</GFX>
-          <palette>0007</palette>
+          <palette>0001</palette>
         </Enemy>
         <Enemy>
           <GFX>D6FF</GFX>
@@ -2835,6 +2831,10 @@
         <Enemy>
           <GFX>E9FF</GFX>
           <palette>0007</palette>
+        </Enemy>
+        <Enemy>
+          <GFX>E9FF</GFX>
+          <palette>0001</palette>
         </Enemy>
       </EnemyTypes>
       <layer2_type>Layer2</layer2_type>

@@ -28,7 +28,7 @@ uses item IDs
         cc      speed blocks,                       room 64             x
         cb      speed blocks,                       landing site        x
         ca      pb blocks, left,                    landing site        x
-        c9      pb blocks, right,                   landing site        x
+        xx      pb blocks, right,                   landing site        removed as of 9.29.24
         c8      pb blocks,                          room 63             x
         c7      pb blocks,                          room 64             x
         
