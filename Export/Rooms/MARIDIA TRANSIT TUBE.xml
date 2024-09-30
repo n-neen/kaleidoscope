@@ -30,10 +30,10 @@
       <bitflag>00</bitflag>
       <direction>03</direction>
       <tilex>6</tilex>
-      <tiley>2</tiley>
+      <tiley>C</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>
-      <distance>8000</distance>
+      <distance>0280</distance>
       <doorcode>
         <Code OP="A9" ARG="0202" />
         <Code OP="8F" ARG="7ECD20" />
