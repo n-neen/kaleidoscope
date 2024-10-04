@@ -3,7 +3,7 @@
   <index>00</index>
   <area>05</area>
   <x>14</x>
-  <y>09</y>
+  <y>0B</y>
   <width>01</width>
   <height>04</height>
   <upscroll>70</upscroll>
@@ -44,6 +44,17 @@
       <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
+      <screenx>00</screenx>
+      <screeny>00</screeny>
+      <distance>8000</distance>
+      <doorcode>0000</doorcode>
+    </Door>
+    <Door>
+      <toroom area="05" index="01" />
+      <bitflag>00</bitflag>
+      <direction>00</direction>
+      <tilex>0</tilex>
+      <tiley>0</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
