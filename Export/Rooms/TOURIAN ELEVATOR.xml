@@ -11,12 +11,12 @@
   <specialGFX>00</specialGFX>
   <Doors>
     <Door>
-      <toroom area="05" index="00" />
+      <toroom area="05" index="01" />
       <bitflag>00</bitflag>
-      <direction>05</direction>
-      <tilex>E</tilex>
+      <direction>04</direction>
+      <tilex>1</tilex>
       <tiley>6</tiley>
-      <screenx>05</screenx>
+      <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
@@ -42,8 +42,8 @@
       <toroom area="05" index="00" />
       <bitflag>00</bitflag>
       <direction>04</direction>
-      <tilex>1</tilex>
-      <tiley>6</tiley>
+      <tilex>C</tilex>
+      <tiley>4</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
@@ -52,9 +52,9 @@
     <Door>
       <toroom area="05" index="01" />
       <bitflag>00</bitflag>
-      <direction>00</direction>
-      <tilex>0</tilex>
-      <tiley>0</tiley>
+      <direction>04</direction>
+      <tilex>1</tilex>
+      <tiley>6</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
@@ -200,10 +200,10 @@
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 41 00 00 00 00 00 00 00 00 00 00 00 00 40 03
-        00 FF 00 00 00 00 00 00 00 00 00 00 00 00 FF 03
-        00 FE 00 00 00 00 00 00 00 00 00 00 00 00 FE 03
-        00 FD 00 00 00 00 00 00 00 00 00 00 00 00 FD 03
+        00 41 00 00 00 00 00 00 00 00 00 00 00 00 40 00
+        00 FF 00 00 00 00 00 00 00 00 00 00 00 00 FF 00
+        00 FE 00 00 00 00 00 00 00 00 00 00 00 00 FE 00
+        00 FD 00 00 00 00 00 00 00 00 00 00 00 00 FD 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
