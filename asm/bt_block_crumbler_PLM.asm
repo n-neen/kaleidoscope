@@ -6,7 +6,7 @@ incsrc ./macros.asm
 
 ;org defines
 
-!84free = $84f950
+!84free = $84fa60
 !8ffree = $8ff300
 !aafree = $aaf800
 

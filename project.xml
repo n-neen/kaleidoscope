@@ -1,5 +1,5 @@
 <Config Version="1.19.8826.17969">
-  <ROMfile>..\hack6.sfc</ROMfile>
+  <ROMfile>..\kaleidoscope.sfc</ROMfile>
   <PatchQuickmet>false</PatchQuickmet>
   <SaveNames>false</SaveNames>
   <LevelBufferAmount>200</LevelBufferAmount>
@@ -567,10 +567,10 @@
     <Space start="84F580" end="84F5BF" />
     <Space start="84F900" end="84F91A" />
     <Space start="84F91E" end="84F938" />
-    <Space start="84F950" end="84F991" />
     <Space start="84F9A0" end="84F9CC" />
     <Space start="84F9D0" end="84FA0E" />
     <Space start="84FA20" end="84FA30" />
+    <Space start="84FA60" end="84FAA1" />
     <Space start="84FB00" end="84FDCB" />
     <Space start="84FE00" end="84FF4F" />
     <Space start="85817B" end="85818F" />

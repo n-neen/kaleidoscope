@@ -46,7 +46,7 @@
   </Doors>
   <States>
     <State condition="E629">
-      <Arg>02</Arg>
+      <Arg>04</Arg>
       <LevelData Width="4" Height="2">
         <Layer1>
           <Screen X="0" Y="0">
@@ -536,12 +536,6 @@
           <arg>100D</arg>
         </PLM>
         <PLM>
-          <type>EF73</type>
-          <x>04</x>
-          <y>17</y>
-          <arg>0012</arg>
-        </PLM>
-        <PLM>
           <type>B703</type>
           <x>21</x>
           <y>00</y>
@@ -552,12 +546,6 @@
           <x>3D</x>
           <y>15</y>
           <arg>8000</arg>
-        </PLM>
-        <PLM>
-          <type>EF27</type>
-          <x>1D</x>
-          <y>00</y>
-          <arg>0013</arg>
         </PLM>
         <PLM>
           <type>C842</type>

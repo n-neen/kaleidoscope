@@ -85,13 +85,10 @@ org !84free+30
         dw $86bc                        ;delete
         
     screwhudinit:
-        lda $09a4
-        bit #$0008                      ;if screw collected, exit
-        bne +++
         lda #$0001                      ;init to 1 which is actually 0
         sta !screwdmg
         jsl $809a2e                     ;add grapple to hud tilemap
-+++     rts
+        rts
 
 org $809a39                             ;grapple (our screw) moved to vanilla xray spot
     ldx #$002e
@@ -99,4 +96,3 @@ org $809a39                             ;grapple (our screw) moved to vanilla xr
 org $809abd                             ;grapple hud init
     lda $09a4                           ;change to check for screw collected (not grapple equipped)
     bit #$0008
-    
