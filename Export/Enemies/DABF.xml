@@ -1,6 +1,6 @@
 <EnemyHeader>
   <ManualGraphicsAllocation>false</ManualGraphicsAllocation>
-  <Health>0x001E</Health>
+  <Health>0x0014</Health>
   <ContactDamage>0x000F</ContactDamage>
   <XRadius>0x0008</XRadius>
   <YRadius>0x0008</YRadius>
@@ -28,12 +28,12 @@
   <Unused_7>0x0000</Unused_7>
   <SpriteLayer>0x05</SpriteLayer>
   <Drops>
-    <SmallHealth>0x01</SmallHealth>
-    <LargeHealth>0x00</LargeHealth>
-    <Missile>0x00</Missile>
+    <SmallHealth>0x00</SmallHealth>
+    <LargeHealth>0x58</LargeHealth>
+    <Missile>0x3E</Missile>
     <Nothing>0x00</Nothing>
-    <SuperMissile>0x00</SuperMissile>
-    <PowerBomb>0xFE</PowerBomb>
+    <SuperMissile>0x34</SuperMissile>
+    <PowerBomb>0x34</PowerBomb>
   </Drops>
   <Vulnerabilities>
     <Power>0x02</Power>

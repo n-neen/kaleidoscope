@@ -60,5 +60,7 @@ org !aafree
     btcounter:              ;make bt inc the enemy counter. because it doesn't normally
         inc $0e50
         jsl $a0baa4         ;the thing we overwrote (spawn bt drops)
+        lda #$0000
+        jsl $8081fa
         rts
         
