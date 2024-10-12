@@ -49,7 +49,7 @@ endmacro
 
 macro loadby_y(value, templocation)
     ldy #<templocation>
-    lda #<value>
+    lda <value>
     sta <templocation>
 endmacro
 

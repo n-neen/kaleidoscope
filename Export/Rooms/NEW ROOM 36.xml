@@ -68,10 +68,10 @@
       <bitflag>00</bitflag>
       <direction>07</direction>
       <tilex>6</tilex>
-      <tiley>B</tiley>
+      <tiley>D</tiley>
       <screenx>02</screenx>
       <screeny>00</screeny>
-      <distance>0300</distance>
+      <distance>0280</distance>
       <doorcode>0000</doorcode>
     </Door>
     <Door>
