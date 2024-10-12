@@ -27,6 +27,7 @@
           <Change screen="13" scroll="00" />
           <Change screen="14" scroll="00" />
           <Change screen="15" scroll="00" />
+          <Change screen="16" scroll="00" />
         </ScrollData>
       </doorcode>
     </Door>

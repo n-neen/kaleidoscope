@@ -30,7 +30,19 @@
       <screenx>04</screenx>
       <screeny>04</screeny>
       <distance>0240</distance>
-      <doorcode>0000</doorcode>
+      <doorcode>
+        <ScrollData>
+          <Change screen="28" scroll="02" />
+          <Change screen="29" scroll="02" />
+          <Change screen="2A" scroll="02" />
+          <Change screen="2B" scroll="02" />
+          <Change screen="2D" scroll="02" />
+          <Change screen="2E" scroll="02" />
+          <Change screen="2F" scroll="02" />
+          <Change screen="30" scroll="02" />
+          <Change screen="31" scroll="02" />
+        </ScrollData>
+      </doorcode>
     </Door>
   </Doors>
   <States>
@@ -199,7 +211,7 @@
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
-      <ScrollData>01 01 </ScrollData>
+      <ScrollData>01 02 </ScrollData>
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
       <PLMs>

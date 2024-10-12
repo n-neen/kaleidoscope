@@ -44,7 +44,7 @@
       <tiley>A</tiley>
       <screenx>01</screenx>
       <screeny>01</screeny>
-      <distance>0300</distance>
+      <distance>0320</distance>
       <doorcode>0000</doorcode>
     </Door>
     <Door>
@@ -55,7 +55,7 @@
       <tiley>A</tiley>
       <screenx>02</screenx>
       <screeny>01</screeny>
-      <distance>0300</distance>
+      <distance>0320</distance>
       <doorcode>0000</doorcode>
     </Door>
   </Doors>

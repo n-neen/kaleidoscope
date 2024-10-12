@@ -55,6 +55,7 @@ org !80free
     jsr $9d78
     lda #$8000          ;keep missiles infinite
     sta $09c6
+    sta $09c8
     
     lda #$2c0f          ;blank out missile digits
     sta $7ec608+$94
