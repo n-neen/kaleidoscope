@@ -16,10 +16,10 @@ uses item IDs
         eb      screw blocks,                       room 10             x
         ea      screw blocks on way to kraid,       room 43             x
         e9      screw blocks after torizo,          room 5              x
-        xx      super block,                        room 5              moved to Vener's plm, see below
+        xx      super block,                        room 5              e8 moved to Vener's plm, see below
         e7      super block,                        room 13             x
-        e6      screw blocks,                       room 17             x
-        xx      screw blocks,                       room 20             moved to Vener's plm, see below
+        xx      screw blocks,                       room 17             e6 removed 10.12.24
+        xx      screw blocks,                       room 20             e5 moved to Vener's plm, see below
             
     maridia: (cf-b0 reserved)
         cf      screw blocks (upper),               room 11             x
