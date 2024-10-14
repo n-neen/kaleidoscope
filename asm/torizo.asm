@@ -20,6 +20,51 @@ org $a0bab5         ;drop spawn positions
     and #$0f00
 org $a0bac2
     adc !samusy     ;y
+    
+    
+;gt fall height
+
+org $aacad1
+    cmp #$0180
+    bpl $05
+    
+;gt palette
+
+;macro torizo_palette_copypaste()
+;    sta $7ec3a0,x
+;    skip 3
+;    sta $7ec3e0,x
+;endmacro
+
+;org $aac257
+;    %torizo_palette_copypaste()
+
+;org $aac29f
+;    %torizo_palette_copypaste()
+;    
+;org $aac2b7
+;    %torizo_palette_copypaste()
+;    
+;org $aac287
+;    %torizo_palette_copypaste()
+;    
+;org $aac26f
+;    %torizo_palette_copypaste()
+
+
+
+;gt starting location
+
+org $aac961
+    dw $0300    ;x
+    
+org $aac965
+    dw $0030    ;y
+    
+org $aad5ca
+    lda #$0280
+    cmp $0af6
+    bmi $0c
 
 ;=============================STATUE CRASH
 

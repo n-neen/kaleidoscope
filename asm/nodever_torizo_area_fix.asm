@@ -35,8 +35,8 @@ org $AAC895 : JSR MoveSpeed : NOP : NOP : NOP	;seems to be the init check
 org $AAC97C : JSR LoadSpeed						;shot reaction AI
 org $AAC9C2 : JSR LoadSpeed						;???
 
-;org $AAC907 : JSR LoadSpeed	;This is for haze; use the above commented hex tweak to remove haze instead. THIS LINE OF CODE IS UNTESTED.
-;org $AAE7AF : LDX $079F	;DO NOT UNCOMMENT THIS, it would break things
+;org $AAC907 : JSR LoadSpeed        ;This is for haze; use the above commented hex tweak to remove haze instead. THIS LINE OF CODE IS UNTESTED.
+;org $AAE7AF : LDX $079F            ;DO NOT UNCOMMENT THIS, it would break things
 
 
 org !AAFreeSpace

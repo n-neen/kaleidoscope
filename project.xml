@@ -754,11 +754,14 @@
     <Space start="AAC963" end="AAC964" />
     <Space start="AAC97C" end="AAC97E" />
     <Space start="AAC9C2" end="AAC9C4" />
+    <Space start="AACAD1" end="AACAD5" />
+    <Space start="AAD3B5" end="AAD3B8" />
     <Space start="AAD765" end="AAD784" />
     <Space start="AAE74C" end="AAE74E" />
     <Space start="AAF7D3" end="AAF7D7" />
     <Space start="AAF800" end="AAF80E" />
     <Space start="AAF820" end="AAF83E" />
+    <Space start="AAF900" end="AAFB31" />
   </ASMUsedSpaceBankAny>
   <PLMBank>
     <option>Default</option>
