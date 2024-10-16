@@ -66,7 +66,7 @@ org $aac965
     dw $0030        ;y
     
 org $aad5ca         ;gt samus x position trigger
-    lda #$280
+    lda #$0300
     cmp $0af6
     bmi $0c
     
