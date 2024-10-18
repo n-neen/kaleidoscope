@@ -232,15 +232,9 @@
       <PLMs>
         <PLM>
           <type>EF27</type>
-          <x>05</x>
-          <y>09</y>
-          <arg>003B</arg>
-        </PLM>
-        <PLM>
-          <type>EF2F</type>
           <x>04</x>
           <y>0B</y>
-          <arg>4005</arg>
+          <arg>003B</arg>
         </PLM>
       </PLMs>
       <BGData />
