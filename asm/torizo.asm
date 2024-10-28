@@ -1,5 +1,7 @@
 lorom
 
+incsrc ./macros.asm
+
 !samusx         =   $0af6
 !samusy         =   $0afa
 
@@ -73,6 +75,20 @@ org $aad5ca         ;gt samus x position trigger
 org $aacad1
     cmp #$0170      ;gt fall check
     bpl $05
+
+org $aad6aa
+    jsr gtshotreaction
+    nop #3
+
+org $aaff00
+    gtshotreaction:
+    
+    ;stuff goes here
+    ;todo: stuff
+
+    ldx $0e54
+    lda $0f8c,x
+    rts
 
 ;==========================================================STATUE CRASH
 

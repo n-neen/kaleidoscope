@@ -288,15 +288,15 @@
         </Layer2>
       </LevelData>
       <GFXset>1E</GFXset>
-      <music>051E</music>
+      <music>054B</music>
       <FX1s>
         <FX1 default="true">
           <surfacestart>03BC</surfacestart>
           <surfacenew>FFFF</surfacenew>
           <surfacespeed>0000</surfacespeed>
           <surfacedelay>00</surfacedelay>
-          <type>02</type>
-          <transparency1_A>02</transparency1_A>
+          <type>00</type>
+          <transparency1_A>2E</transparency1_A>
           <transparency2_B>16</transparency2_B>
           <liquidflags_C>01</liquidflags_C>
           <paletteflags>02</paletteflags>

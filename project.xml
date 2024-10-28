@@ -744,8 +744,10 @@
     <Space start="A7D937" end="A7D93E" />
     <Space start="A7DB56" end="A7DB5A" />
     <Space start="A7FF82" end="A7FF9A" />
+    <Space start="AA8747" end="AA87C6" />
     <Space start="AAB25E" end="AAB260" />
     <Space start="AAB263" end="AAB266" />
+    <Space start="AAB271" end="AAB273" />
     <Space start="AAC257" end="AAC25A" />
     <Space start="AAC25E" end="AAC261" />
     <Space start="AAC26F" end="AAC272" />
@@ -767,12 +769,14 @@
     <Space start="AACAD1" end="AACAD5" />
     <Space start="AAD3B5" end="AAD3B8" />
     <Space start="AAD5CA" end="AAD5D1" />
+    <Space start="AAD6AA" end="AAD6AF" />
     <Space start="AAD765" end="AAD784" />
     <Space start="AAE74C" end="AAE74E" />
     <Space start="AAF7D3" end="AAF7D7" />
     <Space start="AAF800" end="AAF80E" />
     <Space start="AAF820" end="AAF83E" />
     <Space start="AAF900" end="AAFB31" />
+    <Space start="AAFF00" end="AAFF21" />
   </ASMUsedSpaceBankAny>
   <PLMBank>
     <option>Default</option>
