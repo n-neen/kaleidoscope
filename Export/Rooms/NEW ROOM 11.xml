@@ -1753,6 +1753,12 @@
           <y>2B</y>
           <arg>00CF</arg>
         </PLM>
+        <PLM>
+          <type>EEDF</type>
+          <x>5D</x>
+          <y>35</y>
+          <arg>004A</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>91D3</layer1_2>

@@ -2,8 +2,11 @@ lorom
 
 incsrc ./macros.asm
 
-!samusx         =   $0af6
-!samusy         =   $0afa
+!samusx             =   $0af6
+!samusy             =   $0afa
+
+!torizohitcounter   =   $0364
+!handletorizohit    =   $888fba
 
 ;==========================================================bt
 
@@ -75,20 +78,43 @@ org $aad5ca         ;gt samus x position trigger
 org $aacad1
     cmp #$0170      ;gt fall check
     bpl $05
+    
+    
+;gt hurt reaction
 
-org $aad6aa
-    jsr gtshotreaction
-    nop #3
+org $aad3bd
+    jsr gthurtreaction
 
 org $aaff00
-    gtshotreaction:
+    gthurtreaction:
     
-    ;stuff goes here
-    ;todo: stuff
+    jsr $c620
+    
+    lda !torizohitcounter
+    clc
+    adc #$0003
+    sta !torizohitcounter
 
-    ldx $0e54
-    lda $0f8c,x
     rts
+    
+
+org $8ff8a0         ;main room routine for gt's room
+    lda !torizohitcounter
+    beq +
+    
+    sep #$20
+    lda $77
+    eor #%00001000        ;#$08
+    sta $77
+    rep #$20
+    
+    dec !torizohitcounter
+    rts
+    
++   stz $77
+    rts
+
+
 
 ;==========================================================STATUE CRASH
 

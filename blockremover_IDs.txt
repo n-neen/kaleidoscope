@@ -32,6 +32,9 @@ uses item IDs
         c8      pb blocks,                          room 63             x
         c7      pb blocks,                          room 64             x
         
+    tourian: (af-90 reserved)
+        af      crumble blocks,                     room 75             does not work lol
+        
 Vener's block remover
 uses event IDs. Event FF reserved for quickmet flag
 
@@ -39,4 +42,8 @@ uses event IDs. Event FF reserved for quickmet flag
         fd      super block,                        room 5              x
         fc      crumble blocks,                     room 5              x
         fb      crumble blocks,                     room 32             x
-        
+        fa      crumble block,                      room 75, 1
+        f9      crumble block,                      room 75, 2
+        f8      crumble block,                      room 75, 3
+        f7      crumble block,                      room 75, 4
+        f6      crumble block,                      room 75, 5

@@ -576,6 +576,8 @@
     <Space start="84FB00" end="84FDCB" />
     <Space start="84FE00" end="84FF4F" />
     <Space start="85817B" end="85818F" />
+    <Space start="868391" end="868393" />
+    <Space start="8683B5" end="8683B7" />
     <Space start="86989C" end="8698A1" />
     <Space start="8698E0" end="8698E8" />
     <Space start="869922" end="869927" />
@@ -674,6 +676,7 @@
     <Space start="8FF1AD" end="8FF1C8" />
     <Space start="8FF300" end="8FF313" />
     <Space start="8FF800" end="8FF827" />
+    <Space start="8FF8A0" end="8FF8B5" />
     <Space start="8FFF80" end="8FFFAD" />
     <Space start="9081DB" end="9081DF" />
     <Space start="908502" end="908504" />
@@ -768,15 +771,16 @@
     <Space start="AAC9C2" end="AAC9C4" />
     <Space start="AACAD1" end="AACAD5" />
     <Space start="AAD3B5" end="AAD3B8" />
+    <Space start="AAD3BD" end="AAD3BF" />
     <Space start="AAD5CA" end="AAD5D1" />
-    <Space start="AAD6AA" end="AAD6AF" />
     <Space start="AAD765" end="AAD784" />
     <Space start="AAE74C" end="AAE74E" />
     <Space start="AAF7D3" end="AAF7D7" />
     <Space start="AAF800" end="AAF80E" />
     <Space start="AAF820" end="AAF83E" />
     <Space start="AAF900" end="AAFB31" />
-    <Space start="AAFF00" end="AAFF21" />
+    <Space start="AAFF00" end="AAFF0D" />
+    <Space start="B88000" end="B8C4C1" />
   </ASMUsedSpaceBankAny>
   <PLMBank>
     <option>Default</option>

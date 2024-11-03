@@ -720,7 +720,7 @@
       <layer2_yscroll>00</layer2_yscroll>
       <ScrollData>00 01 01 01 01 00 00 01 01 01 01 00 </ScrollData>
       <roomvar>0000</roomvar>
-      <FX2>0000</FX2>
+      <FX2>F8A0</FX2>
       <PLMs>
         <PLM>
           <type>FA20</type>
