@@ -1,6 +1,6 @@
 <EnemyHeader>
   <ManualGraphicsAllocation>false</ManualGraphicsAllocation>
-  <Health>0x4650</Health>
+  <Health>0x6000</Health>
   <ContactDamage>0x00A0</ContactDamage>
   <XRadius>0x0008</XRadius>
   <YRadius>0x0008</YRadius>
@@ -45,7 +45,7 @@
     <Spazer_Ice>0x80</Spazer_Ice>
     <Spazer_Ice_Wave>0x80</Spazer_Ice_Wave>
     <Plasma>0x80</Plasma>
-    <Plasma_Wave>0x80</Plasma_Wave>
+    <Plasma_Wave>0x81</Plasma_Wave>
     <Plasma_Ice>0x80</Plasma_Ice>
     <Plasma_Ice_Wave>0x80</Plasma_Ice_Wave>
     <Missile>0x82</Missile>
@@ -53,7 +53,7 @@
     <Bomb>0x80</Bomb>
     <PowerBomb>0x82</PowerBomb>
     <SpeedBooster>0x80</SpeedBooster>
-    <ShineSpark>0x80</ShineSpark>
+    <ShineSpark>0x81</ShineSpark>
     <ScrewAttack>0x80</ScrewAttack>
     <ChargedBeam>0x82</ChargedBeam>
     <PseudoScrew>0x80</PseudoScrew>
