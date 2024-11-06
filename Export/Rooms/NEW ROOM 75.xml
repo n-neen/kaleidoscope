@@ -36,7 +36,7 @@
       <toroom area="05" index="04" />
       <bitflag>00</bitflag>
       <direction>00</direction>
-      <tilex>1</tilex>
+      <tilex>4</tilex>
       <tiley>7</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>
@@ -451,8 +451,8 @@
       <PLMs>
         <PLM>
           <type>C842</type>
-          <x>0F</x>
-          <y>51</y>
+          <x>0E</x>
+          <y>57</y>
           <arg>081F</arg>
         </PLM>
         <PLM>

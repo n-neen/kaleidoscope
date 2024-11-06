@@ -11,7 +11,7 @@ org $a6a36c
 org $a6a427
     cmp #$0005
     
-org $a6a469
+org $a6a46c
     cmp #$0005
     
 org $a6a47b
