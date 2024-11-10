@@ -125,8 +125,64 @@
           <paletteblend>53</paletteblend>
         </FX1>
       </FX1s>
-      <Enemies killcount="00" />
-      <EnemyTypes />
+      <Enemies killcount="00">
+        <Enemy>
+          <ID>D87F</ID>
+          <X>0084</X>
+          <Y>0053</Y>
+          <tilemap>0000</tilemap>
+          <special>2400</special>
+          <gfx>0000</gfx>
+          <speed>5002</speed>
+          <speed2>0040</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D87F</ID>
+          <X>008B</X>
+          <Y>005D</Y>
+          <tilemap>0000</tilemap>
+          <special>2400</special>
+          <gfx>0000</gfx>
+          <speed>3001</speed>
+          <speed2>0040</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D87F</ID>
+          <X>0081</X>
+          <Y>005D</Y>
+          <tilemap>0000</tilemap>
+          <special>2400</special>
+          <gfx>0000</gfx>
+          <speed>4001</speed>
+          <speed2>0040</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D87F</ID>
+          <X>007D</X>
+          <Y>0052</Y>
+          <tilemap>0000</tilemap>
+          <special>2400</special>
+          <gfx>0000</gfx>
+          <speed>7002</speed>
+          <speed2>0040</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D87F</ID>
+          <X>0076</X>
+          <Y>005B</Y>
+          <tilemap>0000</tilemap>
+          <special>2400</special>
+          <gfx>0000</gfx>
+          <speed>1001</speed>
+          <speed2>0040</speed2>
+        </Enemy>
+      </Enemies>
+      <EnemyTypes>
+        <Enemy>
+          <GFX>D87F</GFX>
+          <palette>0007</palette>
+        </Enemy>
+      </EnemyTypes>
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>

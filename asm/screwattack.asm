@@ -96,3 +96,4 @@ org $809a39                             ;grapple (our screw) moved to vanilla xr
 org $809abd                             ;grapple hud init
     lda $09a4                           ;change to check for screw collected (not grapple equipped)
     bit #$0008
+    
