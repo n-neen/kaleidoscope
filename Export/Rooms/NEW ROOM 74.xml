@@ -921,7 +921,7 @@
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>80</layer2_xscroll>
       <layer2_yscroll>80</layer2_yscroll>
-      <ScrollData>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 </ScrollData>
+      <ScrollData>01 01 00 01 01 01 01 01 01 01 01 01 01 01 01 </ScrollData>
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
       <PLMs />
