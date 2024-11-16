@@ -17,6 +17,9 @@ org $88803e+$30
     
 org $88803e+$26
     dw evennewerblend
+    
+org $88803e+$1e
+    dw spritesonlyblend     ;see kaleidoscope.asm
 
 
 org $888156         ;have space until $817a
@@ -61,3 +64,14 @@ evennewerblend:
     LDA #$B1    ;\
     STA $71     ;} Enable subtractive colour math on BG1/sprites/backdrop
     RTS         
+
+spritesonlyblend:
+    lda #%00000011      ;main screen layers = 1+2
+    sta $6a
+    lda #%00010011      ;subscreen layers = 1+2+sprites
+    sta $6b
+    lda #%10111111      ;color math enabled everywhere. subtractive math
+    sta $73
+    lda #%00000011      ;enable color math, enable subscreen layers
+    sta $70             ;this is mainly here to overwrite whatever the room fx loaded
+    rts

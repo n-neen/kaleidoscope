@@ -38,7 +38,7 @@
       <LevelData Width="5" Height="2">
         <Layer1>
           <Screen X="0" Y="0">
-        805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F
+        81B0 85B0 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F
         805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F
         805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F 805F
         805F 805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
@@ -220,7 +220,7 @@
         </Layer1>
         <BTS>
           <Screen X="0" Y="0">
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        20 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -591,13 +591,13 @@
           <surfacenew>FFFF</surfacenew>
           <surfacespeed>0000</surfacespeed>
           <surfacedelay>00</surfacedelay>
-          <type>00</type>
+          <type>08</type>
           <transparency1_A>02</transparency1_A>
-          <transparency2_B>02</transparency2_B>
+          <transparency2_B>1E</transparency2_B>
           <liquidflags_C>00</liquidflags_C>
           <paletteflags>00</paletteflags>
           <animationflags>00</animationflags>
-          <paletteblend>00</paletteblend>
+          <paletteblend>E1</paletteblend>
         </FX1>
       </FX1s>
       <Enemies killcount="00" />
@@ -607,10 +607,10 @@
       <layer2_yscroll>00</layer2_yscroll>
       <ScrollData>00 00 00 00 00 01 01 01 01 01 </ScrollData>
       <roomvar>0000</roomvar>
-      <FX2>0000</FX2>
+      <FX2>F1AD</FX2>
       <PLMs />
       <BGData />
-      <layer1_2>91D3</layer1_2>
+      <layer1_2>0000</layer1_2>
     </State>
   </States>
 </Room>
