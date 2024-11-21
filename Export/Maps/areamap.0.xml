@@ -154,7 +154,7 @@
   <MapIcons />
   <SaveIcons>
     <Icon>
-      <X>00D8</X>
+      <X>00D0</X>
       <Y>0030</Y>
     </Icon>
     <Icon>
@@ -218,7 +218,7 @@
       <Y>FFFE</Y>
     </Icon>
     <Icon>
-      <X>00D8</X>
+      <X>00D0</X>
       <Y>0030</Y>
     </Icon>
     <Icon>

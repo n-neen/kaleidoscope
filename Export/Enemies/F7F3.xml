@@ -1,7 +1,7 @@
 <EnemyHeader>
   <ManualGraphicsAllocation>false</ManualGraphicsAllocation>
-  <Health>0x0040</Health>
-  <ContactDamage>0x0030</ContactDamage>
+  <Health>0x7FFF</Health>
+  <ContactDamage>0x0190</ContactDamage>
   <XRadius>0x0010</XRadius>
   <YRadius>0x0010</YRadius>
   <AIBank>0xA8</AIBank>
@@ -59,5 +59,5 @@
     <PseudoScrew>0x02</PseudoScrew>
     <Unused>0x02</Unused>
   </Vulnerabilities>
-  <Name>GAI       </Name>
+  <Name>GHOST2    </Name>
 </EnemyHeader>

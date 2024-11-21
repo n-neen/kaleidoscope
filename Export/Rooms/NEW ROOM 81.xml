@@ -44,11 +44,11 @@
       <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="05" index="07" />
+      <toroom area="05" index="0B" />
       <bitflag>00</bitflag>
       <direction>02</direction>
-      <tilex>0</tilex>
-      <tiley>0</tiley>
+      <tilex>6</tilex>
+      <tiley>1</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>

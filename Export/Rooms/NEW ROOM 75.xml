@@ -58,8 +58,8 @@
       <toroom area="05" index="07" />
       <bitflag>00</bitflag>
       <direction>00</direction>
-      <tilex>B</tilex>
-      <tiley>0</tiley>
+      <tilex>1</tilex>
+      <tiley>4</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
@@ -419,7 +419,7 @@
       </FX1s>
       <Enemies killcount="00">
         <Enemy>
-          <ID>E77F</ID>
+          <ID>F7F3</ID>
           <X>0048</X>
           <Y>0098</Y>
           <tilemap>0000</tilemap>
@@ -441,16 +441,16 @@
       </Enemies>
       <EnemyTypes>
         <Enemy>
-          <GFX>E77F</GFX>
-          <palette>0007</palette>
+          <GFX>F7F3</GFX>
+          <palette>0005</palette>
         </Enemy>
         <Enemy>
           <GFX>E9FF</GFX>
-          <palette>0005</palette>
+          <palette>0007</palette>
         </Enemy>
         <Enemy>
           <GFX>DFBF</GFX>
-          <palette>0005</palette>
+          <palette>0007</palette>
         </Enemy>
       </EnemyTypes>
       <layer2_type>Layer2</layer2_type>

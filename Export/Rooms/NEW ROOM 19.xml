@@ -626,7 +626,7 @@
       <EnemyTypes>
         <Enemy>
           <GFX>E77F</GFX>
-          <palette>0001</palette>
+          <palette>0005</palette>
         </Enemy>
       </EnemyTypes>
       <layer2_type>Layer2</layer2_type>

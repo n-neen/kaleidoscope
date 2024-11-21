@@ -864,7 +864,7 @@
           <type>02</type>
           <transparency1_A>02</transparency1_A>
           <transparency2_B>2E</transparency2_B>
-          <liquidflags_C>83</liquidflags_C>
+          <liquidflags_C>03</liquidflags_C>
           <paletteflags>01</paletteflags>
           <animationflags>03</animationflags>
           <paletteblend>59</paletteblend>
@@ -872,50 +872,40 @@
       </FX1s>
       <Enemies killcount="00">
         <Enemy>
-          <ID>CEBF</ID>
-          <X>04F1</X>
-          <Y>0293</Y>
+          <ID>E83F</ID>
+          <X>02B0</X>
+          <Y>01F8</Y>
+          <tilemap>0000</tilemap>
+          <special>A800</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>1860</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>E83F</ID>
+          <X>02B0</X>
+          <Y>01F8</Y>
           <tilemap>0000</tilemap>
           <special>2800</special>
           <gfx>0000</gfx>
-          <speed>0000</speed>
+          <speed>0001</speed>
           <speed2>0000</speed2>
         </Enemy>
         <Enemy>
-          <ID>CEBF</ID>
-          <X>04EB</X>
-          <Y>01A0</Y>
+          <ID>E83F</ID>
+          <X>02B0</X>
+          <Y>01F8</Y>
           <tilemap>0000</tilemap>
           <special>2800</special>
           <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>CEBF</ID>
-          <X>04F0</X>
-          <Y>010F</Y>
-          <tilemap>0000</tilemap>
-          <special>2800</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>CEBF</ID>
-          <X>04ED</X>
-          <Y>0211</Y>
-          <tilemap>0000</tilemap>
-          <special>2800</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
+          <speed>0002</speed>
           <speed2>0000</speed2>
         </Enemy>
       </Enemies>
       <EnemyTypes>
         <Enemy>
-          <GFX>CEBF</GFX>
-          <palette>0001</palette>
+          <GFX>E83F</GFX>
+          <palette>0007</palette>
         </Enemy>
       </EnemyTypes>
       <layer2_type>Layer2</layer2_type>

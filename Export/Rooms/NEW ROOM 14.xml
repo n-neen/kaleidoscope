@@ -58,8 +58,8 @@
       <toroom area="00" index="11" />
       <bitflag>40</bitflag>
       <direction>00</direction>
-      <tilex>0</tilex>
-      <tiley>0</tiley>
+      <tilex>8</tilex>
+      <tiley>7</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>

@@ -1465,7 +1465,7 @@
           <X>0545</X>
           <Y>028B</Y>
           <tilemap>0000</tilemap>
-          <special>2800</special>
+          <special>2000</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
           <speed2>0000</speed2>
@@ -1475,7 +1475,7 @@
           <X>0545</X>
           <Y>028B</Y>
           <tilemap>0000</tilemap>
-          <special>2800</special>
+          <special>2000</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
           <speed2>0000</speed2>

@@ -65,10 +65,10 @@ evennewerblend:
     STA $71     ;} Enable subtractive colour math on BG1/sprites/backdrop
     RTS         
 
-spritesonlyblend:
+spritesonlyblend:       ;taken from eponymous item
     lda #%00000011      ;main screen layers = 1+2
     sta $6a
-    lda #%00010011      ;subscreen layers = 1+2+sprites
+    lda #%00010111      ;subscreen layers = 1+2+3+sprites
     sta $6b
     lda #%10111111      ;color math enabled everywhere. subtractive math
     sta $73

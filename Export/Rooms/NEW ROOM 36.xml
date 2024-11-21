@@ -2730,10 +2730,10 @@
       <Enemies killcount="00">
         <Enemy>
           <ID>D6FF</ID>
-          <X>0535</X>
-          <Y>03A2</Y>
+          <X>0ACD</X>
+          <Y>039E</Y>
           <tilemap>0000</tilemap>
-          <special>2800</special>
+          <special>2000</special>
           <gfx>0000</gfx>
           <speed>000D</speed>
           <speed2>0205</speed2>

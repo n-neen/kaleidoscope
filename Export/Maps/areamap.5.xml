@@ -152,5 +152,10 @@
   <MissileIcons />
   <EnergyIcons />
   <MapIcons />
-  <SaveIcons />
+  <SaveIcons>
+    <Icon>
+      <X>0070</X>
+      <Y>0030</Y>
+    </Icon>
+  </SaveIcons>
 </Map>
