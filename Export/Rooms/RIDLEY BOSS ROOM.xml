@@ -11,13 +11,13 @@
   <specialGFX>00</specialGFX>
   <Doors>
     <Door>
-      <toroom area="05" index="06" />
+      <toroom area="05" index="0C" />
       <bitflag>00</bitflag>
       <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
       <screenx>00</screenx>
-      <screeny>01</screeny>
+      <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
