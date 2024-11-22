@@ -296,7 +296,7 @@
           <special>6000</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
-          <speed2>0C20</speed2>
+          <speed2>1020</speed2>
         </Enemy>
         <Enemy>
           <ID>F213</ID>
@@ -306,7 +306,7 @@
           <special>6000</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
-          <speed2>0C00</speed2>
+          <speed2>1000</speed2>
         </Enemy>
         <Enemy>
           <ID>F213</ID>
@@ -316,7 +316,7 @@
           <special>6000</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
-          <speed2>0C00</speed2>
+          <speed2>1000</speed2>
         </Enemy>
         <Enemy>
           <ID>F213</ID>
@@ -326,7 +326,7 @@
           <special>6000</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
-          <speed2>0C00</speed2>
+          <speed2>1000</speed2>
         </Enemy>
         <Enemy>
           <ID>F213</ID>
@@ -336,7 +336,7 @@
           <special>6000</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
-          <speed2>0C00</speed2>
+          <speed2>1000</speed2>
         </Enemy>
         <Enemy>
           <ID>D33F</ID>
@@ -350,8 +350,8 @@
         </Enemy>
         <Enemy>
           <ID>D33F</ID>
-          <X>013D</X>
-          <Y>018D</Y>
+          <X>014D</X>
+          <Y>0186</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>

@@ -53,6 +53,16 @@ macro loadby_y(value, templocation)
     sta <templocation>
 endmacro
 
+macro colorinstruction(color, diff, times, frames)
+    dw <frames>
+    dw <color>+(<diff>*<times>)
+    dw !done
+endmacro
+
+macro colorentry(color, diff, times)
+    dw (<color>)+((<diff>)*(<times>))
+endmacro
+
 ;macro marco()
 ;    <>
 ;endmacro

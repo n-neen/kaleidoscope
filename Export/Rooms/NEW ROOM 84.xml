@@ -668,6 +668,12 @@
             <Change screen="09" scroll="00" />
           </ScrollData>
         </PLM>
+        <PLM>
+          <type>FA20</type>
+          <x>00</x>
+          <y>00</y>
+          <arg>F79D</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>0000</layer1_2>
