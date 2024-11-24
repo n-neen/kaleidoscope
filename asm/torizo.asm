@@ -87,24 +87,47 @@ org $aad3bd
 
 org $aaff00
     gthurtreaction:
-    
     jsr $c620
-    
     lda !torizohitcounter
     clc
     adc #$0003
     sta !torizohitcounter
-
     rts
     
+    tankdrop:               ;see "gt death" below
+    phx
+    phy
+    lda $09c4
+    clc
+    adc #$02bc
+    sta $09c4
+    sta $09c2
+    jsl $a0bad7
+    jsl $8483d7
+    db $4f, $16 : dw #gtexitdoor
+    ply
+    plx
+    rts
+    
+org $8480d0
+    gtexitdoor:
+        dw .init, .inst
+    .init:
+        rts
+    .inst:
+        dw $0001, #draw
+        dw $86bc            ;delete
+    draw:
+        dw $8004, $9280, $9282, $9283, $9282, $0000
 
-org $8ff8a0         ;main room routine for gt's room
+
+org $8ff8a0                 ;main room routine for gt's room
     lda !torizohitcounter
     beq +
     
     sep #$20
     lda $77
-    ora #%00001000        ;#$08
+    ora #%00001000          ;#$08
     sta $77
     rep #$20
     
@@ -113,8 +136,13 @@ org $8ff8a0         ;main room routine for gt's room
     
 +   stz $77
     rts
+    
 
+;gt death
 
+org $aab269
+    jsr tankdrop
+    nop
 
 ;==========================================================STATUE CRASH
 

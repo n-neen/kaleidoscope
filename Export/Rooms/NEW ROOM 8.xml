@@ -526,7 +526,7 @@
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
       <ScrollData>00 00 01 01 01 01 01 01 </ScrollData>
-      <roomvar>0000</roomvar>
+      <roomvar>1800</roomvar>
       <FX2>0000</FX2>
       <PLMs>
         <PLM>
@@ -1037,7 +1037,7 @@
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
       <ScrollData>00 00 01 01 01 01 01 01 </ScrollData>
-      <roomvar>0000</roomvar>
+      <roomvar>1800</roomvar>
       <FX2>0000</FX2>
       <PLMs>
         <PLM>

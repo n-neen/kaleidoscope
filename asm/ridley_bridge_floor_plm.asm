@@ -30,3 +30,4 @@ org $848000
         .five:
             dw $000c, $00ff, $00ff, $00ff, $00ff, $00ff, $00ff, $00ff, $00ff, $00ff, $00ff, $00ff, $00ff, $0000
             
+            ;warn pc

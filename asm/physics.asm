@@ -1,7 +1,7 @@
 lorom
 
 org $909ea1         ;samus gravity constant
-    dw $1800        ;air
+    dw $1c00        ;air            ;dev value: 1800; vanilla 1c00
     dw $0580        ;water
     dw $0800        ;lava/acid
     

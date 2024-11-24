@@ -1102,6 +1102,12 @@
           <y>00</y>
           <arg>F79D</arg>
         </PLM>
+        <PLM>
+          <type>C848</type>
+          <x>11</x>
+          <y>56</y>
+          <arg>101F</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>F1AD</layer1_2>
