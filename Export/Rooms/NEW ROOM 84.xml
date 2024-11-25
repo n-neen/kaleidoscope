@@ -612,68 +612,7 @@
           <paletteblend>34</paletteblend>
         </FX1>
       </FX1s>
-      <Enemies killcount="00">
-        <Enemy>
-          <ID>DD7F</ID>
-          <X>00DB</X>
-          <Y>016F</Y>
-          <tilemap>0000</tilemap>
-          <special>2000</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>DD7F</ID>
-          <X>033B</X>
-          <Y>0166</Y>
-          <tilemap>0000</tilemap>
-          <special>2000</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>DD7F</ID>
-          <X>0423</X>
-          <Y>016D</Y>
-          <tilemap>0000</tilemap>
-          <special>2000</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>DD7F</ID>
-          <X>045A</X>
-          <Y>0088</Y>
-          <tilemap>0000</tilemap>
-          <special>2000</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>DD7F</ID>
-          <X>007D</X>
-          <Y>0088</Y>
-          <tilemap>0000</tilemap>
-          <special>2000</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>DD7F</ID>
-          <X>01DC</X>
-          <Y>015F</Y>
-          <tilemap>0000</tilemap>
-          <special>2000</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
-      </Enemies>
+      <Enemies killcount="00" />
       <EnemyTypes>
         <Enemy>
           <GFX>DD7F</GFX>
@@ -746,12 +685,6 @@
           <x>09</x>
           <y>08</y>
           <arg>0022</arg>
-        </PLM>
-        <PLM>
-          <type>C842</type>
-          <x>4E</x>
-          <y>16</y>
-          <arg>0023</arg>
         </PLM>
       </PLMs>
       <BGData />

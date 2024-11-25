@@ -412,7 +412,7 @@
       <layer2_yscroll>00</layer2_yscroll>
       <ScrollData>02 00 02 00 00 00 </ScrollData>
       <roomvar>0000</roomvar>
-      <FX2>E950</FX2>
+      <FX2>FEA0</FX2>
       <PLMs>
         <PLM>
           <type>C842</type>
@@ -440,7 +440,7 @@
         </PLM>
       </PLMs>
       <BGData />
-      <layer1_2>91F7</layer1_2>
+      <layer1_2>0000</layer1_2>
     </State>
     <State condition="default">
       <LevelData Width="2" Height="3">
@@ -819,7 +819,7 @@
       <layer2_yscroll>00</layer2_yscroll>
       <ScrollData>02 00 02 00 00 00 </ScrollData>
       <roomvar>0000</roomvar>
-      <FX2>E950</FX2>
+      <FX2>FEA0</FX2>
       <PLMs>
         <PLM>
           <type>C842</type>
@@ -847,7 +847,7 @@
         </PLM>
       </PLMs>
       <BGData />
-      <layer1_2>91F7</layer1_2>
+      <layer1_2>0000</layer1_2>
     </State>
   </States>
 </Room>

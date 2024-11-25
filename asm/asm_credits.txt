@@ -11,6 +11,11 @@ EnemySolidBlock by Amoebaofdoom
 water tilemap fix by Black Falcon and PJBoy
 Block Remover by Vener
 Complementary suits patch by Maddo and Smiley
+Start Escape Timer with Gray Door by Oi27
+
+[or perhaps just include their names and not every patch used?]
+Assembly:
+Crashtour, Black Falcon, JAM, Kejardon, Nodever2, PJBoy, AmoebaOfDoom, Vener, Maddo, Smiley, Oi27, InsaneFirebat, Scyzer
 
 screw attack changes, kaleidoscope item, screwtank item: by neen
 screwtank concept: RT-55J
