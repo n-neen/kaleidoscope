@@ -71,20 +71,20 @@ org $A08C3F : LDA #$0200
 
 ;extend hud to $20 scanlines        ;currently disabled
 
-org $8096a2
-    ldy #$001f
-    
-org $8096ea
-    ldy #$001f
-    
-org $80972c
-    ldy #$001f
-    
-org $80976a
-    ldy #$001f
-    
-org $8097d3
-    ldy #$001f
-    
-org $82e22a     ;black out all doors (vanilla = bne $3f)
-    bra $3f
+;org $8096a2
+;    ldy #$001f
+;    
+;org $8096ea
+;    ldy #$001f
+;    
+;org $80972c
+;    ldy #$001f
+;    
+;org $80976a
+;    ldy #$001f
+;    
+;org $8097d3
+;    ldy #$001f
+;    
+;org $82e22a     ;black out all doors (vanilla = bne $3f)
+;    bra $3f

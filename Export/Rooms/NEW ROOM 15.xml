@@ -538,8 +538,8 @@
         </Enemy>
         <Enemy>
           <ID>D2FF</ID>
-          <X>02A7</X>
-          <Y>006D</Y>
+          <X>02D3</X>
+          <Y>0050</Y>
           <tilemap>0000</tilemap>
           <special>2800</special>
           <gfx>0000</gfx>

@@ -53,16 +53,15 @@ org $a6febc
     
     jsl $a6c23f     ;set up escape text
     
-    lda #$000e      ;set escape event
-    jsl $8081fa
+    lda #$000e
+    jsl $8081fa     ;set escape event
     
     lda #$0007
-    jsl $808fc1
+    jsl $808fc1     ;queue music track
     
     rts
     
-;org $809e20
-;    lda #$0400      ;escape timer = 4 minutes
+
     
 ;Start_Esc_on GrayDoor by Oi27, embedded here just because:
 ;---------------------------------

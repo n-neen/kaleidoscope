@@ -350,7 +350,7 @@
         </Enemy>
         <Enemy>
           <ID>D33F</ID>
-          <X>00C0</X>
+          <X>00AF</X>
           <Y>0187</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
@@ -370,8 +370,8 @@
         </Enemy>
         <Enemy>
           <ID>D33F</ID>
-          <X>00AC</X>
-          <Y>0145</Y>
+          <X>009F</X>
+          <Y>0146</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>

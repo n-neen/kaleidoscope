@@ -122,6 +122,7 @@ org $8480d0
 
 
 org $8ff8a0                 ;main room routine for gt's room
+    gthit:
     lda !torizohitcounter
     beq +
     
@@ -136,6 +137,11 @@ org $8ff8a0                 ;main room routine for gt's room
     
 +   stz $77
     rts
+    
+    gthitduringescape:      ;f8b6
+        jsr gthit
+        jsr $c124
+        rts
     
 
 ;gt death

@@ -13,7 +13,7 @@
     <Door>
       <toroom area="05" index="05" />
       <bitflag>00</bitflag>
-      <direction>00</direction>
+      <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
       <screenx>00</screenx>
@@ -831,7 +831,7 @@
           <type>C848</type>
           <x>01</x>
           <y>06</y>
-          <arg>005B</arg>
+          <arg>105B</arg>
         </PLM>
         <PLM>
           <type>FA20</type>

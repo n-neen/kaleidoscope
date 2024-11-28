@@ -500,11 +500,6 @@
     <Space start="FF9000" end="FFFFFF" />
   </ScannedFreeSpace>
   <ASMUsedSpaceBankAny>
-    <Space start="8096A2" end="8096A4" />
-    <Space start="8096EA" end="8096EC" />
-    <Space start="80972C" end="80972E" />
-    <Space start="80976A" end="80976C" />
-    <Space start="8097D3" end="8097D5" />
     <Space start="809A39" end="809A3B" />
     <Space start="809A49" end="809A4B" />
     <Space start="809ABD" end="809AC2" />
@@ -536,7 +531,6 @@
     <Space start="828BAF" end="828BB2" />
     <Space start="82B6D4" end="82B6DA" />
     <Space start="82DE32" end="82DE34" />
-    <Space start="82E22A" end="82E22B" />
     <Space start="82E310" end="82E351" />
     <Space start="82E74B" end="82E74D" />
     <Space start="82F5D0" end="82F5D1" />
@@ -703,7 +697,7 @@
     <Space start="8FF1AD" end="8FF1C9" />
     <Space start="8FF300" end="8FF313" />
     <Space start="8FF800" end="8FF827" />
-    <Space start="8FF8A0" end="8FF8B5" />
+    <Space start="8FF8A0" end="8FF8BC" />
     <Space start="8FFEA0" end="8FFEEE" />
     <Space start="8FFF80" end="8FFFAD" />
     <Space start="9081DB" end="9081DF" />

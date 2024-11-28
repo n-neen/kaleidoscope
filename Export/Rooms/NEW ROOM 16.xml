@@ -729,6 +729,24 @@
           <y>23</y>
           <arg>0000</arg>
         </PLM>
+        <PLM>
+          <type>EEDB</type>
+          <x>02</x>
+          <y>2B</y>
+          <arg>004C</arg>
+        </PLM>
+        <PLM>
+          <type>EEDB</type>
+          <x>04</x>
+          <y>1C</y>
+          <arg>004E</arg>
+        </PLM>
+        <PLM>
+          <type>EEDB</type>
+          <x>06</x>
+          <y>27</y>
+          <arg>004D</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>91D3</layer1_2>

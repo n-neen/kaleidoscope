@@ -37,7 +37,6 @@ org $848cf6
 ;    jsr $8136
     
 org $85817b  ;21 bytes
-    ;nop #6
     nop #21
 
 ;xray notably absent from the following

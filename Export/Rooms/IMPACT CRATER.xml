@@ -2927,6 +2927,18 @@
             <Change screen="16" scroll="01" />
           </ScrollData>
         </PLM>
+        <PLM>
+          <type>C872</type>
+          <x>2E</x>
+          <y>18</y>
+          <arg>0030</arg>
+        </PLM>
+        <PLM>
+          <type>C854</type>
+          <x>86</x>
+          <y>42</y>
+          <arg>1030</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>F1AD</layer1_2>
