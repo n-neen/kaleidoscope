@@ -24,7 +24,7 @@
   <Unused_5>0x0000</Unused_5>
   <Unused_6>0x0000</Unused_6>
   <TouchAI>0x8023</TouchAI>
-  <ShotAI>0x802D</ShotAI>
+  <ShotAI>0xFFF0</ShotAI>
   <Unused_7>0x0000</Unused_7>
   <SpriteLayer>0x05</SpriteLayer>
   <Drops>

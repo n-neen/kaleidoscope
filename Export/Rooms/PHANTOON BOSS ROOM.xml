@@ -2,7 +2,7 @@
   <Saves />
   <index>0A</index>
   <area>04</area>
-  <x>1B</x>
+  <x>19</x>
   <y>13</y>
   <width>03</width>
   <height>01</height>
@@ -27,7 +27,7 @@
       <direction>05</direction>
       <tilex>E</tilex>
       <tiley>6</tiley>
-      <screenx>07</screenx>
+      <screenx>05</screenx>
       <screeny>01</screeny>
       <distance>8000</distance>
       <doorcode>

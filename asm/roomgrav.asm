@@ -29,7 +29,6 @@ org !90free                 ;argument:
         phx
         ldx $07bb           ;state header pointer
         lda $8f0010,x       ;roomvar (xray graphics pointer)
-        cmp #$0000
         beq .globalgrav     ;if zero, branch down to normal table read
         cpy #$0002          ;if y = 2, we're in water
         beq .water
