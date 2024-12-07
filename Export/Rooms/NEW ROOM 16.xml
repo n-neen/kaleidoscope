@@ -19,7 +19,14 @@
       <screenx>00</screenx>
       <screeny>02</screeny>
       <distance>8000</distance>
-      <doorcode>0000</doorcode>
+      <doorcode>
+        <ScrollData>
+          <Change screen="0D" scroll="00" />
+          <Change screen="09" scroll="01" />
+          <Change screen="0A" scroll="01" />
+          <Change screen="0C" scroll="01" />
+        </ScrollData>
+      </doorcode>
     </Door>
     <Door>
       <toroom area="00" index="02" />
@@ -30,7 +37,14 @@
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
-      <doorcode>0000</doorcode>
+      <doorcode>
+        <ScrollData>
+          <Change screen="0D" scroll="00" />
+          <Change screen="09" scroll="01" />
+          <Change screen="0A" scroll="01" />
+          <Change screen="0C" scroll="01" />
+        </ScrollData>
+      </doorcode>
     </Door>
   </Doors>
   <States>

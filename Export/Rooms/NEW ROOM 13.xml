@@ -657,15 +657,15 @@
           <X>0109</X>
           <Y>0169</Y>
           <tilemap>0000</tilemap>
-          <special>2800</special>
+          <special>2000</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
           <speed2>0000</speed2>
         </Enemy>
         <Enemy>
           <ID>D27F</ID>
-          <X>0198</X>
-          <Y>0141</Y>
+          <X>019A</X>
+          <Y>0137</Y>
           <tilemap>0000</tilemap>
           <special>2800</special>
           <gfx>0000</gfx>
