@@ -66,7 +66,7 @@ evennewerblend:
     RTS         
 
 spritesonlyblend:       ;taken from eponymous item
-    lda #%00010001      ;main screen layers
+    lda #%00010011      ;main screen layers
     sta $6a
     lda #%00010111      ;subscreen layers
     sta $6b
