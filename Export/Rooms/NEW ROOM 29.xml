@@ -1952,6 +1952,12 @@
           <y>14</y>
           <arg>0000</arg>
         </PLM>
+        <PLM>
+          <type>C85A</type>
+          <x>5E</x>
+          <y>18</y>
+          <arg>0034</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>F1AD</layer1_2>

@@ -23,7 +23,7 @@
   <BaseInstructionListPointer>0x0000</BaseInstructionListPointer>
   <Unused_5>0x0000</Unused_5>
   <Unused_6>0x0000</Unused_6>
-  <TouchAI>0x8023</TouchAI>
+  <TouchAI>0xFFF5</TouchAI>
   <ShotAI>0xFFF0</ShotAI>
   <Unused_7>0x0000</Unused_7>
   <SpriteLayer>0x05</SpriteLayer>

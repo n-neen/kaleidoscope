@@ -66,9 +66,9 @@ evennewerblend:
     RTS         
 
 spritesonlyblend:       ;taken from eponymous item
-    lda #%00000011      ;main screen layers = 1+2
+    lda #%00010001      ;main screen layers
     sta $6a
-    lda #%00010111      ;subscreen layers = 1+2+3+sprites
+    lda #%00010111      ;subscreen layers
     sta $6b
     lda #%10111111      ;color math enabled everywhere. subtractive math
     sta $73
