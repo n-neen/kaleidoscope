@@ -46,7 +46,7 @@ org $8d8000
         %colorentry($0843, 4<<5, 4)
         dw !done
         
-        dw $0020
+        dw $0040
         %colorentry($001f, -4, 4)
         %colorentry($5c05, 3<<10, -5)       ;dwell
         %colorentry($0843, 4<<5, 5)

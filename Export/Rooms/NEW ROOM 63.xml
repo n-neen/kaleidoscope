@@ -58,7 +58,7 @@
       <toroom area="04" index="1A" />
       <bitflag>00</bitflag>
       <direction>00</direction>
-      <tilex>0</tilex>
+      <tilex>7</tilex>
       <tiley>0</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>

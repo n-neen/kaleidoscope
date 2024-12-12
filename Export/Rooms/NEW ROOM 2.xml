@@ -1058,8 +1058,8 @@
           <surfacedelay>00</surfacedelay>
           <type>06</type>
           <transparency1_A>16</transparency1_A>
-          <transparency2_B>2E</transparency2_B>
-          <liquidflags_C>03</liquidflags_C>
+          <transparency2_B>30</transparency2_B>
+          <liquidflags_C>07</liquidflags_C>
           <paletteflags>00</paletteflags>
           <animationflags>00</animationflags>
           <paletteblend>E3</paletteblend>
