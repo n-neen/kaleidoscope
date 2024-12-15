@@ -30,7 +30,23 @@
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
-      <doorcode>0000</doorcode>
+      <doorcode>
+        <Code OP="A9" ARG="0100" />
+        <Code OP="8D" ARG="07E5" />
+        <Code OP="9C" ARG="07E3" />
+        <Code OP="A9" ARG="0040" />
+        <Code OP="8D" ARG="07E3" />
+        <Code OP="A9" ARG="0020" />
+        <Code OP="8D" ARG="07E7" />
+        <Code OP="A9" ARG="0000" />
+        <Code OP="22" ARG="90F084" />
+        <Code OP="22" ARG="8483D7" />
+        <Code OP="01" />
+        <Code OP="00" />
+        <Code OP="F9" />
+        <Code OP="B8" />
+        <Code OP="60" />
+      </doorcode>
     </Door>
     <Door>
       <toroom area="04" index="F0" />
@@ -130,7 +146,7 @@
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
-      <ScrollData const="0000" />
+      <ScrollData const="0001" />
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
       <PLMs />

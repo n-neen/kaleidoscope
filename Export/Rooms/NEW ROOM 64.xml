@@ -5188,12 +5188,6 @@
           <arg>00CC</arg>
         </PLM>
         <PLM>
-          <type>EF83</type>
-          <x>39</x>
-          <y>0E</y>
-          <arg>0042</arg>
-        </PLM>
-        <PLM>
           <type>FE00</type>
           <x>1C</x>
           <y>38</y>
@@ -5204,6 +5198,12 @@
           <x>2F</x>
           <y>2D</y>
           <arg>00CC</arg>
+        </PLM>
+        <PLM>
+          <type>EF83</type>
+          <x>39</x>
+          <y>0E</y>
+          <arg>0042</arg>
         </PLM>
         <PLM>
           <type>C872</type>

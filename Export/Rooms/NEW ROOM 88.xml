@@ -1053,6 +1053,12 @@
           <y>10</y>
           <arg>0051</arg>
         </PLM>
+        <PLM>
+          <type>FA20</type>
+          <x>00</x>
+          <y>00</y>
+          <arg>8000</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>F1AD</layer1_2>

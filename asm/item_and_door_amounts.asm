@@ -7,7 +7,7 @@ org $84e0b8
 org $84e0dd
     dw $0003            ;missile  003
 org $84e102
-    dw $0001            ;super    001
+    dw $0002            ;super    001
 org $84e127
     dw $0019            ;pb       025
 
@@ -16,7 +16,7 @@ org $84e474
 org $84e4a6
     dw $0003            ;missile    (orb)
 org $84e4d8
-    dw $0001            ;super      (orb)
+    dw $0002            ;super      (orb)
 org $84e50a
     dw $0019            ;pb         (orb)
 
@@ -25,7 +25,7 @@ org $84e93f
 org $84e977
     dw $0003            ;missile    (hidden)
 org $84e9af
-    dw $0001            ;super      (hidden)
+    dw $0002            ;super      (hidden)
 org $84e9e7
     dw $0019            ;pb         (hidden)
     

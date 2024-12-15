@@ -89,10 +89,11 @@ org $A08C3F : LDA #$0200
 ;org $82e22a     ;black out all doors (vanilla = bne $3f)
 ;    bra $3f
 
-org $a3fff0         ;shot reaction for zeros in prephantoon (rinka death (no enemy kill count inc))
+org $a3fff0         ;shot reaction (for no enemy kill count inc)
     jsl $a2b94d
     rtl
     
-    ;fff5:
+    ;fff5:          ;touch reaction (same as above)
     jsl $a2b947
     rtl
+    

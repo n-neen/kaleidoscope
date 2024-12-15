@@ -15,25 +15,15 @@ org $a7db56     ;5 bytes
     
 org $a7ff82
     roomchange:
-    
     %laypowerbomb(0180, 0090)
-    
-    ;lda #$0180      ;power bomb explosion x position
-    ;sta $0ce2
-    ;lda #$0090      ;power bomb y position
-    ;sta $0ce4
-    ;jsl $888aa4     ;spawn pb explosion
-    
-    lda.w #roomasm  ;pointer to the below routine
-    sta $07df       ;set main room routine pointer
-    
+    lda.w #roomasm      ;pointer to the below routine
+    sta $07df           ;set main room routine pointer
     stz !counter
-    
     rts
     
         
 org $8ff800                     ;see "phantoon_roomdrawing_plm.asm"
-roomasm:
+    roomasm:
     lda !counter                ;number of frames to wait before spawning plms
     inc                         ;this is to wait until the pb is at maximum fuzz
     sta !counter
@@ -74,7 +64,6 @@ org $88e466
 
 org $88e46e         ;"vanilla = $0004, bg2 disabled"
     lda #$0004
-    
     
 org $88803e+4       ;layer blend table, type 4 pointer
     dw #newfour
