@@ -2,7 +2,11 @@ lorom
 
 ;ship saves to save 2 in maridia now
 
+!hardmodeflag       =       $09ee
+
 org $a2ab1f
+    lda !hardmodeflag
+    bne there
     lda $7ed900     ;inside save array
     ora #$0004      ;maridia save 2 is 4 bit here
     sta $7ed900
