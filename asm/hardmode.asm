@@ -17,7 +17,7 @@ org $81f200
 org $84b76f         ;save station init
     dw saveinithijack
 
-org $848100
+org $848100         ;if hardmode, then delete save station
     saveinithijack:
     lda !hardmodeflag
     bne +
@@ -25,6 +25,14 @@ org $848100
     lda #$b04d
     jsr $82b4
     rts
-+   lda #$aae3
++   lda #$aae3      ;set inst list pointer to a list that just contains a delete instruction
     sta $1d27,y
     rts
+    
+org $91df5a     ;12 bytes here.
+    lda !hardmodeflag
+    beq +
+    lda $12
+    asl : asl   ;damage x4
+    sta $12
++   nop
