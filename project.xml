@@ -531,7 +531,12 @@
     <Space start="828730" end="828733" />
     <Space start="8289EA" end="8289EE" />
     <Space start="828BAF" end="828BB2" />
+    <Space start="82A0CB" end="82A0D3" />
+    <Space start="82A0E0" end="82A0F5" />
     <Space start="82B6D4" end="82B6DA" />
+    <Space start="82BFF6" end="82C007" />
+    <Space start="82C066" end="82C067" />
+    <Space start="82C086" end="82C087" />
     <Space start="82DE32" end="82DE34" />
     <Space start="82E310" end="82E351" />
     <Space start="82E74B" end="82E74D" />
@@ -824,6 +829,7 @@
     <Space start="AAF820" end="AAF83E" />
     <Space start="AAF900" end="AAFB31" />
     <Space start="AAFF00" end="AAFF2B" />
+    <Space start="B6E800" end="B6EFFF" />
     <Space start="B88000" end="B8C4C1" />
   </ASMUsedSpaceBankAny>
   <PLMBank>
