@@ -873,39 +873,29 @@
       </FX1s>
       <Enemies killcount="00">
         <Enemy>
-          <ID>E83F</ID>
-          <X>02B0</X>
-          <Y>01F8</Y>
+          <ID>D33F</ID>
+          <X>0119</X>
+          <Y>00E7</Y>
           <tilemap>0000</tilemap>
-          <special>A800</special>
+          <special>2000</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
-          <speed2>1860</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>E83F</ID>
-          <X>02B0</X>
-          <Y>01F8</Y>
-          <tilemap>0000</tilemap>
-          <special>2800</special>
-          <gfx>0000</gfx>
-          <speed>0001</speed>
           <speed2>0000</speed2>
         </Enemy>
         <Enemy>
-          <ID>E83F</ID>
-          <X>02B0</X>
-          <Y>01F8</Y>
+          <ID>E73F</ID>
+          <X>006A</X>
+          <Y>00DD</Y>
           <tilemap>0000</tilemap>
-          <special>2800</special>
+          <special>2000</special>
           <gfx>0000</gfx>
-          <speed>0002</speed>
+          <speed>0000</speed>
           <speed2>0000</speed2>
         </Enemy>
       </Enemies>
       <EnemyTypes>
         <Enemy>
-          <GFX>E83F</GFX>
+          <GFX>D33F</GFX>
           <palette>0007</palette>
         </Enemy>
       </EnemyTypes>
@@ -1757,39 +1747,143 @@
       </FX1s>
       <Enemies killcount="00">
         <Enemy>
-          <ID>E83F</ID>
-          <X>02B0</X>
-          <Y>01F8</Y>
+          <ID>D33F</ID>
+          <X>0119</X>
+          <Y>00E7</Y>
           <tilemap>0000</tilemap>
-          <special>A800</special>
+          <special>2000</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
-          <speed2>1860</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>E83F</ID>
-          <X>02B0</X>
-          <Y>01F8</Y>
-          <tilemap>0000</tilemap>
-          <special>2800</special>
-          <gfx>0000</gfx>
-          <speed>0001</speed>
           <speed2>0000</speed2>
         </Enemy>
         <Enemy>
-          <ID>E83F</ID>
-          <X>02B0</X>
-          <Y>01F8</Y>
+          <ID>D33F</ID>
+          <X>019F</X>
+          <Y>0182</Y>
           <tilemap>0000</tilemap>
-          <special>2800</special>
+          <special>2000</special>
           <gfx>0000</gfx>
-          <speed>0002</speed>
+          <speed>0000</speed>
           <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D33F</ID>
+          <X>00CC</X>
+          <Y>0093</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D33F</ID>
+          <X>00E1</X>
+          <Y>0264</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D33F</ID>
+          <X>0150</X>
+          <Y>013A</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D33F</ID>
+          <X>03F7</X>
+          <Y>0175</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D33F</ID>
+          <X>0163</X>
+          <Y>021D</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D33F</ID>
+          <X>03E3</X>
+          <Y>021C</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>D33F</ID>
+          <X>02AC</X>
+          <Y>01D1</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>0000</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>E73F</ID>
+          <X>006A</X>
+          <Y>00DD</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>3010</speed>
+          <speed2>0003</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>E73F</ID>
+          <X>04A9</X>
+          <Y>01DA</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>3000</speed>
+          <speed2>0003</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>E73F</ID>
+          <X>006A</X>
+          <Y>0180</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>3010</speed>
+          <speed2>0003</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>E73F</ID>
+          <X>03A6</X>
+          <Y>01C1</Y>
+          <tilemap>0000</tilemap>
+          <special>2000</special>
+          <gfx>0000</gfx>
+          <speed>3010</speed>
+          <speed2>0003</speed2>
         </Enemy>
       </Enemies>
       <EnemyTypes>
         <Enemy>
-          <GFX>E83F</GFX>
+          <GFX>D33F</GFX>
+          <palette>0007</palette>
+        </Enemy>
+        <Enemy>
+          <GFX>E73F</GFX>
           <palette>0007</palette>
         </Enemy>
       </EnemyTypes>

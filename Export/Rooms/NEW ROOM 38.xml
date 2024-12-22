@@ -49,7 +49,7 @@
       <LevelData Width="7" Height="1">
         <Layer1>
           <Screen X="0" Y="0">
-        84FF 84FF 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101
+        8161 8160 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101
         8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101
         8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101
         8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101 8101
@@ -177,7 +177,7 @@
         </Layer1>
         <BTS>
           <Screen X="0" Y="0">
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        10 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -436,11 +436,11 @@
       <music>0000</music>
       <FX1s>
         <FX1 default="true">
-          <surfacestart>0600</surfacestart>
+          <surfacestart>00B0</surfacestart>
           <surfacenew>FFFF</surfacenew>
           <surfacespeed>0000</surfacespeed>
           <surfacedelay>00</surfacedelay>
-          <type>08</type>
+          <type>04</type>
           <transparency1_A>16</transparency1_A>
           <transparency2_B>2E</transparency2_B>
           <liquidflags_C>00</liquidflags_C>
@@ -457,7 +457,20 @@
       <ScrollData const="0000" />
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
-      <PLMs />
+      <PLMs>
+        <PLM>
+          <type>FA20</type>
+          <x>01</x>
+          <y>00</y>
+          <arg>8000</arg>
+        </PLM>
+        <PLM>
+          <type>FA20</type>
+          <x>00</x>
+          <y>00</y>
+          <arg>8060</arg>
+        </PLM>
+      </PLMs>
       <BGData />
       <layer1_2>F1AD</layer1_2>
     </State>

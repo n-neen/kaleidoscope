@@ -296,7 +296,7 @@
           <surfacenew>FFFF</surfacenew>
           <surfacespeed>0000</surfacespeed>
           <surfacedelay>00</surfacedelay>
-          <type>06</type>
+          <type>04</type>
           <transparency1_A>2E</transparency1_A>
           <transparency2_B>2E</transparency2_B>
           <liquidflags_C>03</liquidflags_C>
@@ -336,6 +336,12 @@
           <x>0E</x>
           <y>36</y>
           <arg>102B</arg>
+        </PLM>
+        <PLM>
+          <type>FA20</type>
+          <x>02</x>
+          <y>00</y>
+          <arg>8060</arg>
         </PLM>
       </PLMs>
       <BGData />
@@ -574,10 +580,10 @@
           <surfacenew>FFFF</surfacenew>
           <surfacespeed>0000</surfacespeed>
           <surfacedelay>00</surfacedelay>
-          <type>06</type>
+          <type>04</type>
           <transparency1_A>2E</transparency1_A>
           <transparency2_B>2E</transparency2_B>
-          <liquidflags_C>03</liquidflags_C>
+          <liquidflags_C>00</liquidflags_C>
           <paletteflags>00</paletteflags>
           <animationflags>00</animationflags>
           <paletteblend>C8</paletteblend>
@@ -607,6 +613,18 @@
           <type>B70B</type>
           <x>06</x>
           <y>2C</y>
+          <arg>8000</arg>
+        </PLM>
+        <PLM>
+          <type>FA20</type>
+          <x>02</x>
+          <y>00</y>
+          <arg>8060</arg>
+        </PLM>
+        <PLM>
+          <type>FA20</type>
+          <x>02</x>
+          <y>00</y>
           <arg>8000</arg>
         </PLM>
       </PLMs>
