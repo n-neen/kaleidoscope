@@ -23,15 +23,15 @@ org $8881fe                         ;don't change any layer blending for pbs
     rts
     
 org $888aba                         ;power bomb hdma object types and targets
-    db $40, $32                     ;$(21)2d = subscreen layers
+    db $40, $06                     ;$(21)2d = subscreen layers
     skip 6
     db $40, $06                     ;$(21)06 = mosaic control register
 
 org $888b98                         ;this branch skips some of the ending power bomb
-    bra end                         ;stuff, so it ends more quickly.
+    ;bra end                        ;stuff, so it ends more quickly.
     
 org $888bdb                         ;target for the branch above
-    end:
+    ;end:                           ;NOTE: THIS CAUSED A SUBSCREEN BACKDROP COLOR BUG. COMMENT IT OUT!!!!!!!
 
 org $888aa9
     lda #$004e                      ;sound index to play. vanilla is #$0001
@@ -40,10 +40,10 @@ org $888aa9
     
 org $888de5
     dw $0000                        ;power bomb radius initial speed. vanilla = 0000
-    dw $0008                        ;power bomb radius acceleration.  vanilla = 0030
+    dw $0030                        ;power bomb radius acceleration.  vanilla = 0030
     
 org $888b24
-    lda #$0000                      ;power bomb stage 1 radius. vanilla = 0400
+    lda #$0300                      ;power bomb stage 1 radius. vanilla = 0400
     
 org $888b39
     lda #$0500                      ;power bomb stage 3 radius. vanilla = 0400

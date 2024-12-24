@@ -1,5 +1,16 @@
 lorom
 
+org $829346     ;hijack for below
+    jsr colorfix
+
+org $82f900     ;restore subscreen backdrop color during unpause
+    colorfix:
+    lda #$e0e0
+    sta $74
+    sta $75
+    inc $0998
+    rts
+
 org $82a0cb     ;7 bytes here (bg4 settings, useless space
     nop #7
     ;lda #$7fff
