@@ -40,10 +40,10 @@ org $888aa9
     
 org $888de5
     dw $0000                        ;power bomb radius initial speed. vanilla = 0000
-    dw $0030                        ;power bomb radius acceleration.  vanilla = 0030
+    dw $0010                        ;power bomb radius acceleration.  vanilla = 0030
     
 org $888b24
-    lda #$0300                      ;power bomb stage 1 radius. vanilla = 0400
+    lda #$0444                      ;power bomb stage 1 radius. vanilla = 0400
     
 org $888b39
     lda #$0500                      ;power bomb stage 3 radius. vanilla = 0400
@@ -67,8 +67,8 @@ org $888ace
         dw $85B4 : dl $888B47 ; Power bomb explosion - stage 4 setup (explosion - white)
         dw $8570 : dl $888EB2 ; Pre-instruction = power bomb explosion - stage 4 - explosion - white
         dw $8682              ; Sleep
-        dw $8570 : dl $888B98 ; Pre-instruction = power bomb explosion - stage 5 - after-glow
-        dw $8682              ; Sleep
+        ;dw $8570 : dl $888B98 ; Pre-instruction = power bomb explosion - stage 5 - after-glow
+        ;dw $8682              ; Sleep
         dw $85B4 : dl $888B4E ; Power bomb explosion - clean up and try crystal flash
         dw $8682              ; Sleep
         dw $8569              ; delete
