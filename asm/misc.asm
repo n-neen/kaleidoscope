@@ -97,3 +97,7 @@ org $a3fff0         ;shot reaction (for no enemy kill count inc)
     jsl $a2b947
     rtl
     
+    
+org $8dd900     ;hyper beam color index
+    ;dw $c655, $00c0
+    

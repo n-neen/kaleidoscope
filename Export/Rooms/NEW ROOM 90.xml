@@ -101,8 +101,8 @@
           <Screen X="1" Y="1">
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
-        805F 805F 805F 805F 805F 805F 00FF 00FF 00FF 00FF 805F 805F 805F 805F 805F 805F
-        805F 805F 805F 805F 805F 805F 00FF 00FF 00FF 00FF 805F 805F 805F 805F 805F 805F
+        805F 805F 805F 805F 805F 805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
+        805F 805F 805F 805F 805F 805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
@@ -158,10 +158,10 @@
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
-        805F 805F 805F 805F 805F 805F 00FF 00FF 00FF 00FF 805F 805F 805F 805F 805F 805F
-        805F 805F 805F 805F 805F 805F 00FF 00FF 00FF 00FF 805F 805F 805F 805F 805F 805F
-        805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805F
-        805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805F
+        805F 805F 805F 805F 805F 805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
+        805F 805F 805F 805F 805F 805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
+        805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
+        805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805F
         805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805F
         805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805F
@@ -713,6 +713,72 @@
           <ScrollData>
             <Change screen="0A" scroll="01" />
           </ScrollData>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>15</y>
+          <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>17</y>
+          <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>19</y>
+          <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>1B</y>
+          <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>1D</y>
+          <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>1F</y>
+          <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>21</y>
+          <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>23</y>
+          <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>25</y>
+          <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>11</y>
+          <arg>0000</arg>
+        </PLM>
+        <PLM>
+          <type>DB56</type>
+          <x>1F</x>
+          <y>13</y>
+          <arg>0000</arg>
         </PLM>
       </PLMs>
       <BGData />

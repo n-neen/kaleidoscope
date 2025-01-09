@@ -1,5 +1,23 @@
 lorom
 
+;L/R button spritemaps:
+
+org $82c465     ;L/R highlight
+    
+    
+    
+org $82c48f     ;pressed L button
+    
+    
+    
+org $82c4a0     ;pressed R button
+    
+    
+    
+    
+    
+;pause screen layers and tilemap
+
 org $829346     ;hijack for below
     jsr colorfix
 
