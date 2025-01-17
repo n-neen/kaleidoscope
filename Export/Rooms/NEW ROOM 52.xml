@@ -1422,7 +1422,7 @@
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>80</layer2_xscroll>
       <layer2_yscroll>C0</layer2_yscroll>
-      <ScrollData>01 00 00 01 01 00 00 00 00 00 00 01 00 01 00 01 01 01 00 01 01 01 00 01 </ScrollData>
+      <ScrollData>01 00 00 01 01 00 00 00 00 00 00 01 00 01 00 01 01 01 00 01 02 02 00 02 </ScrollData>
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
       <PLMs>
@@ -1478,6 +1478,7 @@
           <y>36</y>
           <ScrollData>
             <Change screen="10" scroll="00" />
+            <Change screen="0D" scroll="01" />
             <Change screen="11" scroll="00" />
             <Change screen="0E" scroll="01" />
             <Change screen="12" scroll="00" />
@@ -1489,6 +1490,7 @@
           <y>35</y>
           <ScrollData>
             <Change screen="10" scroll="01" />
+            <Change screen="0D" scroll="00" />
             <Change screen="11" scroll="01" />
             <Change screen="0E" scroll="00" />
             <Change screen="12" scroll="00" />
@@ -1514,13 +1516,13 @@
           <ScrollData>
             <Change screen="0C" scroll="00" />
             <Change screen="10" scroll="01" />
-            <Change screen="14" scroll="01" />
+            <Change screen="14" scroll="02" />
             <Change screen="0D" scroll="00" />
             <Change screen="11" scroll="01" />
-            <Change screen="15" scroll="01" />
+            <Change screen="15" scroll="02" />
             <Change screen="0E" scroll="00" />
             <Change screen="12" scroll="01" />
-            <Change screen="16" scroll="01" />
+            <Change screen="16" scroll="02" />
           </ScrollData>
         </PLM>
         <PLM>

@@ -538,12 +538,12 @@
         </Enemy>
         <Enemy>
           <ID>DC7F</ID>
-          <X>02B3</X>
-          <Y>0077</Y>
+          <X>02A1</X>
+          <Y>0078</Y>
           <tilemap>0003</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>
-          <speed>0001</speed>
+          <speed>0002</speed>
           <speed2>0000</speed2>
         </Enemy>
         <Enemy>

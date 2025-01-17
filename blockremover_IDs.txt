@@ -47,3 +47,4 @@ uses event IDs. Event FF reserved for quickmet flag
         f8      crumble block,                      room 75, 3
         f7      crumble block,                      room 75, 4
         f6      crumble block,                      room 75, 5
+        f5      crumble block,                      room 36

@@ -19,5 +19,8 @@ org $a2ab1f
     org $a2ab40     ;skip over some unused bytes
     there:
 
-org $82b6d4         ;skip ship icon on map
+org $82b6d4         ;skip ship icon on pause map
+    nop #7
+    
+org $82b78f         ;skip ship icon on file select map
     nop #7

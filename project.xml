@@ -8,7 +8,7 @@
   <ScanROMonImportFromROM>false</ScanROMonImportFromROM>
   <ApplyASMonImportFromROM>false</ApplyASMonImportFromROM>
   <LogLevel>Info</LogLevel>
-  <PaletteFormat>TPL</PaletteFormat>
+  <PaletteFormat>SNES</PaletteFormat>
   <RoomNameSpaceBankAny>
     <Space start="DFD500" end="DFFFFF" />
   </RoomNameSpaceBankAny>
@@ -500,6 +500,7 @@
     <Space start="FF9000" end="FFFFFF" />
   </ScannedFreeSpace>
   <ASMUsedSpaceBankAny>
+    <Space start="8099BF" end="8099C6" />
     <Space start="809A39" end="809A3B" />
     <Space start="809A49" end="809A4B" />
     <Space start="809ABD" end="809AC2" />
@@ -518,11 +519,7 @@
     <Space start="819CBF" end="819CC0" />
     <Space start="81A98A" end="81A98D" />
     <Space start="81B309" end="81B30B" />
-    <Space start="81B324" end="81B326" />
-    <Space start="81B32A" end="81B32C" />
-    <Space start="81B336" end="81B338" />
-    <Space start="81B35D" end="81B35F" />
-    <Space start="81B363" end="81B36B" />
+    <Space start="81B369" end="81B36B" />
     <Space start="81B372" end="81B375" />
     <Space start="81B39C" end="81B39F" />
     <Space start="81EF20" end="81F0A9" />
@@ -536,6 +533,7 @@
     <Space start="82A0CB" end="82A0D3" />
     <Space start="82A0E0" end="82A0F5" />
     <Space start="82B6D4" end="82B6DA" />
+    <Space start="82B78F" end="82B795" />
     <Space start="82BFF6" end="82C007" />
     <Space start="82C066" end="82C067" />
     <Space start="82C086" end="82C087" />
@@ -551,7 +549,7 @@
     <Space start="83AC94" end="83AC95" />
     <Space start="848000" end="8480C6" />
     <Space start="8480D0" end="8480E6" />
-    <Space start="848100" end="848115" />
+    <Space start="848100" end="848148" />
     <Space start="84826A" end="84826B" />
     <Space start="848332" end="848332" />
     <Space start="848C9F" end="848CA5" />
@@ -713,6 +711,7 @@
     <Space start="8FF8A0" end="8FF8BC" />
     <Space start="8FFEA0" end="8FFEEE" />
     <Space start="8FFF80" end="8FFFAD" />
+    <Space start="8FFFF0" end="8FFFF2" />
     <Space start="9081DB" end="9081DF" />
     <Space start="908502" end="908504" />
     <Space start="90855B" end="90855D" />

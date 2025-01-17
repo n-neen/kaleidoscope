@@ -50,16 +50,16 @@ org $88f300
     rts
     
 org $81b324         ;default buttons/moonwalk flag
-    lda #$8000      ;jump binding = B
-    skip 3
-    lda #$4000      ;dash binding = Y
-    skip 9
-    lda #$0080      ;item cancel binding = A
+    ;lda #$8000      ;jump binding = B
+    ;skip 3
+    ;lda #$4000      ;dash binding = Y
+    ;skip 9
+    ;lda #$0080      ;item cancel binding = A
 org $81b35d
-    nop #3
-    skip 3
-    lda #$0001      ;turn on moonwalk
-    sta $09e4
+    ;nop #3
+    ;skip 3
+    ;lda #$0001      ;turn on moonwalk
+    ;sta $09e4
     
     
 ; Discovered by moehr
@@ -101,3 +101,7 @@ org $a3fff0         ;shot reaction (for no enemy kill count inc)
 org $8dd900     ;hyper beam color index
     ;dw $c655, $00c0
     
+        
+org $8ffff0      ;scroll test
+    db $0a, $01
+    db $80

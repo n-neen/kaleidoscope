@@ -3,15 +3,15 @@ lorom
 ;L/R button spritemaps:
 
 org $82c465     ;L/R highlight
-    
+    ;
     
     
 org $82c48f     ;pressed L button
-    
+    ;
     
     
 org $82c4a0     ;pressed R button
-    
+    ;
     
     
     

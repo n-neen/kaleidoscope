@@ -97,3 +97,5 @@ org $809abd                             ;grapple hud init
     lda $09a4                           ;change to check for screw collected (not grapple equipped)
     bit #$0008
     
+org $8099bf                             ;hud tilemap
+    dw $3438, $f439, $3439, $f438
