@@ -580,14 +580,6 @@
       <FX2>0000</FX2>
       <PLMs>
         <PLM>
-          <type>B703</type>
-          <x>02</x>
-          <y>00</y>
-          <ScrollData>
-            <Change screen="00" scroll="02" />
-          </ScrollData>
-        </PLM>
-        <PLM>
           <type>F400</type>
           <x>00</x>
           <y>00</y>

@@ -4055,8 +4055,8 @@
         </Enemy>
         <Enemy>
           <ID>DD7F</ID>
-          <X>0455</X>
-          <Y>00E9</Y>
+          <X>044F</X>
+          <Y>00F0</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>

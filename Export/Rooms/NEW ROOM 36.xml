@@ -2855,7 +2855,7 @@
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
-      <ScrollData>00 00 00 00 01 01 01 01 01 01 01 01 00 00 00 00 00 00 00 00 00 00 00 01 01 01 01 01 01 01 01 01 01 01 02 01 00 00 00 00 00 00 00 00 00 00 00 00 </ScrollData>
+      <ScrollData>00 00 00 00 01 01 01 01 01 01 01 01 00 00 00 00 00 00 00 00 00 00 00 01 01 01 01 01 01 01 01 01 01 01 01 01 00 00 00 00 00 00 00 00 00 00 00 00 </ScrollData>
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
       <PLMs>

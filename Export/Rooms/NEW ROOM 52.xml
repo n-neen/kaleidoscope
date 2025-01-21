@@ -1536,6 +1536,7 @@
           <x>11</x>
           <y>57</y>
           <ScrollData>
+            <Change screen="14" scroll="01" />
             <Change screen="15" scroll="01" />
             <Change screen="16" scroll="01" />
             <Change screen="17" scroll="01" />
