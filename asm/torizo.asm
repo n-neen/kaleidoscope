@@ -8,6 +8,12 @@ incsrc ./macros.asm
 !torizohitcounter   =   $0364
 !handletorizohit    =   $888fba
 
+macro inc_long(addr)
+    lda <addr>
+    inc
+    sta <addr>
+endmacro
+
 ;==========================================================bt
 
 org $aac90f
@@ -105,6 +111,11 @@ org $aaff00
     jsl $a0bad7
     jsl $8483d7
     db $4f, $16 : dw #gtexitdoor
+    
+    lda $7ed86e
+    inc                 ;item count. see "endingtotals.asm" by scyzer
+    sta $7ed86e
+    
     ply
     plx
     rts

@@ -528,6 +528,7 @@
     <Space start="8286FF" end="828702" />
     <Space start="828730" end="828733" />
     <Space start="8289EA" end="8289EE" />
+    <Space start="828B8E" end="828B97" />
     <Space start="828BAF" end="828BB2" />
     <Space start="829346" end="829348" />
     <Space start="82A0CB" end="82A0D3" />
@@ -546,6 +547,7 @@
     <Space start="82F60C" end="82F60D" />
     <Space start="82F710" end="82F7FF" />
     <Space start="82F900" end="82F90A" />
+    <Space start="82FD00" end="82FD0F" />
     <Space start="83AC94" end="83AC95" />
     <Space start="848000" end="8480C6" />
     <Space start="8480D0" end="8480E6" />
@@ -655,7 +657,7 @@
     <Space start="888211" end="888218" />
     <Space start="888709" end="888717" />
     <Space start="8887C5" end="8887C5" />
-    <Space start="888896" end="88891D" />
+    <Space start="888896" end="888922" />
     <Space start="888974" end="888977" />
     <Space start="888A19" end="888A1C" />
     <Space start="888A74" end="888A7F" />
@@ -734,7 +736,7 @@
     <Space start="90E9CE" end="90EA1B" />
     <Space start="90F63A" end="90F66C" />
     <Space start="90F680" end="90F6B2" />
-    <Space start="90FFF0" end="90FFF3" />
+    <Space start="90FFF0" end="90FFF9" />
     <Space start="918247" end="918248" />
     <Space start="91825D" end="91825E" />
     <Space start="9182B2" end="9182B3" />
@@ -746,13 +748,13 @@
     <Space start="91DA50" end="91DA5B" />
     <Space start="91DF5A" end="91DF65" />
     <Space start="949149" end="94914A" />
-    <Space start="9498B4" end="9498B5" />
+    <Space start="9498B4" end="9498B7" />
     <Space start="949DB4" end="949DB5" />
     <Space start="94A18B" end="94A18C" />
     <Space start="94A1AB" end="94A1AC" />
     <Space start="94A851" end="94A852" />
     <Space start="94B200" end="94B229" />
-    <Space start="94B22B" end="94B239" />
+    <Space start="94B22B" end="94B23D" />
     <Space start="94E000" end="94E3C6" />
     <Space start="96FC04" end="96FC6D" />
     <Space start="A08C3F" end="A08C41" />
@@ -832,7 +834,7 @@
     <Space start="AAF800" end="AAF80E" />
     <Space start="AAF820" end="AAF83E" />
     <Space start="AAF900" end="AAFB31" />
-    <Space start="AAFF00" end="AAFF2B" />
+    <Space start="AAFF00" end="AAFF34" />
     <Space start="B3971B" end="B3982A" />
     <Space start="B6E800" end="B6EFFF" />
     <Space start="B88000" end="B8C4C1" />

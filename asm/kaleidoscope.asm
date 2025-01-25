@@ -24,6 +24,7 @@ org $84e30f                                         ;in x-ray plm instruction li
 !90free         = $90fe00
 !backdropbackup = $0dd8
 !backdropflag   = $0dda
+!echocooldown   = $0613
 
 ;=============================================main item funcionality code
 org $91caf2
@@ -41,20 +42,23 @@ org $888896                 ;hdma table routine gone, plenty of space here
         ;jsl $808338        ;maybe not good? or maybe more good?
         ;jsl $808338
     xraydamage:
+        lda !echocooldown
+        bne +
         jsl longshort       ;code for spawning speed echoes
-        
+        +
+
     kaleidoscope:
     
     backdrop:
         lda !backdropflag
-        bmi +
+        bmi ++
         lda $7ec000
         sta !backdropbackup
         lda #$0400          ;backdrop color during scope only
         sta $7ec000
         lda #$8000
         sta !backdropflag
-+
+++
 
         %subtract(!bg1x, #$0005)
         %subtract(!bg1y, #$0005)
@@ -151,6 +155,8 @@ org $88ff00
 org $90fff0
     longshort:              ;speed echoes spawn
         jsr $d40d           ;d40d
+        lda #$001f
+        sta !echocooldown
         rtl
         
 org $91d2c3                 ;skip backdrop color set to grey during xray
@@ -175,7 +181,7 @@ org $809a49
 org $809d6e+8
     dw $0028
     
-    ;hud shortcut to kaleidoscope:
+;hud shortcut to kaleidoscope:
 org $9094f2         ;overwriting some grapple beam scrolling thing
     lda $09a4       ;if xray not collected, exit
     bpl +
@@ -189,4 +195,29 @@ org $9094f2         ;overwriting some grapple beam scrolling thing
     sta $0a04       ;activate xray hud index as one-time use item
     sta $09d2
 +   jmp $9557
+    ;warn pc
+
+;=============================================slutty hack fix don't look ok
+;for the projectile counter bug
+
+;org $90ac65
+;    cmp #$0006
+;org $90ac86
+;    cmp #$0005
+    
+org $828b8e
+    jsr sparkcheck
+    nop #7
+    
+org $82fd00
+    sparkcheck:
+    lda $0a78
+    bne ++
+    dec !echocooldown
+    bmi +
+    bra ++
++   stz !echocooldown
+
+    over:
+++  rts
     ;warn pc

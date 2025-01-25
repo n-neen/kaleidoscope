@@ -16,6 +16,8 @@
 ;[and the 7 tanks from gt, not counted yet]
 ;+13 majors
 ;=82 ($52)
+;gt tanks count for 1 item
+;so $53 (83) now
 
 
 LOROM
