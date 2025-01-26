@@ -42,6 +42,13 @@ org $888896                 ;hdma table routine gone, plenty of space here
         ;jsl $808338        ;maybe not good? or maybe more good?
         ;jsl $808338
     xraydamage:
+        lda $0c1e
+        cmp #$8029
+        beq +
+        lda $0c20
+        cmp #$8029
+        beq +
+        
         lda !echocooldown
         bne +
         jsl longshort       ;code for spawning speed echoes
@@ -155,7 +162,7 @@ org $88ff00
 org $90fff0
     longshort:              ;speed echoes spawn
         jsr $d40d           ;d40d
-        lda #$001f
+        lda #$0008          ;gonna b real here, i think the check on lines 45-50 makes this cooldown entirely unnecessary but whatever
         sta !echocooldown
         rtl
         

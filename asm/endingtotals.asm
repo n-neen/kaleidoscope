@@ -6,7 +6,7 @@
 
 
 !CollectedItems = $7ED86E
-!TotalItems = #$52	;TOTAL number if items in the game. This includes ALL items: missiles, upgrades, etc
+!TotalItems = #$54	;TOTAL number if items in the game. This includes ALL items: missiles, upgrades, etc
 
 ;34 missiles        x3
 ;20 supers          x2
@@ -18,6 +18,8 @@
 ;=82 ($52)
 ;gt tanks count for 1 item
 ;so $53 (83) now
+;51/52 = 98.07
+;52/53 = 98.11
 
 
 LOROM
