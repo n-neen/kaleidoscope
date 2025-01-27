@@ -61,13 +61,10 @@ org $81b35d
     ;lda #$0001      ;turn on moonwalk
     ;sta $09e4
     
-    
 ; Discovered by moehr
 ; caauyjdp pointed this out to RT-55J
 ; RT-55J pointed this out to me (neen)
 org $A08C3F : LDA #$0200
-
-
 
 ;extend hud to $20 scanlines        ;currently disabled
 
@@ -97,11 +94,27 @@ org $a3fff0         ;shot reaction (for no enemy kill count inc)
     jsl $a2b947
     rtl
     
-    
 org $8dd900     ;hyper beam color index
     ;dw $c655, $00c0
     
-        
-org $8ffff0      ;scroll test
+org $8ffff0      ;solid scroll test
     db $0a, $01
     db $80
+    
+    
+org $84e299                         ;spring ball hijack
+    dw $8724, #instextension     ;goto instruction list extension
+
+    
+org $84af1c
+    instextension:
+    dw #ballfix
+    dw $8724, $dfa9     ;goto empty item inst list
+
+    ballfix:
+    phx
+    phy
+    jsl $91e633
+    ply
+    plx
+    rts

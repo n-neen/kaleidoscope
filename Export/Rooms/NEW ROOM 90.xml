@@ -2,8 +2,8 @@
   <Saves />
   <index>15</index>
   <area>00</area>
-  <x>04</x>
-  <y>09</y>
+  <x>0A</x>
+  <y>17</y>
   <width>03</width>
   <height>04</height>
   <upscroll>70</upscroll>
@@ -713,12 +713,6 @@
           <ScrollData>
             <Change screen="0A" scroll="01" />
           </ScrollData>
-        </PLM>
-        <PLM>
-          <type>8116</type>
-          <x>1F</x>
-          <y>2A</y>
-          <arg>C002</arg>
         </PLM>
         <PLM>
           <type>DB56</type>

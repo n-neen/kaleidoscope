@@ -1888,7 +1888,7 @@
       <music>0706</music>
       <FX1s>
         <FX1 default="true">
-          <surfacestart>0AA4</surfacestart>
+          <surfacestart>0AAA</surfacestart>
           <surfacenew>FFFF</surfacenew>
           <surfacespeed>0000</surfacespeed>
           <surfacedelay>00</surfacedelay>
