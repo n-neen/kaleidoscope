@@ -15,7 +15,7 @@ Start Escape Timer with Gray Door by Oi27
 ending totals by Scyzer
 
 
-[or perhaps just include their names and not every patch used?]:
+[for ingame, just include their names and not every patch used]:
 Assembly:
 Crashtour, Black Falcon, JAM, Kejardon, Nodever2, PJBoy, AmoebaOfDoom, Vener, Maddo, Smiley, Oi27, InsaneFirebat, Scyzer
 and other assembly by neen
@@ -23,7 +23,7 @@ and other assembly by neen
 Tools:
 SMART by Amoebaofdoom and Testrunner
 Amoebacompress by Amoebaofdoom
-SMACK by Meowmaritus
+SMACK by Mysty_Wysty
 yychr
 Asar
 smile rf by Scyzer and Jathys
@@ -33,11 +33,11 @@ super metroid disassembly by PJBoy, yuriks, InsaneFirebat, et. al
 
 screwtank concept: RT-55J
 
-play testing: cheesyboatride, Exister, Digital Mantra, RT-55J, Ironrusty. Kyztentun
+play testing: cheesyboatride, Exister, Digital Mantra, RT-55J, Ironrusty
 
-general help: Amoeba, Smiley, Oi27, RT-55J, Omegadragnet7/9, PJBoy, Tundain, InsaneFirebat, Strotlog, Meowmaritus, yuriks
+general help: Amoeba, Smiley, Oi27, RT-55J, Omegadragnet7/9, PJBoy, Tundain, InsaneFirebat, Strotlog, Mysty_Wysty, yuriks
 
-special thanks: Digital Mantra, Alberto, RT-55J, thedagit, yuriks, jooniejoone, ironrusty, Kyzentun, Kejardon, Mystii, Croakomire, Amoebaofdoom, Testrunner
+special thanks: Digital Mantra, Alberto, RT-55J, thedagit, yuriks, jooniejoone, ironrusty, Kyzentun, Kejardon, Mysty_Wysty, Croakomire, Amoebaofdoom, Testrunner
 
 Jathys, without whom none of this would be possible.
 

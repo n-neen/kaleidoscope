@@ -67,13 +67,25 @@ org $888ace
         dw $85B4 : dl $888B47 ; Power bomb explosion - stage 4 setup (explosion - white)
         dw $8570 : dl $888EB2 ; Pre-instruction = power bomb explosion - stage 4 - explosion - white
         dw $8682              ; Sleep
-        ;dw $8570 : dl $888B98 ; Pre-instruction = power bomb explosion - stage 5 - after-glow
-        ;dw $8682              ; Sleep
-        dw $85B4 : dl $888B4E ; Power bomb explosion - clean up and try crystal flash
+        dw $8570 : dl $888B98 ; Pre-instruction = power bomb explosion - stage 5 - after-glow
+        ;dw $85b4 : dl #cleanupsubscreenbackdrop
         dw $8682              ; Sleep
+        dw $85B4 : dl $888B4E ; Power bomb explosion - clean up and try crystal flash
+        ;dw $8682              ; Sleep
         dw $8569              ; delete
         
 
         ;warn pc
         
         ;85ec = goto
+
+org $888bd1
+    lda $888b96
+        
+org $88f900
+    cleanupsubscreenbackdrop:
+        ;jsl $888b98
+        lda #$e0e0
+        sta $74
+        sta $75
+        rtl

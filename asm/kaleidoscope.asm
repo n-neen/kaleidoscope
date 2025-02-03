@@ -35,19 +35,19 @@ org $91caf2
                     
 org $8887c5                 ;handle moving x-ray up/down
     rts                     ;creates freespace until $87df
+    
+org $888744
+    jsr spikesuit
 
 org $888896                 ;hdma table routine gone, plenty of space here
-    lag:
-        ;jsl $808338        ;wait for nmi
-        ;jsl $808338        ;maybe not good? or maybe more good?
-        ;jsl $808338
     xraydamage:
+        
         lda $0c1e
         cmp #$8029
-        beq +
-        lda $0c20
-        cmp #$8029
-        beq +
+        beq +               ;spark echoes can only exist in these two projectile slots
+        lda $0c20           ;so we explicitly check for these to exist. if they do,
+        cmp #$8029          ;skip over the call to where we spawn our echoes
+        beq +               ;the result is you have to wait for the current ones to go offscreen
         
         lda !echocooldown
         bne +
@@ -157,6 +157,12 @@ org $88ff00
         lda !backdropbackup
         sta $7ec000
         stz !backdropflag
+        rts
+        
+    spikesuit:
+        lda #$0001
+        sta $0a68
+        jsr xraydamage
         rts
         
 org $90fff0

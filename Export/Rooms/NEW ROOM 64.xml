@@ -2562,6 +2562,16 @@
         </Enemy>
         <Enemy>
           <ID>DCBF</ID>
+          <X>01E6</X>
+          <Y>0239</Y>
+          <tilemap>0003</tilemap>
+          <special>6000</special>
+          <gfx>0000</gfx>
+          <speed>0001</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>DCBF</ID>
           <X>0620</X>
           <Y>0388</Y>
           <tilemap>0003</tilemap>
@@ -5147,6 +5157,16 @@
         </Enemy>
         <Enemy>
           <ID>DCBF</ID>
+          <X>01E6</X>
+          <Y>0239</Y>
+          <tilemap>0003</tilemap>
+          <special>6000</special>
+          <gfx>0000</gfx>
+          <speed>0001</speed>
+          <speed2>0000</speed2>
+        </Enemy>
+        <Enemy>
+          <ID>DCBF</ID>
           <X>0620</X>
           <Y>0388</Y>
           <tilemap>0003</tilemap>
@@ -5210,6 +5230,12 @@
           <x>7E</x>
           <y>36</y>
           <arg>0033</arg>
+        </PLM>
+        <PLM>
+          <type>C890</type>
+          <x>01</x>
+          <y>36</y>
+          <arg>0037</arg>
         </PLM>
       </PLMs>
       <BGData />

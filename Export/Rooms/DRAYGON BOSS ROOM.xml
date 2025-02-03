@@ -261,7 +261,7 @@
         </Layer2>
       </LevelData>
       <GFXset>1C</GFXset>
-      <music>052A</music>
+      <music>0300</music>
       <FX1s>
         <FX1 default="true">
           <surfacestart>0010</surfacestart>

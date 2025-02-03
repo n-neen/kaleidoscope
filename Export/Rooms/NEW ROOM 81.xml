@@ -1313,12 +1313,6 @@
           <arg>0000</arg>
         </PLM>
         <PLM>
-          <type>C84E</type>
-          <x>26</x>
-          <y>1C</y>
-          <arg>0C28</arg>
-        </PLM>
-        <PLM>
           <type>DB44</type>
           <x>07</x>
           <y>08</y>
