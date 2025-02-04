@@ -50,8 +50,8 @@
     <Plasma_Ice_Wave>0x04</Plasma_Ice_Wave>
     <Missile>0x02</Missile>
     <SuperMissile>0x02</SuperMissile>
-    <Bomb>0x02</Bomb>
-    <PowerBomb>0x02</PowerBomb>
+    <Bomb>0x00</Bomb>
+    <PowerBomb>0x00</PowerBomb>
     <SpeedBooster>0x02</SpeedBooster>
     <ShineSpark>0x02</ShineSpark>
     <ScrewAttack>0x02</ScrewAttack>

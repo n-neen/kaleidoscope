@@ -616,8 +616,8 @@
           <ID>D5FF</ID>
           <X>0090</X>
           <Y>01C8</Y>
-          <tilemap>0004</tilemap>
-          <special>A000</special>
+          <tilemap>0006</tilemap>
+          <special>A800</special>
           <gfx>0000</gfx>
           <speed>FF03</speed>
           <speed2>0000</speed2>

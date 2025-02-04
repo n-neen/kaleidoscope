@@ -4,18 +4,21 @@ lorom
 
 !hardmodeflag       =       $09ee
 
-;org $81b369
-;    jsr hardmodecheck
+
+;===================================================================================================
+;===================================    button combo    ============================================
+;===================================================================================================
+
+org $828ba0         ;orphaned org actually belongs in the next section
+    jsr hudcolor
+    nop
     
 org $828b0e
     jsr hardmodecheck
     nop
-    
-org $82804e
-    jsr hardmodestart
-    
-org $82fb00         ;$82 freespace
-    hardmodecheck:  ;previously in $81 (see commented out hijack above)
+  
+org $82fb00;
+    hardmodecheck:
     jsl $8ba35b     ;the thing we overwrote
     lda $8b
     cmp #$f080      ;if pressing A+B+Y+ST+SL (abyss)
@@ -26,22 +29,49 @@ org $82fb00         ;$82 freespace
 +   stz !hardmodeflag
 ++  rts
 
+;===================================================================================================
+;============================   indicator that hard mode is active   ===============================
+;===================================================================================================
+
+    hudcolor:
+    jsl $809b44     ;the thing we overwrote (handle hud tilemap)                            
+    lda !hardmodeflag
+    beq +
+    lda #$140f      ;hud font color outline
+    sta $7ec01a
+    sta $7ec21a
+    ;lda #$0000      ;hud font color middle
+    ;sta $7ec01c
+    ;sta $7ec21c
++   rts
+
+;===================================================================================================
+;================================    hijack to start game at ship    ===============================
+;===================================================================================================
+
     hardmodestart:
+    jsr $819b       ;the thing we overwrote (init registers for gameplay)
     lda !hardmodeflag
     beq +
     lda #$0004      ;area = maridia
     sta $079f
     lda #$0002      ;load point = 2 (the ship)
     sta $078b
-+   jsr $819b       ;the thing we overwrote (init registers for gameplay)
     lda #$00cd
     jsl $80818e
     lda #$0001
     lda $7ed870,x
-    ora $05e7       ;mark item $cd as collected
-    sta $7ed870,x   ;removes screw blockage (kej's block remover uses item IDs)
-    rts
-    
+    ora $05e7       ;mark item $cd as collected (kej's block remover uses item IDs)
+    sta $7ed870,x   ;removes speed blockage in room 11
++   rts
+
+org $82804e         
+    jsr hardmodestart
+
+;===================================================================================================
+;====================================    save station    ===========================================
+;===================================================================================================
+
 org $84b76f         ;save station init
     dw saveinithijack
     
@@ -57,6 +87,10 @@ org $848100         ;if hardmode, then delete save station
     sta $1d27,y
     rts
     
+;===================================================================================================
+;=======================================    damage    ==============================================
+;===================================================================================================
+    
 org $91df5a     ;12 bytes here.
     lda !hardmodeflag
     beq +
@@ -64,6 +98,10 @@ org $91df5a     ;12 bytes here.
     asl : asl   ;damage x4
     sta $12
 +   nop
+
+;===================================================================================================
+;========================================    drops    ==============================================
+;===================================================================================================
     
 org $86f0bb
     jsr hardmodedrops_smallhealth
@@ -110,5 +148,4 @@ org $86f900
 ;        .super:
 ;        ;
 ;        rts
-        
         

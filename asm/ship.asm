@@ -5,8 +5,8 @@ lorom
 !hardmodeflag       =       $09ee
 
 org $a2ab1f
-    lda !hardmodeflag   ;see "hardmode.asm"
-    bne there
+    ;lda !hardmodeflag   ;see "hardmode.asm"            ;trying out hardmode with saving allowed but only at the ship
+    ;bne there
     lda $7ed900         ;inside save array
     ora #$0004          ;maridia save 2 is 4 bit here
     sta $7ed900
