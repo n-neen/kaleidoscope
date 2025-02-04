@@ -1,5 +1,5 @@
 
-Kejardon's block remover
+Kejardon's block remover    (fe00)
 uses item IDs
 
     crateria: (ff-f0 reserved)
@@ -37,16 +37,18 @@ uses item IDs
         ae      speed blocks,                       room 74             x
         ad      pb blocks,                          room 75             
         
-Vener's block remover
+Vener's block remover (d409)
 uses event IDs. Event FF reserved for quickmet flag
 
         fe      screw blocks,                       room 20             x
         fd      super block,                        room 5              x
         fc      crumble blocks,                     room 5              x
         fb      crumble blocks,                     room 32             x
-        fa      crumble block,                      room 75, 1
-        f9      crumble block,                      room 75, 2
-        f8      crumble block,                      room 75, 3
-        f7      crumble block,                      room 75, 4
-        f6      crumble block,                      room 75, 5
-        f5      crumble block,                      room 36
+        fa      crumble block,                      room 75, 1          x
+        f9      crumble block,                      room 75, 2          x
+        f8      crumble block,                      room 75, 3          x
+        f7      crumble block,                      room 75, 4          x
+        f6      crumble block,                      room 75, 5          x
+        f5      crumble block,                      room 36             x
+        f4      crumble block (L),                  room 41             x
+        f3      crumble block (R),                  room 41             x

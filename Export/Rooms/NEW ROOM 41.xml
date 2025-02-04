@@ -189,14 +189,6 @@
           <arg>0021</arg>
         </PLM>
         <PLM>
-          <type>B703</type>
-          <x>02</x>
-          <y>00</y>
-          <ScrollData>
-            <Change screen="01" scroll="01" />
-          </ScrollData>
-        </PLM>
-        <PLM>
           <type>EEDB</type>
           <x>16</x>
           <y>07</y>
@@ -210,6 +202,18 @@
             <Change screen="00" scroll="01" />
             <Change screen="01" scroll="01" />
           </ScrollData>
+        </PLM>
+        <PLM>
+          <type>D409</type>
+          <x>08</x>
+          <y>0C</y>
+          <arg>11F4</arg>
+        </PLM>
+        <PLM>
+          <type>D409</type>
+          <x>12</x>
+          <y>0C</y>
+          <arg>11F3</arg>
         </PLM>
       </PLMs>
       <BGData />

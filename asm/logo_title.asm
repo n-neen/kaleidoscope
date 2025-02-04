@@ -1,6 +1,6 @@
 ;title screen logo sprite
 
-org $8DC696                 ;palette fx object
+org $8DC696                 ;palette fx object for "kaleidoscope" logo
     dw  $C655, $0142,  ; Palette FX object colour index = 0142h
         $0003,
         $0000, $0000, $0000, $0000, $0000, $0000, $0000, $0000, $0000, $0000, $0000, $0000, $0000, $0000, $0000, 
@@ -39,7 +39,7 @@ org $9580D8                 ;graphics
     incbin "./logo_title_compressed_graphics.bin"
     
     
-org $8C879D                 ;spritemaps
+org $8C879D                 ;spritemaps for "kaleidoscope" logo
     DW $001C
     DB $5B,$80,$FE,$6A,$30
     DB $5B,$80,$EE,$4A,$30
@@ -69,6 +69,33 @@ org $8C879D                 ;spritemaps
     DB $A6,$81,$F0,$02,$30
     DB $96,$81,$00,$20,$30
     DB $96,$81,$F0,$00,$30
+    
+    
+;org $8C80BB                 ;spritemap for "neentendo" logo (thanks rt!)
+;    DW $000E
+;    DB $30,$80,$00,$CC,$38
+;    DB $20,$80,$00,$CA,$38
+;    DB $10,$80,$00,$C8,$38
+;    DB $00,$80,$00,$C6,$38
+;    DB $F0,$81,$00,$C4,$38
+;    DB $E0,$81,$00,$C2,$38
+;    DB $D0,$81,$00,$C0,$38
+;    DB $30,$80,$F0,$AC,$38
+;    DB $20,$80,$F0,$AA,$38
+;    DB $10,$80,$F0,$A8,$38
+;    DB $00,$80,$F0,$A6,$38
+;    DB $F0,$81,$F0,$A4,$38
+;    DB $E0,$81,$F0,$A2,$38
+;    DB $D0,$81,$F0,$A0,$38
+
+;org $8b9377
+;    rol $16
+
+;org $8b9206
+    ;lda #$04
+    ;sta $16
+    ;nop #8
+
 
 
 org $88eb67

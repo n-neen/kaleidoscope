@@ -5,15 +5,15 @@ lorom
 !hardmodeflag       =       $09ee
 
 org $a2ab1f
-    lda !hardmodeflag
+    lda !hardmodeflag   ;see "hardmode.asm"
     bne there
-    lda $7ed900     ;inside save array
-    ora #$0004      ;maridia save 2 is 4 bit here
+    lda $7ed900         ;inside save array
+    ora #$0004          ;maridia save 2 is 4 bit here
     sta $7ed900
-    lda #$0002      ;save index 2
+    lda #$0002          ;save index 2
     sta $078b
-    lda $0952       ;get save slot
-    jsl $818000     ;save to sram
+    lda $0952           ;get save slot
+    jsl $818000         ;save to sram
     bra there
     
     org $a2ab40     ;skip over some unused bytes

@@ -118,3 +118,7 @@ org $84af1c
     ply
     plx
     rts
+
+    
+org $a8ab89             ;remove kago screenshake
+    nop #12
