@@ -568,7 +568,7 @@
           <X>0089</X>
           <Y>007E</Y>
           <tilemap>0000</tilemap>
-          <special>2000</special>
+          <special>2800</special>
           <gfx>0000</gfx>
           <speed>0000</speed>
           <speed2>0000</speed2>

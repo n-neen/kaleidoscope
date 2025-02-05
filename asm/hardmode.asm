@@ -3,6 +3,8 @@ lorom
 ;see also "ship.asm" for a hard mode check
 
 !hardmodeflag       =       $09ee
+!94free             =       $94f000
+!a0free             =       $a0ff30
 
 
 ;===================================================================================================
@@ -37,7 +39,7 @@ org $82fb00;
     jsl $809b44     ;the thing we overwrote (handle hud tilemap)                            
     lda !hardmodeflag
     beq +
-    lda #$140f      ;hud font color outline
+    lda #$2453      ;hud font color outline
     sta $7ec01a
     sta $7ec21a
     ;lda #$0000      ;hud font color middle
@@ -98,6 +100,51 @@ org $91df5a     ;12 bytes here.
     asl : asl   ;damage x4
     sta $12
 +   nop
+
+;===================================================================================================
+;======================================    i-frames    =============================================
+;===================================================================================================
+
+;returns A
+;would have been cool to make this return long and only have one copy
+;but our hijack points being lda.w/sta.w means the jsr slots in nicely. whatever.
+
+org !94free
+    iframecheck:
+    lda !hardmodeflag
+    beq +
+    lda #$001e          ;hard mode i-frames counter = 30
+    rts
++   lda #$0060          ;normal i-frames counter = 96
+    rts
+    
+org $948e99             ;normal spike (bts 00)
+    jsr iframecheck
+    
+org $948ed4             ;spike bts 01 (16 damage spike)
+    jsr iframecheck
+    
+org $949870             ;air spike
+    jsr iframecheck
+
+
+org !a0free
+    a0iframecheck:
+    lda !hardmodeflag
+    beq +
+    lda #$001e          ;hard mode i-frames counter = 30
+    rts
++   lda #$0060          ;normal i-frames counter = 96
+    rts
+
+org $a09864
+    jsr a0iframecheck   ;samus/projectile interaction
+    
+org $a09923
+    jsr a0iframecheck   ;samus projectile interaction... again?
+    
+org $a0a575
+    jsr a0iframecheck   ;enemy touch
 
 ;===================================================================================================
 ;========================================    drops    ==============================================
