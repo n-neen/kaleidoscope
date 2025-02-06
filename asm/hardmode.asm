@@ -196,3 +196,25 @@ org $86f900
 ;        ;
 ;        rts
         
+        
+        
+;===================================================================================================
+;=======================================    gt code    =============================================
+;===================================================================================================
+
+;gt code works on hard mode only
+
+org $aac914
+    jmp gtcodetweak
+    
+org $aaff90
+    gtcodetweak:
+    jsr $c280                   ;the thing we overwrote ("load initial gt palette")
+    lda !hardmodeflag
+    beq +
+    lda $8b
+    cmp #$c0c0
+    bne +
+    stz !hardmodeflag           ;>:]
+    jmp $c917
++   rtl

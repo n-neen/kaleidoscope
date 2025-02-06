@@ -49,7 +49,7 @@ org $88f300
     ldx #$0000
     rts
     
-org $81b324         ;default buttons/moonwalk flag
+;org $81b324         ;default buttons/moonwalk flag
     ;lda #$8000      ;jump binding = B
     ;skip 3
     ;lda #$4000      ;dash binding = Y
