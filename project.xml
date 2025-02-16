@@ -538,7 +538,7 @@
     <Space start="809D76" end="809D77" />
     <Space start="809E20" end="809E22" />
     <Space start="80D100" end="80D130" />
-    <Space start="80E000" end="80E02F" />
+    <Space start="80E000" end="80E020" />
     <Space start="80FFC0" end="80FFD4" />
     <Space start="818000" end="818002" />
     <Space start="818085" end="818087" />
@@ -586,6 +586,7 @@
     <Space start="8488EB" end="8488EE" />
     <Space start="848912" end="848915" />
     <Space start="84897F" end="848982" />
+    <Space start="848986" end="84899C" />
     <Space start="8489A2" end="8489A5" />
     <Space start="8489CB" end="8489CE" />
     <Space start="8489F4" end="8489F7" />
@@ -600,7 +601,7 @@
     <Space start="84B026" end="84B02C" />
     <Space start="84B05D" end="84B092" />
     <Space start="84B76F" end="84B770" />
-    <Space start="84B7EF" end="84B821" />
+    <Space start="84B7EF" end="84B81E" />
     <Space start="84BA6F" end="84BA7B" />
     <Space start="84C32C" end="84C32C" />
     <Space start="84C38E" end="84C38E" />
@@ -622,7 +623,6 @@
     <Space start="84E27D" end="84E27E" />
     <Space start="84E28F" end="84E294" />
     <Space start="84E30F" end="84E316" />
-    <Space start="84E442" end="84E443" />
     <Space start="84E474" end="84E475" />
     <Space start="84E4A6" end="84E4A7" />
     <Space start="84E4D8" end="84E4D9" />
@@ -632,15 +632,13 @@
     <Space start="84E977" end="84E978" />
     <Space start="84E9AF" end="84E9B0" />
     <Space start="84E9E7" end="84E9E8" />
-    <Space start="84EE41" end="84EE42" />
     <Space start="84EFD3" end="84EFE4" />
     <Space start="84F000" end="84F01C" />
     <Space start="84F200" end="84F2DA" />
     <Space start="84F400" end="84F40A" />
     <Space start="84F40F" end="84F419" />
     <Space start="84F580" end="84F5BF" />
-    <Space start="84F900" end="84F91A" />
-    <Space start="84F91E" end="84F92F" />
+    <Space start="84F91E" end="84F92A" />
     <Space start="84F9A0" end="84F9CC" />
     <Space start="84F9D0" end="84FA0E" />
     <Space start="84FA20" end="84FA30" />

@@ -39,6 +39,9 @@ org $848cf6
 org $85817b  ;21 bytes
     nop #21
     
+    
+    
+;tentatively ok, written on feb 15th but commented out for testing:
                                                         ;y increase on return
 org $8488eb                 ;beam                       ;3
     jsr boxhijack
@@ -50,23 +53,23 @@ org $848912                 ;major item (xray excluded) ;3
 
 org $84897f                 ;etank                      ;2
     jsr boxhijack
-    iny
+    nop
     
 org $8489a2                 ;reserve                    ;2
     jsr boxhijack
-    iny
+    nop
     
 org $8489cb                 ;missile                    ;2
     jsr boxhijack
-    iny
+    nop
     
 org $8489f4                 ;super                      ;2
     jsr boxhijack
-    iny
+    nop
 
 org $848a1d                 ;pb                         ;2
     jsr boxhijack
-    iny
+    nop
 
     
 org $84b7ef
@@ -74,7 +77,7 @@ org $84b7ef
         phy
         phx
         
-        lda #$0168
+        lda #$0010
         jsl $82e118
         
         jsl $82be17
@@ -91,7 +94,6 @@ org $84b7ef
         
         plx
         ply
-        ldy #$dfa9-3    ;change inst list pointer to dfa9 after we iny#3
         rts
     }
     

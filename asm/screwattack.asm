@@ -12,23 +12,37 @@ org $899000                 ;overwrites reserve tank graphics
 org $a0a4c2
     ldy !screwdmg           ;screw attack damage (n-1)
     
-org $84e442                 ;reserve tank, open
-    dw #tank
-    
-org $84ee41                 ;reserve tank, hidden
-    dw #tank
-    
-org !84free                 ;increase screw damage
-    tank:
+;org !84free                 ;increase screw damage
+;    tank:
+;        lda !screwdmg
+;        clc
+;        adc !screwinc
+;        sta !screwdmg
+;        
+;        lda #$0160
+;        jsl $82e118
+;        
+;        jsr $b7ef               ;see messagebox.asm $84b7ef
+;        iny : iny
+;        rts
+        
+;oi is cookin it, y'all bookin it
+;that means writing it down
+;gonna lay down some caves
+;all over the place
+;and then get right outta town
+        
+org $848986 ;18 bytes
         lda !screwdmg
         clc
         adc !screwinc
         sta !screwdmg
-        lda #$0168          ;play room music after $168 frames
+        
+        lda #$0160
         jsl $82e118
-        lda #$001d
-        jsl $858080         ;display message box $1d
-        iny : iny           ;skip the "reserve tank amount" part of inst list
+        
+        jsr $b7ef               ;see messagebox.asm $84b7ef
+        iny : iny
         rts
         
 org $81b309
@@ -39,7 +53,7 @@ org !81free                 ;initialize screw damage to 1 (when new game is star
         lda #$0001         
         sta !screwdmg       ;this has been moved to be run by the screw attack plm
         rts                 ;to avoid needing freespace in $81
-        
+
         
 ;=============================================HUD
         
@@ -50,12 +64,12 @@ org $828baf             ;main gameplay loop hijack
         
 org !80free             ;draw screw attack damage in hud
     screwdraw:
-        lda #$00ff
-        jsl $808233     ;debug. checks event $ff (set in quickmet config)
-        bcc +           ;if quickmet, then set screwdmg to 2 (3)
+        ;lda #$00ff
+        ;jsl $808233     ;debug. checks event $ff (set in quickmet config)
+        ;bcc +           ;if quickmet, then set screwdmg to 2 (3)
                         ;;because we skip the init for this value
-        lda #$0003
-        sta !screwdmg
+        ;lda #$0003
+        ;sta !screwdmg
         
     
 +       lda $09a4
@@ -82,7 +96,7 @@ org !84free+30
     screwinstextension:
         dw $0001, $a2b5                 ;the draw instruction we overwrote
         dw #screwhudinit                ;our custom instruction
-        dw $88f3, $0008 : db $0a
+        ;dw $88f3, $0008 : db $0a
         dw $86bc                        ;delete
         
     screwhudinit:
