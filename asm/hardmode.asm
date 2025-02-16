@@ -65,6 +65,8 @@ org $82fb00;
     lda $7ed870,x
     ora $05e7       ;mark item $cd as collected (kej's block remover uses item IDs)
     sta $7ed870,x   ;removes speed blockage in room 11
+    lda $0952           ;get save slot
+    jsl $818000         ;save to sram
 +   rts
 
 org $82804e         

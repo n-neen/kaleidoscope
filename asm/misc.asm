@@ -101,20 +101,38 @@ org $8ffff0      ;solid scroll test
     db $0a, $01
     db $80
     
+org $84e27d
+    dw $af26
     
-org $84e299                         ;spring ball hijack
-    dw $8724, #instextension     ;goto instruction list extension
+org $84e28f                     ;spring ball hijack
+    dw #ballfix
+    dw $8724, #instextension    ;goto instruction list extension
 
     
 org $84af1c
     instextension:
-    dw #ballfix
+    dw $8899
+    dw $8bdd : db $02
+    dw $88f3, $0002 : db $08
+    ;warn pc
     dw $8724, $dfa9     ;goto empty item inst list
 
     ballfix:
     phx
     phy
+    pha
+    
+    lda $09a4
+    ora #$0002
+    sta $09a4
+    
+    lda $09a2
+    ora #$0002
+    sta $09a2
+    
     jsl $91e633
+    
+    pla
     ply
     plx
     rts

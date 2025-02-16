@@ -82,6 +82,7 @@ org !84free+30
     screwinstextension:
         dw $0001, $a2b5                 ;the draw instruction we overwrote
         dw #screwhudinit                ;our custom instruction
+        dw $88f3, $0008 : db $0a
         dw $86bc                        ;delete
         
     screwhudinit:
