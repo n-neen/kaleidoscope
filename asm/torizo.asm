@@ -28,11 +28,11 @@ org $aac963
 org $a0bab1
     and #$007f
 org $a0bab5         ;drop spawn positions
-    adc !samusx     ;x
+    adc #$0040      ;x
     skip 5
-    and #$0f00
+    and #$2f00
 org $a0bac2
-    adc !samusy     ;y
+    adc #$0180     ;y
     
 ;==========================================================gt
     
