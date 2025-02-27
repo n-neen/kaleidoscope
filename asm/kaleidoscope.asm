@@ -41,6 +41,10 @@ org $888744
 
 org $888896                 ;hdma table routine gone, plenty of space here
     xraydamage:
+    
+        lda $179c
+        cmp #$0007          ;bad hack dont look
+        beq +
         
         lda $0c1e
         cmp #$8029
@@ -73,31 +77,6 @@ org $888896                 ;hdma table routine gone, plenty of space here
         %add(!bg2y, #$0005)
         
         lda $8b             ;controller input
-        eor $09b6           ;remove run binding
-        
-        bit #$0020          ;switch case for pressed buttons
-        bne .L
-        bit #$0010
-        bne .R
-        bit #$0800
-        bne .up
-        bit #$0400
-        bne .down
-        bit #$0200
-        bne .left
-        bit #$0100
-        bne .right
-        rts
-        
-        .up:
-            inc !bg1y
-            bra ++
-        .down:
-            dec !bg1y
-            bra ++
-        .left:
-            inc !bg1x
-            bra ++
         .right:
             dec !bg1x
             bra ++
@@ -160,10 +139,13 @@ org $88ff00
         rts
         
     spikesuit:
+        lda $179c           ;another phantoon hack
+        cmp #$0007
+        beq +
         lda #$0001
         sta $0a68
         jsr xraydamage
-        rts
+    +   rts
         
 org $90fff0
     longshort:              ;speed echoes spawn
