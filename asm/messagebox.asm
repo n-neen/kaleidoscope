@@ -36,13 +36,20 @@ org $848cf6
 ;org $858148
 ;    jsr $8136
     
-org $85817b  ;21 bytes
-    nop #21
     
+    
+;---------------------------------------------------------------   
+org $85817b  ;21 bytes
+    nop #21                        ;commented out 3/1/25 for testing tundain's patch
+;---------------------------------------------------------------   
+   
     
     
 ;tentatively ok, written on feb 15th but commented out for testing:
                                                         ;y increase on return
+                                                        
+                                                        
+;COMMENTED OUT FOR TESTING 3/1/25
 org $8488eb                 ;beam                       ;3
     jsr boxhijack
     nop
@@ -72,7 +79,7 @@ org $848a1d                 ;pb                         ;2
     nop
 
     
-org $84b7ef
+org $84b7ef : {
     boxhijack: {
         phy
         phx
@@ -97,15 +104,16 @@ org $84b7ef
         rts
     }
     
-waitforlag: {
-    php
-    sep #$20
-    lda $05b8
-    .loop:
-    cmp $05b8
-    beq .loop
-    plp
-    rts
+    waitforlag: {
+        php
+        sep #$20
+        lda $05b8
+        .loop:
+        cmp $05b8
+        beq .loop
+        plp
+        rts
+    }
 }
 
 ;xray notably absent from the following
