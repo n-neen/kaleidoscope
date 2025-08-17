@@ -6,7 +6,7 @@
 
 
 !CollectedItems = $7ED86E
-!TotalItems = #$54	;TOTAL number if items in the game. This includes ALL items: missiles, upgrades, etc
+!TotalItems = #$55	;TOTAL number if items in the game. This includes ALL items: missiles, upgrades, etc
 
 ;34 missiles        x3
 ;20 supers          x2

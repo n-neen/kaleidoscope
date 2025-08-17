@@ -5217,6 +5217,12 @@
           <y>79</y>
           <arg>0021</arg>
         </PLM>
+        <PLM>
+          <type>C890</type>
+          <x>01</x>
+          <y>66</y>
+          <arg>0037</arg>
+        </PLM>
       </PLMs>
       <BGData />
       <layer1_2>91D3</layer1_2>

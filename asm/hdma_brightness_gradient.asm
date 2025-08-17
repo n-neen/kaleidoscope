@@ -3,7 +3,7 @@ lorom
 ;test hdma object, spawned by plm
 
 !84free  = $f400
-!88free  = $ee32
+!88free  = $f240        ;ee32
 
 
 !scanone = $bf
@@ -31,7 +31,7 @@ org $880000+!88free
 
     spawn:
         jsl $888435
-        db $00, $00 : dw hdma_instlist
+        db $01, $ff : dw hdma_instlist
         rtl
         
 
@@ -43,31 +43,31 @@ org $880000+!88free
             dw $85ec, .loop         ;goto loop
                       
         .direct:
-            db $1f, $0f         ;under hud
-            db $40, $07         ;outside tube
+            db $1f, $0f, $0f         ;under hud
+            db $40, $07, $07         ;outside tube
             
-            db $02, $07
-            db $02, $08         ;gradient
-            db $02, $09
-            db $02, $0a
-            db $02, $0b
-            db $02, $0c
-            db $02, $0d
-            db $02, $0e
+            db $02, $07, $07
+            db $02, $08, $08         ;gradient
+            db $02, $09, $09
+            db $02, $0a, $0a
+            db $02, $0b, $0b
+            db $02, $0c, $0c
+            db $02, $0d, $0d
+            db $02, $0e, $0e
             
-            db $20, $0f         ;tube
+            db $20, $0f, $0f         ;tube
             
-            db $01, $0e         ;gradient
-            db $01, $0d
-            db $02, $0c
-            db $02, $0b
-            db $02, $0a
-            db $02, $09
-            db $02, $08
-            db $02, $07
-            db $02, $06
-            db $02, $05         ;remainder of screen
+            db $01, $0e, $0e         ;gradient
+            db $01, $0d, $0d
+            db $02, $0c, $0c
+            db $02, $0b, $0b
+            db $02, $0a, $0a
+            db $02, $09, $09
+            db $02, $08, $08
+            db $02, $07, $07
+            db $02, $06, $06
+            db $02, $05, $05         ;remainder of screen
             
-            db $00              ;terminator
+            db $00                   ;terminator
             
             ;warn pc

@@ -38,17 +38,6 @@
           <Change screen="13" scroll="00" />
           <Change screen="14" scroll="00" />
           <Change screen="15" scroll="00" />
-          <Change screen="24" scroll="01" />
-          <Change screen="25" scroll="01" />
-          <Change screen="26" scroll="01" />
-          <Change screen="27" scroll="01" />
-          <Change screen="28" scroll="01" />
-          <Change screen="29" scroll="01" />
-          <Change screen="2A" scroll="01" />
-          <Change screen="2B" scroll="01" />
-          <Change screen="2C" scroll="01" />
-          <Change screen="2D" scroll="01" />
-          <Change screen="2E" scroll="01" />
           <Change screen="2F" scroll="01" />
         </ScrollData>
       </doorcode>

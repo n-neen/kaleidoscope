@@ -125,9 +125,9 @@ org $888037                 ;layer blending x-ray: fire flea room
 org $88ff00
     spritesonlyblend:
         sep #$20
-        lda #%00000011      ;main screen layers = 1+2
+        lda #%00010000      ;main screen = sprites
         sta $6a
-        lda #%00010011      ;subscreen layers = 1+2+sprites
+        lda #%00000011      ;subscreen = 1+2
         sta $6b
         lda #%10111111      ;color math enabled everywhere. subtractive math
         sta $73

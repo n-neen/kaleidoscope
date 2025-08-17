@@ -19,7 +19,7 @@ org !80free
     jsr $9d78
     rts
 
-+   ldx #$8000          ;somehow this worked (move it way far away)
++   ldx #$04da          ;somehow this worked (move it way far away, into hopefully unused ram)
     jsr $9d78
     lda #$8000          ;keep missiles infinite
     sta $09c6

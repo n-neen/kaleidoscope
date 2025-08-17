@@ -52,19 +52,19 @@ org $82fb00;
 ;===================================================================================================
 
     hardmodestart:
-    jsr $819b       ;the thing we overwrote (init registers for gameplay)
+    jsr $819b           ;the thing we overwrote (init registers for gameplay)
     lda !hardmodeflag
     beq +
-    lda #$0004      ;area = maridia
+    lda #$0004          ;area = maridia
     sta $079f
-    lda #$0002      ;load point = 2 (the ship)
+    lda #$0002          ;load point = 2 (the ship)
     sta $078b
     lda #$00cd
     jsl $80818e
     lda #$0001
     lda $7ed870,x
-    ora $05e7       ;mark item $cd as collected (kej's block remover uses item IDs)
-    sta $7ed870,x   ;removes speed blockage in room 11
+    ora $05e7           ;mark item $cd as collected (kej's block remover uses item IDs)
+    sta $7ed870,x       ;removes speed blockage in room 11
     lda $0952           ;get save slot
     jsl $818000         ;save to sram
 +   rts

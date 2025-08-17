@@ -986,7 +986,7 @@
           <type>C878</type>
           <x>01</x>
           <y>06</y>
-          <arg>0018</arg>
+          <arg>000D</arg>
         </PLM>
         <PLM>
           <type>C86C</type>
@@ -1004,7 +1004,7 @@
           <type>C872</type>
           <x>CE</x>
           <y>06</y>
-          <arg>0035</arg>
+          <arg>0037</arg>
         </PLM>
       </PLMs>
       <BGData />

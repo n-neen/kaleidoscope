@@ -719,17 +719,7 @@
           <paletteblend>C8</paletteblend>
         </FX1>
       </FX1s>
-      <Enemies killcount="0A">
-        <Enemy>
-          <ID>D33F</ID>
-          <X>0509</X>
-          <Y>012C</Y>
-          <tilemap>0000</tilemap>
-          <special>2000</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
+      <Enemies killcount="07">
         <Enemy>
           <ID>D33F</ID>
           <X>04B3</X>
@@ -772,8 +762,8 @@
         </Enemy>
         <Enemy>
           <ID>D33F</ID>
-          <X>050F</X>
-          <Y>017A</Y>
+          <X>0517</X>
+          <Y>0178</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>
@@ -782,8 +772,8 @@
         </Enemy>
         <Enemy>
           <ID>D33F</ID>
-          <X>04CC</X>
-          <Y>00CC</Y>
+          <X>04C0</X>
+          <Y>00C2</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>
@@ -792,28 +782,8 @@
         </Enemy>
         <Enemy>
           <ID>D33F</ID>
-          <X>05E7</X>
-          <Y>00C1</Y>
-          <tilemap>0000</tilemap>
-          <special>2000</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>D33F</ID>
-          <X>0408</X>
-          <Y>0038</Y>
-          <tilemap>0000</tilemap>
-          <special>2000</special>
-          <gfx>0000</gfx>
-          <speed>0000</speed>
-          <speed2>0000</speed2>
-        </Enemy>
-        <Enemy>
-          <ID>D33F</ID>
-          <X>0477</X>
-          <Y>0038</Y>
+          <X>03E1</X>
+          <Y>00CF</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>
@@ -836,8 +806,8 @@
       <PLMs>
         <PLM>
           <type>C842</type>
-          <x>5E</x>
-          <y>16</y>
+          <x>03</x>
+          <y>01</y>
           <arg>0C1E</arg>
         </PLM>
         <PLM>
@@ -890,8 +860,8 @@
         </PLM>
         <PLM>
           <type>C84E</type>
-          <x>17</x>
-          <y>1A</y>
+          <x>05</x>
+          <y>01</y>
           <arg>0C1E</arg>
         </PLM>
         <PLM>
